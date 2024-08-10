@@ -2,9 +2,10 @@ project('cppversus', 'cpp', version : '1.0', default_options : [ 'cpp_std=c++20'
 
 cmd = run_command('sh', '-c', 'echo $MULTIVERSUS_TOKEN')
 API_KEY = cmd.stdout().strip()
-add_global_arguments('-DAPI_KEY="' + API_KEY + '"', language : 'cpp')
 
-# Variables tracking sources and libraries
+add_project_arguments('-DAPI_KEY="' + API_KEY + '"', language : 'cpp')
+
+
 library_path = []
 project_sources = []
 project_header_files = []
@@ -17,6 +18,7 @@ includes = [
 
 dependencies = [
     dependency('spdlog'),
+    dependency('fmt'),
     dependency('cpr')
 ]
 

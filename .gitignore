@@ -1,5 +1,6 @@
-.env
 .vscode
 builddir
 
 subprojects/*/
+
+setup_env.sh
