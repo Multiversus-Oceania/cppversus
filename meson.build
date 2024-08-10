@@ -19,6 +19,7 @@ includes = [
 dependencies = [
     dependency('spdlog'),
     dependency('fmt'),
+    dependency('nlohmann_json'),
     dependency('cpr')
 ]
 

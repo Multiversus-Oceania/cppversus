@@ -3,22 +3,29 @@
 
 #include <string>
 #include <optional>
+#include <stdexcept>
 
 #include <cpr/cpr.h>
 #include <spdlog/spdlog.h>
 #include <fmt/core.h>
+
+#include <nlohmann/json.hpp>
 
 namespace CPPVersus {
 const std::string API_URL = "https://dokken-api.wbagora.com";
 
 class DokkenAPIEntry {
 private:
+    const std::string _authToken;
     std::optional<std::string> _token;
 
     template<class ...Ts>
     cpr::Response APIGet(Ts&& ...ts);
     template<class ...Ts>
     cpr::Response APIPost(Ts&& ...ts);
+
+
+    void refreshToken();
 
 public:
    /**

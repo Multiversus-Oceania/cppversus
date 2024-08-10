@@ -18,6 +18,7 @@ test_dep_libs = [
 
 ]
 
+subdir('api_init_fail')
 subdir('api_init')
 
 # This executable contains all the tests
@@ -25,7 +26,7 @@ project_test_sources += test_main
 all_test_deps += test_deps
 all_test_dep_libs += test_dep_libs
 
-all_testes = executable(
+all_tests = executable(
     'all_tests', 
     project_test_sources, 
     include_directories : includes, 

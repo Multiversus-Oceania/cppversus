@@ -7,6 +7,5 @@ meson setup builddir
 cd builddir
 
 meson test
-ninja doc
 
 cd ..
