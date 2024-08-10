@@ -18,8 +18,8 @@ test_dep_libs = [
 
 ]
 
-subdir('api_init_fail')
-subdir('api_init')
+subdir('init')
+subdir('infoByUsername')
 
 # This executable contains all the tests
 project_test_sources += test_main

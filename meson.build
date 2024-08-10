@@ -23,7 +23,7 @@ dependencies = [
     dependency('cpr')
 ]
 
-cppversus_lib = library('cppversus', 
+cppversus_lib = shared_library('cppversus', 
     [
         'src/cppversus.cpp'
     ], 
@@ -31,7 +31,8 @@ cppversus_lib = library('cppversus',
     dependencies : dependencies,
     link_with : [
 
-    ]
+    ],
+    install : true
 )
 
 

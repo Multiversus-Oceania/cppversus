@@ -1,0 +1,1730 @@
+{
+  "id": "6289bfe8213b6d574354d9fd",
+  "updated_at": "2024-08-09T14:32:43+00:00",
+  "account_id": "6289bfe8213b6d574354d9fc",
+  "created_at": "2022-05-22T04:45:28+00:00",
+  "last_login": "2024-08-09T13:04:21+00:00",
+  "points": null,
+  "data": {
+    "IsChildAccount": false,
+    "PerkPreferences": {
+      "Characters": {
+        "character_jake": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "perk_jake_quickstretch",
+                "perk_general_collateraldamage",
+                "perk_general_projectileblock",
+                "perk_general_jumpcount"
+              ]
+            }
+          ]
+        },
+        "character_steven": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "perk_steven_greenthumb",
+                "perk_general_collateraldamage",
+                "perk_general_projectileblock",
+                "perk_general_jumpcount"
+              ]
+            }
+          ]
+        },
+        "character_wonder_woman": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "perk_wonderwoman_lassotipper",
+                "perk_general_collateraldamage",
+                "perk_general_projectileblock",
+                "perk_general_jumpcount"
+              ]
+            }
+          ]
+        },
+        "character_taz": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "perk_C015_teamfightcloud",
+                "perk_general_directionalinfluence_small",
+                "perk_general_collateraldamage",
+                "perk_general_jumpcount"
+              ]
+            }
+          ]
+        },
+        "character_bugs_bunny": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "perk_bugsbunny_shockwave",
+                "perk_general_airmeleedamageboost_small",
+                "perk_general_culltheweak",
+                "perk_general_inmemoriam"
+              ]
+            }
+          ]
+        },
+        "character_superman": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "perk_superman_fireslam",
+                "perk_general_collateraldamage",
+                "perk_general_projectileblock",
+                "perk_general_jumpcount"
+              ]
+            }
+          ]
+        },
+        "character_finn": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "perk_general_groundmeleedamageboost_small",
+                "perk_general_movespeed_small",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_arya": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_c16": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "perk_general_projectilespeed_small",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_C017": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "perk_general_evaderechargetime_small",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_c019": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_shaggy": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "perk_general_airmeleedamageboost_small",
+                "perk_general_damagereduction_small",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_harleyquinn": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "perk_general_verticalknockbackboost",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_velma": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_C023A": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_creature": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "perk_general_projectilespeed_small",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_C020": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "perk_general_abilitycooldownreduction_small",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_C023B": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "perk_c023B_attach",
+                "perk_general_collateraldamage",
+                "perk_general_sniper",
+                "perk_general_jumpcount"
+              ]
+            }
+          ]
+        },
+        "character_garnet": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "perk_general_horizontalknockbackboost",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_batman": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_C021": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "perk_general_abilityrefundondebuffhit",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "character_C018": {
+          "LastSelectedPage": 0,
+          "PerkPages": [
+            {
+              "PageName": "CUSTOM 1",
+              "PerkSlugs": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "2v2_prompt_shown": 1,
+    "HasCompletedFirstMatch": true,
+    "HasCompletedFTUE": true
+  },
+  "server_data": {
+    "profile_icon_wb_lt_c015": true,
+    "banner_reward": true,
+    "BattlepassID": "6374849d7669975b11aef07e",
+    "checked_grants": {
+      "banner_reward": true,
+      "profile_icon_wb_lt_c015": true,
+      "s2_extension_make_good_boost": true
+    },
+    "loss_streak": 0,
+    "stat_trackers": {
+      "HighestDamageDealt": 3657.04833984375,
+      "TotalRingoutLeader": 726,
+      "TotalRingouts": 8696,
+      "TotalWins": 3657,
+      "character_wins": {
+        "character_jake": 2429,
+        "character_steven": 43,
+        "character_wonder_woman": 244,
+        "character_taz": 206,
+        "character_bugs_bunny": 107,
+        "character_finn": 18,
+        "character_c019": 24,
+        "character_superman": 68,
+        "character_C017": 11,
+        "character_C020": 20,
+        "character_C023B": 59,
+        "character_C023A": 6,
+        "character_C021": 21,
+        "character_garnet": 39,
+        "character_shaggy": 89,
+        "character_Jason": 75,
+        "character_BananaGuard": 44,
+        "character_harleyquinn": 10,
+        "character_arya": 27,
+        "character_batman": 42,
+        "character_velma": 9,
+        "character_C028": 37,
+        "character_creature": 4,
+        "character_tom_and_jerry": 6,
+        "character_C018": 1,
+        "character_c16": 9,
+        "character_c036": 9
+      },
+      "TotalAssists": 1834,
+      "TotalAttacksDodged": 11089,
+      "TotalDoubleRingouts": 245,
+      "TotalMaxedCharacters": 3,
+      "TotalArcadeHardCompletions": 2,
+      "character_highest_damage_dealt": {
+        "character_jake": 2005.6014404296875,
+        "character_c019": 902.520263671875,
+        "character_taz": 3657.04833984375,
+        "character_C021": 440.08990478515625,
+        "character_shaggy": 683.924072265625,
+        "character_wonder_woman": 652.2000122070312,
+        "character_Jason": 589.8634033203125,
+        "character_steven": 348.01043701171875,
+        "character_C020": 953.3284912109375,
+        "character_BananaGuard": 765.7564086914062,
+        "character_harleyquinn": 280.3395690917969,
+        "character_arya": 582.20849609375,
+        "character_C023A": 505.5043640136719,
+        "character_batman": 1042.88330078125,
+        "character_velma": 263.81744384765625,
+        "character_C028": 573.90380859375,
+        "character_c16": 402.6422424316406,
+        "character_bugs_bunny": 506.92352294921875,
+        "character_garnet": 323.20001220703125,
+        "character_finn": 409.3472900390625,
+        "character_creature": 379.2763366699219,
+        "character_C018": 66.0511474609375,
+        "character_C023B": 268.451171875,
+        "character_tom_and_jerry": 2815.648193359375,
+        "character_superman": 1039.4300537109375,
+        "character_C017": 220,
+        "character_c036": 283.716064453125
+      },
+      "character_ringouts": {
+        "character_jake": 2166,
+        "character_c019": 33,
+        "character_taz": 192,
+        "character_C021": 61,
+        "character_shaggy": 139,
+        "character_wonder_woman": 501,
+        "character_Jason": 98,
+        "character_steven": 10,
+        "character_C020": 6,
+        "character_BananaGuard": 99,
+        "character_harleyquinn": 17,
+        "character_arya": 51,
+        "character_C023A": 14,
+        "character_batman": 62,
+        "character_velma": 16,
+        "character_C028": 58,
+        "character_c16": 14,
+        "character_bugs_bunny": 67,
+        "character_garnet": 52,
+        "character_finn": 29,
+        "character_creature": 6,
+        "character_C023B": 49,
+        "character_superman": 85,
+        "character_tom_and_jerry": 4,
+        "character_C018": 2,
+        "character_C017": 18,
+        "character_c036": 17
+      },
+      "character_total_damage_dealt": {
+        "character_jake": 220841.92175886035,
+        "character_c019": 3906.777726650238,
+        "character_taz": 14428.336988449097,
+        "character_C021": 3438.7781269550323,
+        "character_shaggy": 17006.929366111755,
+        "character_wonder_woman": 58172.5656542778,
+        "character_Jason": 9836.93069934845,
+        "character_steven": 1548.7688286304474,
+        "character_C020": 1246.2739553451538,
+        "character_BananaGuard": 10280.515436172485,
+        "character_harleyquinn": 1163.169231414795,
+        "character_arya": 7871.330429077148,
+        "character_C023A": 1468.3631439208984,
+        "character_batman": 9574.778930485249,
+        "character_velma": 1598.5404510498047,
+        "character_C028": 5637.384033203125,
+        "character_c16": 2463.8870391845703,
+        "character_bugs_bunny": 8446.608411550522,
+        "character_garnet": 3990.958251953125,
+        "character_finn": 3157.1003494262695,
+        "character_creature": 793.4219436645508,
+        "character_C018": 131.01692962646484,
+        "character_C023B": 3900.723134994507,
+        "character_tom_and_jerry": 4040.301580429077,
+        "character_superman": 10491.13321018219,
+        "character_C017": 1116.6337089538574,
+        "character_c036": 1817.345344543457
+      },
+      "Holiday2022": 6320,
+      "TotalToastsReceived": 290,
+      "TotalToastsGiven": 237,
+      "character_matches": {
+        "character_shaggy": 94,
+        "character_jake": 1179,
+        "character_wonder_woman": 263,
+        "character_Jason": 86,
+        "character_taz": 60,
+        "character_steven": 21,
+        "character_C020": 15,
+        "character_BananaGuard": 48,
+        "character_harleyquinn": 11,
+        "character_arya": 28,
+        "character_C023A": 6,
+        "character_batman": 46,
+        "character_velma": 9,
+        "character_C028": 39,
+        "character_c16": 11,
+        "character_C017": 16,
+        "character_bugs_bunny": 63,
+        "character_C021": 29,
+        "character_garnet": 42,
+        "character_finn": 20,
+        "character_creature": 4,
+        "character_c019": 19,
+        "character_C018": 2,
+        "character_C023B": 24,
+        "character_tom_and_jerry": 7,
+        "character_superman": 60,
+        "character_c036": 10
+      },
+      "season1": {
+        "HighestDamageDealt": 3657.04833984375,
+        "TotalWins": 1586,
+        "character_highest_damage_dealt": {
+          "character_shaggy": 683.924072265625,
+          "character_jake": 2005.6014404296875,
+          "character_wonder_woman": 652.2000122070312,
+          "character_Jason": 589.8634033203125,
+          "character_taz": 3657.04833984375,
+          "character_steven": 348.01043701171875,
+          "character_C020": 953.3284912109375,
+          "character_BananaGuard": 765.7564086914062,
+          "character_harleyquinn": 280.3395690917969,
+          "character_arya": 582.20849609375,
+          "character_C023A": 505.5043640136719,
+          "character_batman": 1042.88330078125,
+          "character_velma": 263.81744384765625,
+          "character_C028": 573.90380859375,
+          "character_c16": 402.6422424316406,
+          "character_bugs_bunny": 506.92352294921875,
+          "character_C021": 440.08990478515625,
+          "character_garnet": 323.20001220703125,
+          "character_finn": 409.3472900390625,
+          "character_creature": 379.2763366699219,
+          "character_c019": 902.520263671875,
+          "character_C018": 66.0511474609375,
+          "character_C023B": 268.451171875,
+          "character_tom_and_jerry": 2815.648193359375,
+          "character_superman": 1039.4300537109375,
+          "character_C017": 220,
+          "character_c036": 283.716064453125
+        },
+        "character_matches": {
+          "character_shaggy": 94,
+          "character_jake": 912,
+          "character_wonder_woman": 263,
+          "character_Jason": 86,
+          "character_taz": 60,
+          "character_steven": 21,
+          "character_C020": 15,
+          "character_BananaGuard": 48,
+          "character_harleyquinn": 11,
+          "character_arya": 28,
+          "character_C023A": 6,
+          "character_batman": 46,
+          "character_velma": 9,
+          "character_C028": 39,
+          "character_c16": 11,
+          "character_C017": 16,
+          "character_bugs_bunny": 63,
+          "character_C021": 29,
+          "character_garnet": 42,
+          "character_finn": 20,
+          "character_creature": 4,
+          "character_c019": 19,
+          "character_C018": 2,
+          "character_C023B": 24,
+          "character_tom_and_jerry": 7,
+          "character_superman": 60,
+          "character_c036": 10
+        },
+        "character_total_damage_dealt": {
+          "character_shaggy": 16841.929366111755,
+          "character_jake": 142572.32552835345,
+          "character_wonder_woman": 58172.5656542778,
+          "character_Jason": 9836.93069934845,
+          "character_taz": 11844.336988449097,
+          "character_steven": 1548.7688286304474,
+          "character_C020": 1246.2739553451538,
+          "character_BananaGuard": 10280.515436172485,
+          "character_harleyquinn": 1163.169231414795,
+          "character_arya": 7871.330429077148,
+          "character_C023A": 1468.3631439208984,
+          "character_batman": 9574.778930485249,
+          "character_velma": 1598.5404510498047,
+          "character_C028": 5637.384033203125,
+          "character_c16": 2463.8870391845703,
+          "character_bugs_bunny": 8446.608411550522,
+          "character_C021": 3094.7781269550323,
+          "character_garnet": 3990.958251953125,
+          "character_finn": 3157.1003494262695,
+          "character_creature": 793.4219436645508,
+          "character_c019": 2570.777726650238,
+          "character_C018": 131.01692962646484,
+          "character_C023B": 3900.723134994507,
+          "character_tom_and_jerry": 4040.301580429077,
+          "character_superman": 10491.13321018219,
+          "character_C017": 1116.6337089538574,
+          "character_c036": 1817.345344543457
+        },
+        "character_wins": {
+          "character_shaggy": 86,
+          "character_jake": 709,
+          "character_wonder_woman": 208,
+          "character_Jason": 75,
+          "character_taz": 55,
+          "character_steven": 15,
+          "character_C020": 15,
+          "character_BananaGuard": 44,
+          "character_harleyquinn": 10,
+          "character_arya": 27,
+          "character_C023A": 5,
+          "character_batman": 42,
+          "character_velma": 9,
+          "character_C028": 37,
+          "character_C017": 10,
+          "character_bugs_bunny": 50,
+          "character_C021": 19,
+          "character_garnet": 37,
+          "character_finn": 16,
+          "character_creature": 4,
+          "character_c019": 13,
+          "character_C023B": 20,
+          "character_superman": 55,
+          "character_tom_and_jerry": 6,
+          "character_C018": 1,
+          "character_c16": 9,
+          "character_c036": 9
+        },
+        "TotalRingouts": 3095,
+        "character_ringouts": {
+          "character_shaggy": 138,
+          "character_jake": 1460,
+          "character_wonder_woman": 501,
+          "character_Jason": 98,
+          "character_taz": 162,
+          "character_steven": 10,
+          "character_C020": 6,
+          "character_BananaGuard": 99,
+          "character_harleyquinn": 17,
+          "character_arya": 51,
+          "character_C023A": 14,
+          "character_batman": 62,
+          "character_velma": 16,
+          "character_C028": 58,
+          "character_c16": 14,
+          "character_bugs_bunny": 67,
+          "character_C021": 44,
+          "character_garnet": 52,
+          "character_finn": 29,
+          "character_creature": 6,
+          "character_c019": 16,
+          "character_C023B": 49,
+          "character_superman": 85,
+          "character_tom_and_jerry": 4,
+          "character_C018": 2,
+          "character_C017": 18,
+          "character_c036": 17
+        },
+        "rifts": {
+          "BossNodesDefeated": 35
+        },
+        "TotalAttacksDodged": 1999,
+        "leaderboard": {
+          "arena": {
+            "pvpevent": {
+              "top10finish": 2,
+              "top1finish": 1,
+              "top5finish": 2
+            }
+          }
+        }
+      },
+      "OpenBetaGold": 25277,
+      "leaderboard": {
+        "arena": {
+          "pvpevent": {
+            "top10finish": 2,
+            "top1finish": 1,
+            "top5finish": 2
+          }
+        }
+      },
+      "season2": {
+        "HighestDamageDealt": 276.1745910644531,
+        "TotalAttacksDodged": 315,
+        "TotalRingouts": 502,
+        "TotalWins": 172,
+        "character_highest_damage_dealt": {
+          "character_jake": 276.1745910644531
+        },
+        "character_matches": {
+          "character_jake": 267
+        },
+        "character_ringouts": {
+          "character_jake": 502
+        },
+        "character_total_damage_dealt": {
+          "character_jake": 42744.5962305069
+        },
+        "character_wins": {
+          "character_jake": 172
+        },
+        "ranked": {
+          "1v1": {
+            "Wins": 74
+          },
+          "2v2": {
+            "CharactersInGold": 1
+          }
+        }
+      }
+    },
+    "UnclaimedCharacterMasteryRewards": {},
+    "lifetime_damage": 587223,
+    "lifetime_ringouts": 4093,
+    "matches_played": 2572,
+    "sets_played": 1422,
+    "OwnedPerks": {
+      "character_jake": {
+        "perk_general_airmeleedamageboost_small": 1,
+        "perk_general_wallbouncereduction_small": 1,
+        "perk_general_jumpheight_small": 1,
+        "perk_jake_quickstretch": 1,
+        "perk_jake_bouncyhouse": 1,
+        "perk_general_jumpcount": 1,
+        "perk_general_damagereduction_small": 1,
+        "perk_general_laststand": 1,
+        "perk_general_refreshingknockout": 1,
+        "perk_general_directionalinfluence_small": 1,
+        "perk_general_culltheweak": 1,
+        "perk_general_sniper": 1,
+        "perk_general_inmemoriam": 1,
+        "perk_general_verticalknockbackboost": 1,
+        "perk_general_projectilegrayhealth": 1,
+        "perk_general_abilitycooldownreduction_small": 1,
+        "perk_general_abilityrefundondodge": 1,
+        "perk_general_projectileblock": 1,
+        "perk_general_collateraldamage": 1,
+        "perk_general_aircontrol_small": 1
+      },
+      "character_steven": {
+        "perk_general_jumpcount": 1,
+        "perk_general_collateraldamage": 1,
+        "perk_general_evadebaseinvulnerability_small": 1,
+        "perk_steven_shieldbounce": 1,
+        "perk_general_damagereduction_small": 1,
+        "perk_general_laststand": 1,
+        "perk_general_airmeleedamageboost_small": 1,
+        "perk_steven_greenthumb": 1,
+        "perk_general_iceprojectile": 1,
+        "perk_general_abilityrefundontakeprojectilekb": 1,
+        "perk_general_verticalknockbackboost": 1,
+        "perk_general_projectileblock": 1
+      },
+      "character_wonder_woman": {
+        "perk_general_damagereduction_small": 1,
+        "perk_general_abilitycooldownreduction_small": 1,
+        "perk_general_armorondeath": 1,
+        "perk_wonderwoman_lassotipper": 1,
+        "perk_general_airmeleedamageboost_small": 1,
+        "perk_general_culltheweak": 1,
+        "perk_general_laststand": 1,
+        "perk_general_jumpcount": 1,
+        "perk_wonderwoman_lassograpple": 1,
+        "perk_general_backtoback": 1,
+        "perk_wonderwoman_projectileblock": 1,
+        "perk_general_projectileblock": 1,
+        "perk_general_collateraldamage": 1,
+        "perk_general_inmemoriam": 1
+      },
+      "character_taz": {
+        "perk_general_horizontalknockbackboost": 1,
+        "perk_general_abilityrefundontakeprojectilekb": 1,
+        "perk_general_directionalinfluence_small": 1,
+        "perk_C015_ironstomach": 1,
+        "perk_general_projectileblock": 2,
+        "perk_general_aircontrol_small": 1,
+        "perk_general_jumpcount": 1,
+        "perk_general_collateraldamage": 1,
+        "perk_C015_teamfightcloud": 1,
+        "perk_general_evadespeed_small": 1,
+        "perk_general_knockoutbounce": 1
+      },
+      "character_bugs_bunny": {
+        "perk_general_abilitycooldownreduction_small": 1,
+        "perk_general_collateraldamage": 1,
+        "perk_general_movespeed_small": 1,
+        "perk_bugsbunny_shockwave": 1,
+        "perk_general_laststand": 1,
+        "perk_general_damagereduction_small": 1,
+        "perk_general_airmeleedamageboost_small": 1,
+        "perk_general_groundmeleedamageboost_small": 1,
+        "perk_bugsbunny_lingeringlove": 1,
+        "perk_general_aircontrol_small": 1,
+        "perk_general_refreshingknockout": 1,
+        "perk_general_culltheweak": 1,
+        "perk_general_dodgearmor": 1,
+        "perk_general_inmemoriam": 1
+      },
+      "character_superman": {
+        "perk_general_jumpcount": 1,
+        "perk_general_damagereduction_small": 1,
+        "perk_general_groundmeleedamageboost_small": 1,
+        "perk_superman_fireslam": 1,
+        "perk_general_collateraldamage": 1,
+        "perk_general_projectileblock": 1,
+        "perk_general_directionalinfluence_small": 1,
+        "perk_general_aircontrol_small": 1
+      },
+      "character_finn": {
+        "perk_general_groundmeleedamageboost_small": 1,
+        "perk_general_movespeed_small": 1
+      },
+      "character_c019": {
+        "perk_general_chargearmorbreak": 1,
+        "perk_general_backtoback": 1,
+        "perk_general_evadedistance_small": 1
+      },
+      "character_shaggy": {
+        "perk_general_airmeleedamageboost_small": 1,
+        "perk_general_damagereduction_small": 1
+      },
+      "character_C017": {
+        "perk_general_evaderechargetime_small": 1
+      },
+      "character_C020": {
+        "perk_general_abilitycooldownreduction_small": 1,
+        "perk_general_fastfall_small": 1
+      },
+      "character_creature": {
+        "perk_general_projectilespeed_small": 1
+      },
+      "character_C023B": {
+        "perk_general_paintedtarget": 1,
+        "perk_general_fireprojectile": 1,
+        "perk_general_fastfall_small": 1,
+        "perk_c023B_dynamite": 1,
+        "perk_general_collateraldamage": 1,
+        "perk_general_projectileblock": 1,
+        "perk_general_jumpcount": 1,
+        "perk_general_directionalinfluence_small": 1,
+        "perk_c023B_leap": 1,
+        "perk_general_dodgearmor": 1,
+        "perk_c023B_attach": 1,
+        "perk_general_sniper": 1
+      },
+      "character_arya": {
+        "perk_general_culltheweak": 1
+      },
+      "character_garnet": {
+        "perk_general_horizontalknockbackboost": 1
+      },
+      "character_harleyquinn": {
+        "perk_general_verticalknockbackboost": 1
+      },
+      "character_C023A": {
+        "perk_general_backtoback": 1
+      },
+      "character_batman": {
+        "perk_general_aircontrol_small": 1
+      },
+      "character_c16": {
+        "perk_general_projectilespeed_small": 1
+      },
+      "character_C021": {
+        "perk_general_abilityrefundondebuffhit": 1
+      },
+      "character_velma": {
+        "perk_general_projectiledamageboost_small": 1
+      },
+      "character_C018": {
+        "perk_general_projectiledamageboost_small": 1
+      }
+    },
+    "Characters": {
+      "character_jake": {
+        "ally_perk_sharing": 6,
+        "perk_training_enabled": 9,
+        "arcade_completion_2p": 3
+      },
+      "character_steven": {
+        "ally_perk_sharing": 6,
+        "perk_training_enabled": 9
+      },
+      "character_taz": {
+        "ally_perk_sharing": 6,
+        "perk_training_enabled": 9
+      },
+      "character_wonder_woman": {
+        "ally_perk_sharing": 6,
+        "perk_training_enabled": 9
+      },
+      "character_bugs_bunny": {
+        "ally_perk_sharing": 6,
+        "perk_training_enabled": 9
+      },
+      "character_superman": {
+        "ally_perk_sharing": 6,
+        "perk_training_enabled": 9
+      },
+      "character_C023B": {
+        "ally_perk_sharing": 6,
+        "perk_training_enabled": 9
+      },
+      "character_c019": {
+        "ally_perk_sharing": 6
+      },
+      "character_shaggy": {
+        "ally_perk_sharing": 6
+      }
+    },
+    "2v2shuffle": {
+      "0": {
+        "ratings": {
+          "character_jake": {
+            "mean": 3817.9848716883585,
+            "deviance": 832.6684584606708,
+            "confidence": 0.20480326563966936,
+            "streak": 11,
+            "lastUpdateTimestamp": 1687519693561,
+            "character": "character_jake"
+          },
+          "character_steven": {
+            "mean": 1077.2489851410726,
+            "deviance": 124.9925917734191,
+            "confidence": 0.7575058256397187,
+            "streak": -3,
+            "lastUpdateTimestamp": 1667560361044
+          },
+          "character_taz": {
+            "mean": 2254.102779530422,
+            "deviance": 680.2668981440709,
+            "confidence": 0.21046449442082826,
+            "streak": 1,
+            "lastUpdateTimestamp": 1687519429161
+          },
+          "character_wonder_woman": {
+            "mean": 1385.5229761539103,
+            "deviance": 201.11300004285778,
+            "confidence": 0.298256362521803,
+            "streak": -3,
+            "lastUpdateTimestamp": 1667562551616
+          },
+          "character_bugs_bunny": {
+            "mean": 1149.6078272201305,
+            "deviance": 183.25892510594096,
+            "confidence": 0.39508957952051915,
+            "streak": 1,
+            "lastUpdateTimestamp": 1667561259396
+          },
+          "character_superman": {
+            "mean": 1039.7194078846242,
+            "deviance": 546.2039667497879,
+            "confidence": 0.20007133940998556,
+            "streak": -1,
+            "lastUpdateTimestamp": 1667483485495
+          },
+          "character_finn": {
+            "mean": 811.7564976656537,
+            "deviance": 224.38365137105757,
+            "confidence": 0.26687681553501236,
+            "streak": -2,
+            "lastUpdateTimestamp": 1667561523003
+          },
+          "all": {
+            "mean": 3181.809372108514,
+            "deviance": 1160.9117809552035,
+            "confidence": 0.18552022856432474,
+            "streak": 12,
+            "lastUpdateTimestamp": 1687519694064
+          },
+          "character_c019": {
+            "mean": 1368.646023704785,
+            "deviance": 164.73870677014958,
+            "confidence": 0.44521302897604714,
+            "streak": 1,
+            "lastUpdateTimestamp": 1669557756556
+          },
+          "character_shaggy": {
+            "mean": 1288.8868500896103,
+            "deviance": 457.2891099862326,
+            "confidence": 0.1554207394809159,
+            "streak": 1,
+            "lastUpdateTimestamp": 1674907070955
+          },
+          "character_C017": {
+            "mean": 951.3147250830202,
+            "deviance": 180.9450663201526,
+            "confidence": 0.3190937395614787,
+            "streak": -5,
+            "lastUpdateTimestamp": 1667543418251
+          },
+          "character_C020": {
+            "mean": 904.2070441294139,
+            "deviance": 152.80926999485993,
+            "confidence": 0.43602433525477063,
+            "streak": -3,
+            "lastUpdateTimestamp": 1666874342353
+          },
+          "character_creature": {
+            "mean": 1010.4267581035568,
+            "deviance": 471.69289654995134,
+            "confidence": 0.20002954426521244,
+            "streak": -5,
+            "lastUpdateTimestamp": 1667218241680
+          },
+          "character_C023B": {
+            "mean": 1854.125637306402,
+            "deviance": 348.19234054895895,
+            "confidence": 0.3188613874443038,
+            "streak": -1,
+            "lastUpdateTimestamp": 1669558009618
+          },
+          "character_arya": {
+            "mean": 1288.4531133928224,
+            "deviance": 317.08109264871285,
+            "confidence": 0.2658654179675939,
+            "streak": -1,
+            "lastUpdateTimestamp": 1666617986764
+          },
+          "character_garnet": {
+            "mean": 1236.2334041998686,
+            "deviance": 540.854832995257,
+            "confidence": 0.23003710540544917,
+            "streak": 2,
+            "lastUpdateTimestamp": 1667741198641
+          },
+          "character_harleyquinn": {
+            "mean": 780.9227293628358,
+            "deviance": 287.0601337178134,
+            "confidence": 0.3902378518387108,
+            "streak": -4,
+            "lastUpdateTimestamp": 1667541159994
+          },
+          "character_C023A": {
+            "mean": 582.7998127119137,
+            "deviance": 277.3601681562472,
+            "confidence": 0.27228408195026826,
+            "streak": 3,
+            "lastUpdateTimestamp": 1666862921586
+          },
+          "character_batman": {
+            "mean": 404.99448992915717,
+            "deviance": 264.5178373981352,
+            "confidence": 0.6016095929943013,
+            "streak": -1,
+            "lastUpdateTimestamp": 1666863481343
+          },
+          "character_c16": {
+            "mean": 527.3069258529327,
+            "deviance": 396.6231405508855,
+            "confidence": 0.25133395845889495,
+            "streak": -3,
+            "lastUpdateTimestamp": 1669558520175
+          },
+          "character_C021": {
+            "mean": 588.6436431535819,
+            "deviance": 434.00601475166195,
+            "confidence": 0.1581423517082972,
+            "streak": 1,
+            "lastUpdateTimestamp": 1669726696443
+          },
+          "character_velma": {
+            "mean": 346.7852359523331,
+            "deviance": 271.0563290255868,
+            "confidence": 0.16659190470425472,
+            "streak": -1,
+            "lastUpdateTimestamp": 1667564784808
+          },
+          "character_C018": {
+            "mean": 691.5440696611635,
+            "deviance": 301.4643845429951,
+            "confidence": 0.17885470669213255,
+            "streak": -5,
+            "lastUpdateTimestamp": 1669559177342
+          }
+        },
+        "topRating": {
+          "mean": 3817.9848716883585,
+          "deviance": 832.6684584606708,
+          "confidence": 0.20480326563966936,
+          "streak": 11,
+          "lastUpdateTimestamp": 1687519693561,
+          "character": "character_jake"
+        }
+      }
+    },
+    "1v1shuffle": {
+      "0": {
+        "ratings": {
+          "character_steven": {
+            "mean": 1177.4262684571024,
+            "deviance": 162.5963874660076,
+            "confidence": 0.95,
+            "streak": -1,
+            "lastUpdateTimestamp": 1658900489758
+          },
+          "character_jake": {
+            "mean": 2150.7951766704914,
+            "deviance": 203.42809614906616,
+            "confidence": 0.95,
+            "streak": -2,
+            "lastUpdateTimestamp": 1675151948096,
+            "character": "character_jake"
+          },
+          "character_wonder_woman": {
+            "mean": 1171.5531437712916,
+            "deviance": 179.1700841627845,
+            "confidence": 0.6997936235935114,
+            "streak": -5,
+            "lastUpdateTimestamp": 1665658692777
+          },
+          "character_bugs_bunny": {
+            "mean": 1259.3152110367753,
+            "deviance": 100.62127736864286,
+            "confidence": 0.95,
+            "streak": 2,
+            "lastUpdateTimestamp": 1659793206660
+          },
+          "all": {
+            "mean": 1823.1184142627171,
+            "deviance": 619.6972217460856,
+            "confidence": 0.2022378018796602,
+            "streak": -3,
+            "lastUpdateTimestamp": 1687520033114
+          },
+          "character_taz": {
+            "mean": 858.1502111333693,
+            "deviance": 254.96968360158832,
+            "confidence": 0.21947428652864925,
+            "streak": -6,
+            "lastUpdateTimestamp": 1687520032728
+          },
+          "character_creature": {
+            "mean": 751.5697473840207,
+            "deviance": 167.03591367422825,
+            "confidence": 0.8165354784070886,
+            "streak": -1,
+            "lastUpdateTimestamp": 1666878820080
+          }
+        },
+        "topRating": {
+          "mean": 2150.7951766704914,
+          "deviance": 203.42809614906616,
+          "confidence": 0.95,
+          "streak": -2,
+          "lastUpdateTimestamp": 1675151948096,
+          "character": "character_jake"
+        }
+      }
+    },
+    "closed_alpha_battlepass_complete": true,
+    "archived_battlepasses": {
+      "battlepass_season_one": {
+        "CurrentTier": 15,
+        "CurrentXP": 6884,
+        "ConfigSlug": "battlepass_season_one",
+        "IsPremium": false
+      },
+      "battlepass_season_two": {
+        "CurrentTier": 52,
+        "CurrentXP": 1730,
+        "ConfigSlug": "battlepass_season_two",
+        "IsPremium": true
+      }
+    },
+    "MatchConfig": {
+      "MultiqueueConfigs": [
+        {
+          "AllowDuplicateCharacters": true,
+          "AllowHazards": true,
+          "Context": "Matchmade",
+          "DisabledCharacters": [],
+          "GameModeAlias": "Versus",
+          "MatchDuration": 420,
+          "ModeDifficulty": "Unselected",
+          "MutatorData": [],
+          "NumRingoutsForWin": 2,
+          "QueueType": "Unranked",
+          "TeamStyle": "Solos"
+        }
+      ]
+    },
+    "2v2_ranked": {
+      "1": {
+        "rank": {
+          "current_points": 914.3986277838549,
+          "max_points": 915.3986277838549,
+          "games_played": 213
+        }
+      }
+    },
+    "1v1_ranked": {
+      "1": {
+        "rank": {
+          "current_points": 48.28484634550682,
+          "max_points": 48.28484634550682,
+          "games_played": 5
+        }
+      }
+    },
+    "ffashuffle": {
+      "0": {
+        "ratings": {
+          "character_wonder_woman": {
+            "mean": 697.678314225231,
+            "deviance": 197.14504259007262,
+            "confidence": 0.13333333333333333,
+            "streak": null,
+            "lastUpdateTimestamp": 1665657193357,
+            "character": "character_wonder_woman"
+          },
+          "all": {
+            "mean": 994.0164135255526,
+            "deviance": 195.2236196704167,
+            "confidence": 0.13579793487772357,
+            "streak": null,
+            "lastUpdateTimestamp": 1665657193533
+          }
+        },
+        "topRating": {
+          "mean": 697.678314225231,
+          "deviance": 197.14504259007262,
+          "confidence": 0.13333333333333333,
+          "streak": null,
+          "lastUpdateTimestamp": 1665657193357,
+          "character": "character_wonder_woman"
+        }
+      }
+    },
+    "arcade": {
+      "continues": 1,
+      "difficulty": "Invalid",
+      "stage": 8
+    },
+    "2v2casual": {
+      "0": {
+        "ratings": {
+          "character_C021": {
+            "mean": 884.5596370967436,
+            "deviance": 199.43498349370205,
+            "confidence": 0.1357072971691492,
+            "streak": -2,
+            "lastUpdateTimestamp": 1667290595383,
+            "character": "character_C021"
+          },
+          "all": {
+            "mean": 913.9065289155334,
+            "deviance": 196.24079944400165,
+            "confidence": 0.20597900398311825,
+            "streak": 4,
+            "lastUpdateTimestamp": 1667291427923
+          },
+          "character_jake": {
+            "mean": 912.414629216559,
+            "deviance": 193.87139474364466,
+            "confidence": 0.218159868696012,
+            "streak": 4,
+            "lastUpdateTimestamp": 1667291427661,
+            "character": "character_jake"
+          }
+        },
+        "topRating": {
+          "mean": 912.414629216559,
+          "deviance": 193.87139474364466,
+          "confidence": 0.218159868696012,
+          "streak": 4,
+          "lastUpdateTimestamp": 1667291427661,
+          "character": "character_jake"
+        }
+      }
+    },
+    "ranked_participation_reward_granted": true,
+    "s2_extension_make_good_boost": 1,
+    "ftue": {
+      "current_ftue_step": "eDONE"
+    },
+    "TotalPrestige": 146410,
+    "OpenBeta": true,
+    "Transforms": {
+      "welcome_back": true
+    },
+    "HasReceivedBattlepassRewardFromOpenBeta": true,
+    "SeasonalData": {
+      "Season:SeasonTwo": {
+        "Ranked": {
+          "DataByMode": {
+            "2v2": {
+              "BestCharacter": {
+                "CurrentPoints": 1895,
+                "MaxPoints": 1899,
+                "GamesPlayed": 252,
+                "SetsPlayed": 110,
+                "CharacterSlug": "character_jake",
+                "LastUpdateTimestamp": "2024-08-04T01:36:49+00:00"
+              },
+              "DataByCharacter": {
+                "character_jake": {
+                  "CurrentPoints": 1895,
+                  "MaxPoints": 1895,
+                  "GamesPlayed": 252,
+                  "SetsPlayed": 110,
+                  "Wins": 74,
+                  "Losses": 73,
+                  "DamageDealt": 40685,
+                  "DamageTaken": 47296,
+                  "Ringouts": 480,
+                  "Deaths": 311,
+                  "LastUpdateTimestamp": "2024-08-09T14:32:36+00:00"
+                }
+              },
+              "GamesPlayed": 252,
+              "LastUpdateTimestamp": "2024-08-09T14:32:36+00:00",
+              "SetsPlayed": 110
+            }
+          },
+          "ClaimedRewards": [
+            "89709B1442BF36DD11BD98BCFB0D4AF1",
+            "40B4F0174999C47FEAD0CE91419BBC7B"
+          ]
+        }
+      }
+    }
+  },
+  "inventory": {
+    "character_C017": {
+      "count": 1
+    },
+    "character_C018": {
+      "count": 1
+    },
+    "character_C020": {
+      "count": 1
+    },
+    "character_C021": {
+      "count": 1
+    },
+    "character_C023A": {
+      "count": 1
+    },
+    "character_C023B": {
+      "count": 1
+    },
+    "character_arya": {
+      "count": 1
+    },
+    "character_batman": {
+      "count": 1
+    },
+    "character_bugs_bunny": {
+      "count": 1
+    },
+    "character_c019": {
+      "count": 1
+    },
+    "character_c16": {
+      "count": 1
+    },
+    "character_creature": {
+      "count": 1
+    },
+    "character_finn": {
+      "count": 1
+    },
+    "character_garnet": {
+      "count": 1
+    },
+    "character_harleyquinn": {
+      "count": 1
+    },
+    "character_jake": {
+      "count": 1
+    },
+    "character_shaggy": {
+      "count": 1
+    },
+    "character_steven": {
+      "count": 1
+    },
+    "character_superman": {
+      "count": 1
+    },
+    "character_taz": {
+      "count": 1
+    },
+    "character_tom_and_jerry": {
+      "count": 1
+    },
+    "character_velma": {
+      "count": 1
+    },
+    "character_wonder_woman": {
+      "count": 1
+    },
+    "skin_c005_s03": {
+      "count": 1
+    },
+    "skin_c007_s03": {
+      "count": 1
+    },
+    "skin_c008_s02": {
+      "count": 1
+    },
+    "skin_c009_s08": {
+      "count": 1
+    },
+    "skin_c010_s02": {
+      "count": 1
+    },
+    "skin_c012_s01": {
+      "count": 1
+    },
+    "skin_c013_s02": {
+      "count": 1
+    },
+    "skin_c015_s02": {
+      "count": 1
+    },
+    "skin_c016_s02": {
+      "count": 1
+    },
+    "skin_iron_giant_default": {
+      "count": 1
+    },
+    "skin_c013_s06": {
+      "count": 1
+    },
+    "battlepass-season-1": {
+      "count": 1,
+      "created_at": "2024-05-29T02:47:44+00:00"
+    },
+    "character_Jason": {
+      "count": 1,
+      "created_at": "2024-05-29T02:57:34+00:00"
+    },
+    "character_BananaGuard": {
+      "count": 1,
+      "created_at": "2024-05-29T11:00:29+00:00"
+    },
+    "skin_c014_s21": {
+      "count": 1,
+      "created_at": "2024-05-30T11:04:13+00:00"
+    },
+    "character_C028": {
+      "count": 1,
+      "created_at": "2024-05-31T11:01:38+00:00"
+    },
+    "skin_c012_s07": {
+      "count": 1,
+      "created_at": "2024-06-01T05:59:05+00:00"
+    },
+    "skin_c016_s04": {
+      "count": 1,
+      "created_at": "2024-06-01T23:45:36+00:00"
+    },
+    "skin_c034_s01": {
+      "count": 1,
+      "created_at": "2024-06-05T06:15:24+00:00"
+    },
+    "skin_c023b_s02": {
+      "count": 1,
+      "created_at": "2024-06-05T07:28:35+00:00"
+    },
+    "skin_c001_s21": {
+      "count": 1,
+      "created_at": "2024-06-06T13:11:41+00:00"
+    },
+    "skin_c003_s07": {
+      "count": 1,
+      "created_at": "2024-06-08T06:14:29+00:00"
+    },
+    "skin_c035_s20": {
+      "count": 1,
+      "created_at": "2024-06-14T11:17:42+00:00"
+    },
+    "skin_c009_s13": {
+      "count": 1,
+      "created_at": "2024-06-17T08:50:40+00:00"
+    },
+    "skin_c021_s16": {
+      "count": 1,
+      "created_at": "2024-06-18T10:58:58+00:00"
+    },
+    "skin_c014_s08": {
+      "count": 1,
+      "created_at": "2024-06-19T10:28:05+00:00"
+    },
+    "skin_c005_s07": {
+      "count": 1,
+      "created_at": "2024-06-21T11:54:28+00:00"
+    },
+    "skin_c010_s08": {
+      "count": 1,
+      "created_at": "2024-06-24T11:50:03+00:00"
+    },
+    "skin_c015_s04": {
+      "count": 1,
+      "created_at": "2024-06-25T07:40:06+00:00"
+    },
+    "skin_c011_s08": {
+      "count": 1,
+      "created_at": "2024-06-26T06:14:50+00:00"
+    },
+    "skin_c035_s01": {
+      "count": 1,
+      "created_at": "2024-06-27T12:47:10+00:00"
+    },
+    "skin_c013_s18": {
+      "count": 1,
+      "created_at": "2024-06-28T11:30:24+00:00"
+    },
+    "skin_c004_s18": {
+      "count": 1,
+      "created_at": "2024-06-29T11:22:43+00:00"
+    },
+    "skin_c016_s18": {
+      "count": 1,
+      "created_at": "2024-06-30T13:33:27+00:00"
+    },
+    "skin_c010_s18": {
+      "count": 1,
+      "created_at": "2024-07-01T12:17:22+00:00"
+    },
+    "skin_c008_s18": {
+      "count": 1,
+      "created_at": "2024-07-01T12:20:45+00:00"
+    },
+    "skin_c003_s20": {
+      "count": 1,
+      "created_at": "2024-07-03T03:26:48+00:00"
+    },
+    "skin_c019_s18": {
+      "count": 1,
+      "created_at": "2024-07-03T14:12:52+00:00"
+    },
+    "skin_c012_s18": {
+      "count": 1,
+      "created_at": "2024-07-04T11:12:14+00:00"
+    },
+    "skin_c009_s18": {
+      "count": 1,
+      "created_at": "2024-07-05T11:01:23+00:00"
+    },
+    "character_c036": {
+      "count": 1,
+      "created_at": "2024-07-08T14:07:06+00:00"
+    },
+    "skin_c016_s20": {
+      "count": 1,
+      "created_at": "2024-07-08T14:21:16+00:00"
+    },
+    "skin_c007_s20": {
+      "count": 1,
+      "created_at": "2024-07-20T10:25:19+00:00"
+    },
+    "skin_c005_s20": {
+      "count": 1,
+      "created_at": "2024-07-20T10:38:28+00:00"
+    },
+    "skin_c001_s20": {
+      "count": 1,
+      "created_at": "2024-07-20T10:51:00+00:00"
+    },
+    "skin_c036_s20": {
+      "count": 1,
+      "created_at": "2024-07-20T11:07:45+00:00"
+    },
+    "ring_out_vfx_decompiled": {
+      "count": 1,
+      "created_at": "2024-06-21T11:54:45+00:00"
+    },
+    "battlepass-season-2": {
+      "count": 1,
+      "created_at": "2024-07-24T05:25:26+00:00"
+    },
+    "gleamium": {
+      "count": 1150,
+      "created_at": null
+    },
+    "character_C026": {
+      "count": 1,
+      "created_at": "2024-07-24T05:25:27+00:00"
+    },
+    "skin_c012_s04": {
+      "count": 1,
+      "created_at": "2024-08-03T11:48:52+00:00"
+    },
+    "skin_c021_s04": {
+      "count": 1,
+      "created_at": "2024-08-05T09:09:44+00:00"
+    }
+  },
+  "matches": {
+    "1v1": {
+      "win": 337,
+      "loss": 351,
+      "win_streak": 0,
+      "longest_win_streak": 14
+    },
+    "2v2": {
+      "win": 1754,
+      "loss": 896,
+      "win_streak": 12,
+      "longest_win_streak": 39
+    },
+    "ffa": {
+      "win": 1,
+      "loss": 4,
+      "win_streak": 0,
+      "longest_win_streak": 1
+    },
+    "2v2-set": {
+      "win": 457,
+      "loss": 271,
+      "win_streak": 1,
+      "longest_win_streak": 23
+    },
+    "1v1-set": {
+      "win": 33,
+      "loss": 21,
+      "win_streak": 0,
+      "longest_win_streak": 8
+    },
+    "1v1_custom_container": {
+      "win": 39,
+      "loss": 56,
+      "win_streak": 6,
+      "longest_win_streak": 6
+    },
+    "2v2_container": {
+      "win": 882,
+      "loss": 510,
+      "win_streak": 2,
+      "longest_win_streak": 18
+    },
+    "ffa-set": {
+      "loss": 1,
+      "win_streak": 0
+    },
+    "1v1_container": {
+      "win": 140,
+      "loss": 88,
+      "win_streak": 2,
+      "longest_win_streak": 9
+    },
+    "2v2_custom_container": {
+      "win": 25,
+      "loss": 25,
+      "win_streak": 0,
+      "longest_win_streak": 4
+    },
+    "rift_container_one_player": {
+      "win": 727,
+      "loss": 44,
+      "win_streak": 194,
+      "longest_win_streak": 194
+    },
+    "rift_container_two_player": {
+      "win": 322,
+      "loss": 39,
+      "win_streak": 1,
+      "longest_win_streak": 69
+    },
+    "1v1_container_bot": {
+      "win": 5,
+      "win_streak": 5,
+      "longest_win_streak": 5
+    },
+    "1v3_container_bot": {
+      "win": 5,
+      "win_streak": 5,
+      "longest_win_streak": 5
+    },
+    "2v2_container_bot": {
+      "win": 10,
+      "loss": 1,
+      "win_streak": 6,
+      "longest_win_streak": 6
+    },
+    "custom_container_two_player": {
+      "win": 18,
+      "loss": 48,
+      "win_streak": 0,
+      "longest_win_streak": 2
+    },
+    "custom_container_four_player": {
+      "win": 10,
+      "loss": 27,
+      "win_streak": 0,
+      "longest_win_streak": 2
+    },
+    "ffa_container": {
+      "win": 4,
+      "loss": 6,
+      "win_streak": 1,
+      "longest_win_streak": 2
+    }
+  },
+  "cross_match_results": {},
+  "notifications": {},
+  "aggregates": {
+    "s1-battlepass-score": {
+      "type_class": "current_value",
+      "value": 198055
+    }
+  },
+  "calculations": {},
+  "user_segments": [
+    "test-user-segment",
+    "percentmaintenance",
+    "issteam",
+    "owns_batman",
+    "owns_bugs_bunny",
+    "owns_arya_stark",
+    "owns_velma",
+    "owns_superman",
+    "owns_garnet",
+    "owns_finn_the_human",
+    "owns_tom_and_jerry",
+    "owns_jake_the_dog",
+    "owns_steven_universe",
+    "owns_taz",
+    "owns_harley_quinn",
+    "owns_lebron_james",
+    "owns_the_iron_giant",
+    "returning_user_open_beta",
+    "owns_marvin_the_martian",
+    "owns_morty",
+    "owns_black_adam",
+    "owns_gizmo",
+    "owns_stripe",
+    "owns_reindog",
+    "owns_rick",
+    "owns_wonder_woman",
+    "owns_the_joker",
+    "owns_jason",
+    "Battlepass_level_greater_or_equal_to_60",
+    "bp-score-over-100",
+    "owns_battlepass_s1",
+    "owns_battlepass_s2",
+    "owns_agent_smith",
+    "samurais_focus_carousel_conditions",
+    "animated_crime_starting_carousel_condititions"
+  ],
+  "random_distribution": 0.8625991042637579
+}
