@@ -2,6 +2,9 @@
 #define __CHARACTERS_HPP__
 
 #include <cstdint>
+#include <optional>
+
+namespace CPPVersus {
 
 enum Character {
     SAMURAI_JACK,
@@ -32,6 +35,14 @@ enum Character {
     SUPERMAN,
     TOM_AND_JERRY,
     WONDER_WOMAN
+};
+
+inline std::optional<Character> characterFromName(std::string name) {
+    if(name == "character_jake") return std::optional<Character>(Character::JAKE_THE_DOG);
+
+    return std::optional<Character>();
+}
+
 };
 
 #endif

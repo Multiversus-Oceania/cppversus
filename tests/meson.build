@@ -19,6 +19,7 @@ test_dep_libs = [
 ]
 
 subdir('init')
+subdir('infoByID')
 subdir('infoByUsername')
 
 # This executable contains all the tests

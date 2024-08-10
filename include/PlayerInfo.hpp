@@ -12,15 +12,40 @@
 
 namespace CPPVersus {
 
-// TODO: Unfinished.
+enum LoginPlatform {
+    PC,
+    UNKNOWN
+};
+
+struct CharacterInfo {
+    uint64_t level;
+    uint64_t xp;
+};
+
+struct BoostInfo {
+    uint64_t gamesRemaining;
+    std::string expirationDate;
+};
+
 struct PlayerInfo {
     std::string id;
-    std::optional<std::string> updated_at;
-    std::string account_id;
-    std::string created_at;
-    std::optional<std::string> last_login;
+    std::string publicID;
 
+    std::string createdAt;
+    std::string updatedAt;
 
+    std::string lastLogout;
+    std::string lastLogin;
+
+    LoginPlatform lastLoginPlatform;
+
+    uint64_t level;
+    uint64_t xp;
+
+    std::string profileIconPath;
+
+    std::map<Character, CharacterInfo> characters;
+    std::map<std::string, BoostInfo> activeBoosts;
 };
 
 };

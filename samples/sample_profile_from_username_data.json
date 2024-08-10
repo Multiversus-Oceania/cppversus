@@ -1,0 +1,29 @@
+{
+    "cursor": null,
+    "start": 0,
+    "count": 1,
+    "total": 1,
+    "results": [
+      {
+        "score": null,
+        "result": {
+          "id": "6289bfe8213b6d574354d9fd",
+          "updated_at": "2024-08-10T05:32:18+00:00",
+          "account_id": "6289bfe8213b6d574354d9fc",
+          "created_at": "2022-05-22T04:45:28+00:00",
+          "last_login": "2024-08-10T05:32:18+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {
+            "s1-battlepass-score": {
+              "type_class": "current_value",
+              "value": 198055
+            }
+          },
+          "calculations": {},
+          "random_distribution": 0.8625991042637579
+        }
+      }
+    ]
+  }

@@ -1,0 +1,228 @@
+{
+    "id": "6289bfe8213b6d574354d9fc",
+    "updated_at": "2024-08-10T05:53:45+00:00",
+    "created_at": "2022-05-22T04:45:28+00:00",
+    "deleted": false,
+    "orphaned": false,
+    "orphaned_reason": null,
+    "public_id": "paa3a59eae0444d529fa0f1e62530823d",
+    "identity": {
+      "username": "restless-patient-glade-sun-O2qbB",
+      "avatar": "https://s3.amazonaws.com/wb-agora-hydra-ugc-dokken/identicons/identicon.585.png",
+      "default_username": true,
+      "alternate": {
+        "wb_network": [
+          {
+            "id": "pb3ce8bb308b246b581c37eeac287b383",
+            "username": "MeNameCheese",
+            "avatar": null
+          }
+        ],
+        "twitch": [
+          {
+            "username": "MeNameCheese",
+            "avatar": null
+          }
+        ],
+        "steam": [
+          {
+            "id": "76561193841909110",
+            "username": "MeNameCheese",
+            "avatar": "https://avatars.steamstatic.com/ccce4d33c252e6fe31f661701795fd6ca4957bf0.jpg"
+          }
+        ]
+      }
+    },
+    "wb_account": {
+      "completed": true
+    },
+    "points": 0,
+    "state": "normal",
+    "restriction_status": {},
+    "wbplay_data_synced": false,
+    "wbplay_identity": null,
+    "state_data": {},
+    "locale": "en-US",
+    "data": {
+      "EULAAcceptTimestamp": 1653194782,
+      "EULAAcceptVersion": 5,
+      "LastLoginPlatform": "EPlatform::PC",
+      "LastPlayedCharacterSlug": "character_taz"
+    },
+    "server_data": {
+      "Level": 35,
+      "CurrentXP": 113847,
+      "ProfileIcon": {
+        "Slug": "profile_icon_capstone_jake",
+        "AssetPath": "/Game/Panda_Main/Blueprints/Rewards/ProfileIcons/ProfileIcon_Capstone_Jake.ProfileIcon_Capstone_Jake"
+      },
+      "LastLogoutTime": "2023-06-19T11:58:35.360Z",
+      "LastLoginTime": "Fri Jun 23 2023 11:01:35 GMT+0000 (Coordinated Universal Time)",
+      "RestedXP": 280,
+      "Characters": {
+        "character_jake": {
+          "Mastery": {
+            "CurrentXP": 39870,
+            "Level": 33
+          }
+        },
+        "character_steven": {
+          "Mastery": {
+            "CurrentXP": 1159,
+            "Level": 13
+          }
+        },
+        "character_wonder_woman": {
+          "Mastery": {
+            "CurrentXP": 3470,
+            "Level": 14
+          }
+        },
+        "character_taz": {
+          "Mastery": {
+            "CurrentXP": 4316,
+            "Level": 20
+          }
+        },
+        "character_bugs_bunny": {
+          "Mastery": {
+            "CurrentXP": 434,
+            "Level": 17
+          }
+        },
+        "character_superman": {
+          "Mastery": {
+            "CurrentXP": 994,
+            "Level": 9
+          }
+        },
+        "character_finn": {
+          "Mastery": {
+            "CurrentXP": 474,
+            "Level": 4
+          }
+        },
+        "character_c019": {
+          "Mastery": {
+            "CurrentXP": 39,
+            "Level": 7
+          }
+        },
+        "character_shaggy": {
+          "Mastery": {
+            "CurrentXP": 208,
+            "Level": 6
+          }
+        },
+        "character_C017": {
+          "Mastery": {
+            "CurrentXP": 258,
+            "Level": 3
+          }
+        },
+        "character_C020": {
+          "Mastery": {
+            "CurrentXP": 138,
+            "Level": 4
+          }
+        },
+        "character_creature": {
+          "Mastery": {
+            "CurrentXP": 290,
+            "Level": 2
+          }
+        },
+        "character_C023B": {
+          "Mastery": {
+            "CurrentXP": 2248,
+            "Level": 13
+          }
+        },
+        "character_arya": {
+          "Mastery": {
+            "CurrentXP": 30,
+            "Level": 2
+          }
+        },
+        "character_garnet": {
+          "Mastery": {
+            "CurrentXP": 388,
+            "Level": 3
+          }
+        },
+        "character_harleyquinn": {
+          "Mastery": {
+            "CurrentXP": 160,
+            "Level": 2
+          }
+        },
+        "character_C023A": {
+          "Mastery": {
+            "CurrentXP": 160,
+            "Level": 2
+          }
+        },
+        "character_batman": {
+          "Mastery": {
+            "CurrentXP": 30,
+            "Level": 2
+          }
+        },
+        "character_c16": {
+          "Mastery": {
+            "CurrentXP": 290,
+            "Level": 2
+          }
+        },
+        "character_C021": {
+          "Mastery": {
+            "CurrentXP": 258,
+            "Level": 3,
+            "Version": 2
+          }
+        },
+        "character_velma": {
+          "Mastery": {
+            "CurrentXP": 30,
+            "Level": 2
+          }
+        },
+        "character_C018": {
+          "Mastery": {
+            "CurrentXP": 30,
+            "Level": 2
+          }
+        }
+      },
+      "FirstWinClaimTime": "2023-06-23T11:28:14+00:00",
+      "AntiCheatServerKick": 10,
+      "active_boosts": {
+        "bp": {
+          "games_remaining": 12,
+          "expiration_date": "2023-02-12T14:15:20+00:00"
+        },
+        "gold": {
+          "games_remaining": 27,
+          "expiration_date": "2023-01-24T12:26:19+00:00"
+        },
+        "xp": {
+          "games_remaining": 4,
+          "expiration_date": "2023-01-21T12:45:03+00:00"
+        }
+      },
+      "OpenBeta": true,
+      "LastLoginPlatform": "PC",
+      "LastWeeklyRefresh": "2024-08-06T11:00:00+00:00",
+      "LastDailyRefresh": "2024-08-09T11:00:00+00:00",
+      "Transforms": {
+        "GoldStatTracker": true,
+        "OpenBetaFreebies": true,
+        "BatmanVsJokerMakeGood_6-18-2024": "2024-06-19T05:46:01+00:00",
+        "BannerKnightSlugFixed": true,
+        "UpgradeWarMakeGood_8_5_2024": "2024-08-06T12:51:13+00:00"
+      },
+      "RetroactiveRiftBattlepassPayoutTime": "2024-06-18T06:27:01+00:00",
+      "LastRefreshSeason": "Season:SeasonTwo"
+    },
+    "connections": []
+  }

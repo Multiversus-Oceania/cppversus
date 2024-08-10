@@ -1,0 +1,2 @@
+subdir('fail')
+subdir('success')

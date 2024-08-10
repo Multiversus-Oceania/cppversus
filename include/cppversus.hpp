@@ -3,6 +3,7 @@
 
 #include <string>
 #include <optional>
+#include <algorithm>
 #include <stdexcept>
 
 #include <cpr/cpr.h>
@@ -11,11 +12,15 @@
 
 #include <nlohmann/json.hpp>
 
-#include <MinimalPlayerInfo.hpp>
 #include <PlayerInfo.hpp>
 
 namespace CPPVersus {
 const std::string API_URL = "https://dokken-api.wbagora.com";
+
+enum PlayerLookupType {
+    ID,
+    USERNAME
+};
 
 class DokkenAPIEntry {
 private:
@@ -44,14 +49,13 @@ public:
     */
     ~DokkenAPIEntry();
 
-
     /**
-     * @brief Gets a players info from username
-     * @param username Username of the player you want to find.
-     * @param limit Maximum number of players for the API to return.
+     * @brief Gets a players info from id
+     * @param lookupValue ID or username of the player you want to find.
+     * @param lookupType Type of value to use for finding the player. 
      * @returns Optional type with the players info, only if the player is found.
      */
-    std::optional<MinimalPlayerInfo> getPlayerInfoByUsername(std::string username, uint32_t limit = 5);
+    std::optional<PlayerInfo> getPlayerInfo(std::string lookupValue, PlayerLookupType lookupType = PlayerLookupType::ID);
 };
 
 };
