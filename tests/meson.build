@@ -9,7 +9,7 @@ test_main = files('tests_main.cpp')
 test_deps = [
     gtest_dep, 
     thread_dep,
-    dependency('spdlog')
+    dependencies
 ]
 
 test_dep_libs = [

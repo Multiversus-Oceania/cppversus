@@ -2,6 +2,8 @@
 #define __CPP_VERSUS_HPP__
 
 #include <string>
+
+#include <cpr/cpr.h>
 #include <spdlog/spdlog.h>
 
 namespace CPPVersus {
