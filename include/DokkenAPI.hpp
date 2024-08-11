@@ -28,6 +28,8 @@ enum PlayerLookupType {
 */
 class DokkenAPI {
 private:
+    const static uint64_t maxRetries = 5;
+
     const std::string _authToken;
     std::optional<std::string> _token;
 
@@ -38,6 +40,9 @@ private:
 
 
     void refreshToken();
+    bool shouldRetry(cpr::Response res);
+
+    std::optional<PlayerInfo> _getPlayerInfo(std::string lookupValue, PlayerLookupType lookupType, uint64_t _retryNumber = 0);
 
 public:
    /**

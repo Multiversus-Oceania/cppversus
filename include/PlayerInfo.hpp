@@ -44,7 +44,7 @@ struct PlayerInfo {
 
     std::string profileIconPath;
 
-    std::map<Character, CharacterInfo> characters;
+    std::map<uint64_t, CharacterInfo> characters;
     std::map<std::string, BoostInfo> activeBoosts;
 };
 

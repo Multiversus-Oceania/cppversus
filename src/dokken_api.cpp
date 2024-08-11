@@ -25,6 +25,27 @@ cpr::Response CPPVersus::DokkenAPI::APIPost(Ts&& ...ts) {
     );
 }
 
+bool CPPVersus::DokkenAPI::shouldRetry(cpr::Response res) {
+    if(res.status_code == 401) {
+        try {
+            nlohmann::json json = nlohmann::json::parse(res.text);
+            if(!json["msg"].is_string()) {
+                return false;
+            }
+
+            std::string msg = json["msg"];
+            if(msg == "User session kicked") {
+                return true;
+            }
+        }
+        catch(nlohmann::json::parse_error err) {
+            return false;
+        }
+    }
+
+    return false;
+}
+
 
 void CPPVersus::DokkenAPI::refreshToken() {
     spdlog::info("Refreshing access token, url: {}/access.", API_URL);
@@ -60,7 +81,8 @@ void CPPVersus::DokkenAPI::refreshToken() {
         !json.is_object() ||
         !json["token"].is_string()
     ) {
-        throw std::runtime_error("Invalid response from access endpoint, no token received.");
+        spdlog::critical("Invalid repsonse from access endpoint, no token received, PLEASE send a bug report.\n{}", res.text);
+        throw std::runtime_error("Invalid response from access endpoint.");
     }
 
     _token = json["token"];
@@ -76,7 +98,9 @@ CPPVersus::DokkenAPI::~DokkenAPI() {
 
 }
 
-std::optional<CPPVersus::PlayerInfo> CPPVersus::DokkenAPI::getPlayerInfo(std::string lookupValue, CPPVersus::PlayerLookupType lookupType) {
+
+std::optional<CPPVersus::PlayerInfo> CPPVersus::DokkenAPI::_getPlayerInfo(std::string lookupValue, CPPVersus::PlayerLookupType lookupType, uint64_t _retryNumber) {
+    if(_retryNumber == maxRetries) return std::optional<CPPVersus::PlayerInfo>();
     if(!_token.has_value()) {
         return std::optional<PlayerInfo>();
     }
@@ -88,7 +112,15 @@ std::optional<CPPVersus::PlayerInfo> CPPVersus::DokkenAPI::getPlayerInfo(std::st
         );
 
         if(res.status_code != 200) {
-            spdlog::error("Status code for ID lookup != 200 was: {}\n{}", res.status_code, res.text);
+            spdlog::warn("Status code for ID lookup != 200 was: {}\n{}", res.status_code, res.text);
+            if(shouldRetry(res)) {
+                spdlog::warn("Will retry the request after refreshing token, as the user session was kicked.");
+
+                this->refreshToken();
+                return this->_getPlayerInfo(lookupValue, lookupType, _retryNumber + 1);
+            }
+
+            
             return std::optional<PlayerInfo>();
         }
 
@@ -142,19 +174,23 @@ std::optional<CPPVersus::PlayerInfo> CPPVersus::DokkenAPI::getPlayerInfo(std::st
 
         nlohmann::json::object_t characters = serverData["Characters"];
         for(auto pair : characters) {
-            std::optional<Character> character = characterFromName(pair.first);
-            if(!character.has_value()) continue;
-            else if(
+            std::optional<Character> character = characterFromSlug(pair.first);
+            if(!character.has_value()) {
+                spdlog::error("Error couldn't find character {}, PLEASE send a bug report.\n{}", pair.first, pair.second.dump());
+                return std::optional<PlayerInfo>();
+            }
+
+            if(
                 !pair.second.is_object() ||
                 !pair.second["Mastery"].is_object() ||
                 !pair.second["Mastery"]["Level"].is_number_unsigned() ||
                 !pair.second["Mastery"]["CurrentXP"].is_number_unsigned()
             ) {
-                spdlog::error("Error while validating JSON data for {}.\n{}", pair.first, pair.second.dump());
-                continue;
+                spdlog::error("Error while validating JSON data for {}, PLEASE send a bug report.\n{}", pair.first, pair.second.dump());
+                return std::optional<PlayerInfo>();
             }
 
-            playerInfo.characters[character.value()] = {
+            playerInfo.characters[character.value().id] = {
                 .level = pair.second["Mastery"]["Level"],
                 .xp = pair.second["Mastery"]["CurrentXP"]
             };
@@ -190,4 +226,8 @@ std::optional<CPPVersus::PlayerInfo> CPPVersus::DokkenAPI::getPlayerInfo(std::st
     // // });
 
     // return std::optional<MinimalPlayerInfo>();
+}
+
+std::optional<CPPVersus::PlayerInfo> CPPVersus::DokkenAPI::getPlayerInfo(std::string lookupValue, CPPVersus::PlayerLookupType lookupType) {
+    return _getPlayerInfo(lookupValue, lookupType, 0);
 }
