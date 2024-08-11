@@ -1,13 +1,8 @@
-/**
-@file
-@brief Main entry point of the CPPVersus wrapper.
-*/
-
-#include <cppversus.hpp>
+#include <DokkenAPI.hpp>
 #include <iostream>
 
 template<class ...Ts>
-cpr::Response CPPVersus::DokkenAPIEntry::APIGet(Ts&& ...ts) {
+cpr::Response CPPVersus::DokkenAPI::APIGet(Ts&& ...ts) {
     return cpr::Get(
         std::forward<Ts>(ts)...,
         cpr::Header{{ "x-hydra-api-key", "51586fdcbd214feb84b0e475b130fce0" }},
@@ -19,7 +14,7 @@ cpr::Response CPPVersus::DokkenAPIEntry::APIGet(Ts&& ...ts) {
 }
 
 template<class ...Ts>
-cpr::Response CPPVersus::DokkenAPIEntry::APIPost(Ts&& ...ts) {
+cpr::Response CPPVersus::DokkenAPI::APIPost(Ts&& ...ts) {
     return cpr::Post(
         std::forward<Ts>(ts)...,
         cpr::Header{{ "x-hydra-api-key", "51586fdcbd214feb84b0e475b130fce0" }},
@@ -31,8 +26,8 @@ cpr::Response CPPVersus::DokkenAPIEntry::APIPost(Ts&& ...ts) {
 }
 
 
-void CPPVersus::DokkenAPIEntry::refreshToken() {
-    spdlog::debug("Refreshing Access Token");
+void CPPVersus::DokkenAPI::refreshToken() {
+    spdlog::info("Refreshing access token, url: {}/access.", API_URL);
     _token = std::nullopt;
 
     cpr::Response res = APIPost(
@@ -56,60 +51,32 @@ void CPPVersus::DokkenAPIEntry::refreshToken() {
     );
 
     if(res.status_code != 200) {
-        throw std::runtime_error("Error getting access token, likely invalid token.");
+        spdlog::critical("Error getting access token, likely invalid token.\nStatus Code: {}, Server Text: {}", res.status_code, res.text);
+        throw std::runtime_error(fmt::format("Error getting access token."));
     }
 
-    const nlohmann::json json = nlohmann::json::parse(res.text);
-    if(!json.contains("token")) {
+    nlohmann::json json = nlohmann::json::parse(res.text);
+    if(
+        !json.is_object() ||
+        !json["token"].is_string()
+    ) {
         throw std::runtime_error("Invalid response from access endpoint, no token received.");
     }
 
     _token = json["token"];
-    spdlog::info("Got access token: {}.", _token.value());
+    spdlog::debug("Got access token: {}.", _token.value());
 }
 
 
-CPPVersus::DokkenAPIEntry::DokkenAPIEntry(std::string token) : _authToken(token) {
+CPPVersus::DokkenAPI::DokkenAPI(std::string token) : _authToken(token) {
     this->refreshToken();
 }
 
-CPPVersus::DokkenAPIEntry::~DokkenAPIEntry() {
+CPPVersus::DokkenAPI::~DokkenAPI() {
 
 }
 
-
-// std::optional<CPPVersus::MinimalPlayerInfo> CPPVersus::DokkenAPIEntry::getMinimalPlayerInfoByUsername(std::string username, uint32_t limit) {
-//     if(!_token.has_value()) {
-//         return std::optional<MinimalPlayerInfo>();
-//     }
-
-//     cpr::Response res = APIGet(
-//         cpr::Url(fmt::format("{}/profiles/search_queries/get-by-username/run?username={}&limit={}", API_URL, username, limit))
-//     );
-
-//     if(res.status_code != 200) {
-//         return std::optional<MinimalPlayerInfo>();
-//     }
-
-//     nlohmann::json json = nlohmann::json::parse(res.text);
-//     nlohmann::json::array_t results = json["results"];
-
-//     // nlohmann::json account = std::find_if(results.begin(), results.end(), [](nlohmann::json current) {
-//     //     if(!current.is_object()) return false;
-
-//     //     nlohmann::json id = current["id"];
-//     //     if(!id.is_string()) return false;
-
-        
-
-//     //     return false;
-//     // });
-
-//     return std::optional<MinimalPlayerInfo>();
-// }
-
-
-std::optional<CPPVersus::PlayerInfo> CPPVersus::DokkenAPIEntry::getPlayerInfo(std::string lookupValue, CPPVersus::PlayerLookupType lookupType) {
+std::optional<CPPVersus::PlayerInfo> CPPVersus::DokkenAPI::getPlayerInfo(std::string lookupValue, CPPVersus::PlayerLookupType lookupType) {
     if(!_token.has_value()) {
         return std::optional<PlayerInfo>();
     }

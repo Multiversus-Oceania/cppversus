@@ -18,9 +18,7 @@ test_dep_libs = [
 
 ]
 
-subdir('init')
-subdir('infoByID')
-subdir('infoByUsername')
+subdir('dokken')
 
 # This executable contains all the tests
 project_test_sources += test_main

@@ -1,5 +1,5 @@
 info_by_id_success_test_sources = [
-    'info_by_id_success_test.cpp'
+    'id_success.cpp'
 ]
 
 info_by_id_success_test = executable('info_by_id_success_test', 

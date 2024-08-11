@@ -1,5 +1,5 @@
 api_init_fail_test_sources = [
-    'api_init_fail_test.cpp'
+    'init_fail.cpp'
 ]
 
 api_init_fail_test = executable('api_init_fail_test', 

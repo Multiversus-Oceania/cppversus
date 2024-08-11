@@ -1,5 +1,5 @@
 info_by_username_fail_test_sources = [
-    'info_by_username_fail_test.cpp'
+    'username_fail.cpp'
 ]
 
 info_by_username_fail_test = executable('info_by_username_fail_test', 

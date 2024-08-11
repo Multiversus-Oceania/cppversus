@@ -1,5 +1,5 @@
-#ifndef __CPP_VERSUS_HPP__
-#define __CPP_VERSUS_HPP__
+#ifndef __DOKKEN_API_HPP__
+#define __DOKKEN_API_HPP__
 
 #include <string>
 #include <optional>
@@ -22,7 +22,11 @@ enum PlayerLookupType {
     USERNAME
 };
 
-class DokkenAPIEntry {
+/**
+ * @brief Handles all of the Dokken API endpoints.
+ * @details Must be initialized with valid token
+*/
+class DokkenAPI {
 private:
     const std::string _authToken;
     std::optional<std::string> _token;
@@ -41,13 +45,13 @@ public:
     * @details Entry point for the CPPVersus Dokken wrapper, all requests must go through here.
     * @param token Multiversus API key, info on acquiring can be found [here](https://github.com/brianbaldner/multiversus-api-docs/blob/main/auth/README.md).
     */
-    DokkenAPIEntry(std::string token);
+    DokkenAPI(std::string token);
 
    /**
-    * @brief Destructor of the DokkenAPIEntry class
-    * @details Cleans up anything the DokkenAPIEntry class may have allocated.
+    * @brief Destructor of the DokkenAPI class
+    * @details Cleans up anything the DokkenAPI class may have allocated.
     */
-    ~DokkenAPIEntry();
+    ~DokkenAPI();
 
     /**
      * @brief Gets a players info from id

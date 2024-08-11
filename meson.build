@@ -5,10 +5,6 @@ API_KEY = cmd.stdout().strip()
 
 add_project_arguments('-DAPI_KEY="' + API_KEY + '"', language : 'cpp')
 
-
-library_path = []
-project_sources = []
-project_header_files = []
 project_test_sources = []
 project_benchmark_sources = []
 
@@ -16,16 +12,17 @@ includes = [
     include_directories('include')
 ]
 
+json = subproject('json')
 dependencies = [
     dependency('spdlog'),
     dependency('fmt'),
-    dependency('nlohmann_json'),
+    json.get_variable('nlohmann_json_dep'),
     dependency('cpr')
 ]
 
 cppversus_lib = shared_library('cppversus', 
     [
-        'src/cppversus.cpp'
+        'src/dokken_api.cpp'
     ], 
     include_directories : includes,
     dependencies : dependencies,
@@ -45,5 +42,6 @@ if get_option('enable-benchmarks')
 
     subdir('benchmarks')
 endif
-
-subdir('docs')
+if get_option('enable-docs')
+    subdir('docs')
+endif

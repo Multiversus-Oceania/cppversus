@@ -9,3 +9,9 @@ option('enable-benchmarks',
   value : false,
   description : 'Enables benchmarks.'
 )
+
+option('enable-docs',
+  type : 'boolean',
+  value : true,
+  description : 'Enables generating documentation using doxygen.'
+)
