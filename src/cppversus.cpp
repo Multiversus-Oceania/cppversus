@@ -121,13 +121,34 @@ std::optional<CPPVersus::PlayerInfo> CPPVersus::DokkenAPIEntry::getPlayerInfo(st
         );
 
         if(res.status_code != 200) {
-            spdlog::error("status code for id lookup != 200: {}\n{}", res.status_code, res.text);
+            spdlog::error("Status code for ID lookup != 200 was: {}\n{}", res.status_code, res.text);
             return std::optional<PlayerInfo>();
         }
 
         nlohmann::json json = nlohmann::json::parse(res.text);
-        nlohmann::json serverData = json["server_data"];
+        
+        // Validate JSON schema here
+        if(
+            !json["id"].is_string() ||
+            !json["public_id"].is_string() ||
+            !json["created_at"].is_string() ||
+            !json["updated_at"].is_string() ||
+            !json["server_data"].is_object() ||
+            !json["server_data"]["LastLogoutTime"].is_string() ||
+            !json["server_data"]["LastLoginTime"].is_string() ||
+            !json["server_data"]["LastLoginPlatform"].is_string() ||
+            !json["server_data"]["Level"].is_number_unsigned() ||
+            !json["server_data"]["CurrentXP"].is_number_unsigned() ||
+            !json["server_data"]["ProfileIcon"].is_object() ||
+            !json["server_data"]["ProfileIcon"]["AssetPath"].is_string() ||
+            !json["server_data"]["Characters"].is_object()
+        ) {
+            spdlog::error("Innvalid JSON returned by server, PLEASE send a bug report.\n{}", res.text);
+            return std::optional<PlayerInfo>();
+        }
 
+        nlohmann::json serverData = json["server_data"];
+        
         // TODO: There may be some edge cases with lastLogout, etc, not too sure though. 
         CPPVersus::PlayerInfo playerInfo = {
             .id = json["id"],
@@ -152,16 +173,19 @@ std::optional<CPPVersus::PlayerInfo> CPPVersus::DokkenAPIEntry::getPlayerInfo(st
             playerInfo.lastLoginPlatform = CPPVersus::LoginPlatform::UNKNOWN;
         }
 
-        if(!serverData["Characters"].is_object()) {
-            spdlog::error("Characters data was not object");
-            return std::optional<PlayerInfo>();
-        }
-
         nlohmann::json::object_t characters = serverData["Characters"];
-
         for(auto pair : characters) {
             std::optional<Character> character = characterFromName(pair.first);
             if(!character.has_value()) continue;
+            else if(
+                !pair.second.is_object() ||
+                !pair.second["Mastery"].is_object() ||
+                !pair.second["Mastery"]["Level"].is_number_unsigned() ||
+                !pair.second["Mastery"]["CurrentXP"].is_number_unsigned()
+            ) {
+                spdlog::error("Error while validating JSON data for {}.\n{}", pair.first, pair.second.dump());
+                continue;
+            }
 
             playerInfo.characters[character.value()] = {
                 .level = pair.second["Mastery"]["Level"],
