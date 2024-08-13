@@ -23,11 +23,6 @@ struct CharacterInfo {
     uint64_t xp;
 };
 
-struct BoostInfo {
-    uint64_t gamesRemaining;
-    std::string expirationDate;
-};
-
 struct PlayerInfo {
     std::string id = "";
     std::string publicID = "";
@@ -46,9 +41,7 @@ struct PlayerInfo {
     uint64_t xp = 0;
 
     std::string profileIconPath = "";
-
     std::map<uint64_t, CharacterInfo> characters = {};
-    std::map<std::string, BoostInfo> activeBoosts = {};
 };
 
 };

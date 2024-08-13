@@ -8,13 +8,12 @@ project(
     ]
 )
 
+cli_sources = []
+
 cmd = run_command('sh', '-c', 'echo $MULTIVERSUS_TOKEN')
 API_KEY = cmd.stdout().strip()
 
 add_project_arguments('-DAPI_KEY="' + API_KEY + '"', language : 'cpp')
-
-project_test_sources = []
-project_benchmark_sources = []
 
 includes = [
     include_directories('include')
@@ -25,32 +24,31 @@ dependencies = [
     dependency('spdlog'),
     dependency('fmt'),
     json.get_variable('nlohmann_json_dep'),
-    dependency('cpr')
+    dependency('cpr'),
+    dependency('cli11')
 ]
 
-cppversus_lib = shared_library('cppversus', 
-    [
-        'src/dokken/main.cpp',
-        'src/dokken/player_info.cpp'
-    ], 
+subdir('src')
+
+executable('cli', 
+    sources : cli_sources, 
     include_directories : includes,
     dependencies : dependencies,
     link_with : [
-
-    ],
-    install : true
+        dokken_lib
+    ]
 )
 
 
-if get_option('enable-tests')
-    gtest = subproject('gtest')
-    subdir('tests')
-endif
-if get_option('enable-benchmarks')
-    benchmark = subproject('google-benchmark')
+# if get_option('enable-tests')
+#     gtest = subproject('gtest')
+#     subdir('tests')
+# endif
+# if get_option('enable-benchmarks')
+#     benchmark = subproject('google-benchmark')
 
-    subdir('benchmarks')
-endif
+#     subdir('benchmarks')
+# endif
 if get_option('enable-docs')
     subdir('docs')
 endif

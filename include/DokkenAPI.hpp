@@ -9,10 +9,12 @@
 
 #include <cpr/cpr.h>
 #include <spdlog/spdlog.h>
+#include <spdlog/sinks/stdout_color_sinks.h>
 #include <fmt/core.h>
 
 #include <nlohmann/json.hpp>
 
+#include <JSONValidation.hpp>
 #include <PlayerInfo.hpp>
 
 namespace CPPVersus {
@@ -33,6 +35,9 @@ private:
 
     const std::string _authToken;
     std::optional<std::string> _token;
+
+    std::shared_ptr<spdlog::sinks::stdout_color_sink_mt> _loggerSink;
+    spdlog::logger _logger;
 
     template<class ...Ts>
     cpr::Response APIGet(Ts&& ...ts) {
@@ -73,8 +78,9 @@ public:
     * @brief Initializes the wrapper for the Dokken endpoints, must have valid token. 
     * @details Entry point for the CPPVersus Dokken wrapper, all requests must go through here.
     * @param token Multiversus API key, info on acquiring can be found [here](https://github.com/brianbaldner/multiversus-api-docs/blob/main/auth/README.md).
+    * @param logLevel Logging level for debug/info/error output.
     */
-    DokkenAPI(std::string token);
+    DokkenAPI(std::string token, spdlog::level::level_enum logLevel = spdlog::level::err);
 
    /**
     * @brief Destructor of the DokkenAPI class

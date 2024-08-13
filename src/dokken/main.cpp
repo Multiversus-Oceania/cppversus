@@ -1,7 +1,9 @@
 #include <DokkenAPI.hpp>
 #include <iostream>
 
-bool CPPVersus::DokkenAPI::shouldRetry(cpr::Response res) {
+using namespace CPPVersus;
+
+bool DokkenAPI::shouldRetry(cpr::Response res) {
     if(res.status_code == 401) {
         try {
             nlohmann::json json = nlohmann::json::parse(res.text);
@@ -23,8 +25,8 @@ bool CPPVersus::DokkenAPI::shouldRetry(cpr::Response res) {
 }
 
 
-void CPPVersus::DokkenAPI::refreshToken() {
-    spdlog::info("Refreshing access token, url: {}/access.", API_URL);
+void DokkenAPI::refreshToken() {
+    _logger.info("Refreshing access token, url: {}/access.", API_URL);
     _token = std::nullopt;
 
     cpr::Response res = APIPost(
@@ -48,7 +50,9 @@ void CPPVersus::DokkenAPI::refreshToken() {
     );
 
     if(res.status_code != 200) {
-        spdlog::critical("Error getting access token, likely invalid token.\nStatus Code: {}, Server Text: {}", res.status_code, res.text);
+        _logger.critical("Error getting access token, likely invalid token.");
+        _logger.debug("Status Code: {}, Server Text: {}", res.status_code, res.text);
+        
         throw std::runtime_error(fmt::format("Error getting access token."));
     }
 
@@ -57,19 +61,26 @@ void CPPVersus::DokkenAPI::refreshToken() {
         !json.is_object() ||
         !json["token"].is_string()
     ) {
-        spdlog::critical("Invalid repsonse from access endpoint, no token received, PLEASE send a bug report.\n{}", res.text);
+        _logger.critical("Invalid repsonse from access endpoint, no token received, PLEASE send a bug report.");
+        _logger.debug("{}", res.text);
+
         throw std::runtime_error("Invalid response from access endpoint.");
     }
 
     _token = json["token"];
-    spdlog::debug("Got access token: {}.", _token.value());
+    _logger.debug("Got access token: {}.", _token.value());
 }
 
 
-CPPVersus::DokkenAPI::DokkenAPI(std::string token) : _authToken(token) {
+DokkenAPI::DokkenAPI(std::string token, spdlog::level::level_enum logLevel) :
+    _authToken(token),
+    _loggerSink(std::make_shared<spdlog::sinks::stdout_color_sink_mt>()),
+    _logger(spdlog::logger("DokkenAPI", _loggerSink)) {
+    _logger.set_level(logLevel);
+
     this->refreshToken();
 }
 
-CPPVersus::DokkenAPI::~DokkenAPI() {
+DokkenAPI::~DokkenAPI() {
 
 }
