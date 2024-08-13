@@ -1,0 +1,4266 @@
+{
+    "id": "66b5d3f8fa6d5fae21806f52",
+    "updated_at": "2024-08-09T08:34:55+00:00",
+    "created_at": "2024-08-09T08:31:52+00:00",
+    "account_id": null,
+    "completion_time": "2024-08-09T08:34:48+00:00",
+    "name": "cool-quiet-dust-water-MSiIR",
+    "state": "complete",
+    "access_level": "private",
+    "origin": "matchmaking_service",
+    "rand": 0.7145155663359136,
+    "winning_team": [],
+    "win": [
+      "62873f49d78c32e26df3a47c"
+    ],
+    "loss": [
+      "665a8f457e0ab99593da5c9d"
+    ],
+    "draw": false,
+    "arbitration": {
+      "start_time": "2024-08-09T08:34:48+00:00",
+      "end_time": "2024-08-09T08:34:55+00:00",
+      "conflict_resolved": false
+    },
+    "data": {
+      "mode": "1v1"
+    },
+    "server_data": {
+      "GameplayConfig": {
+        "Players": {
+          "665a8f457e0ab99593da5c9d": {
+            "AccountId": "665a8f457e0ab99593da5c9d",
+            "Username": {},
+            "bUseCharacterDisplayName": false,
+            "PlayerIndex": 0,
+            "TeamIndex": 0,
+            "Character": "character_arya",
+            "Skin": "skin_arya_default",
+            "Taunts": [
+              "taunt_arya_default",
+              "emote_pass_the_salt",
+              "emote_gg_spray",
+              "emote_generic_lightning_bolt"
+            ],
+            "Perks": [
+              "perk_gen_well_rounded",
+              "perk_snowball_effect",
+              "perk_platform_from_dodge",
+              "perk_gen_boxer"
+            ],
+            "Banner": "banner_default",
+            "ProfileIcon": "",
+            "RingoutVfx": "ring_out_vfx_black_adams_bolt",
+            "bIsBot": false,
+            "BotBehaviorOverride": "",
+            "BotDifficultyMin": 0,
+            "BotDifficultyMax": 0,
+            "Buffs": [],
+            "StatTrackers": [],
+            "Gems": [],
+            "StartingDamage": 0,
+            "Handicap": 0,
+            "GameplayPreferences": 652,
+            "PartyMember": null
+          },
+          "62873f49d78c32e26df3a47c": {
+            "AccountId": "62873f49d78c32e26df3a47c",
+            "Username": {},
+            "bUseCharacterDisplayName": false,
+            "PlayerIndex": 1,
+            "TeamIndex": 1,
+            "Character": "character_C023A",
+            "Skin": "skin_c023A_default",
+            "Taunts": [
+              "taunt_c023A_default",
+              "taunt_c023A_umbrella",
+              "emote_pass_the_salt",
+              "emote_generic_fire"
+            ],
+            "Perks": [
+              "perk_gen_well_rounded",
+              "perk_gen_fire_projectile",
+              "perk_team_speed_force_assist",
+              "perk_gen_boxer"
+            ],
+            "Banner": "banner_reward",
+            "ProfileIcon": "",
+            "RingoutVfx": "ring_out_vfx_spikes_bite",
+            "bIsBot": false,
+            "BotBehaviorOverride": "",
+            "BotDifficultyMin": 0,
+            "BotDifficultyMax": 0,
+            "Buffs": [],
+            "StatTrackers": [
+              [
+                "stat_tracking_bundle_wins",
+                8572
+              ],
+              [
+                "stat_tracking_bundle_total_double_ringouts",
+                1018
+              ],
+              [
+                "stat_tracking_bundle_lebron_wins",
+                4817
+              ]
+            ],
+            "Gems": [],
+            "StartingDamage": 0,
+            "Handicap": 0,
+            "GameplayPreferences": 648,
+            "PartyMember": null
+          }
+        },
+        "Spectators": {},
+        "TeamData": [],
+        "bIsTutorial": false,
+        "bIsOnlineMatch": true,
+        "bIsRift": false,
+        "bIsPvP": true,
+        "bIsCustomGame": false,
+        "bIsRanked": true,
+        "MatchId": "66b5d3f8fa6d5fae21806f52",
+        "bAllowMapHazards": false,
+        "WorldBuffs": [],
+        "RiftNodeAttunement": "Attunements:None",
+        "CountdownDisplay": "CountdownTypes:XvY",
+        "HudSettings": {
+          "bDisplayPortraits": true,
+          "bDisplayTimer": true,
+          "bDisplayStocks": true
+        },
+        "MatchDurationSeconds": 420,
+        "ScoreEvaluationRule": "TargetScoreIsWin",
+        "ScoreAttributionRule": "AttributeToAttacker",
+        "CustomGameSettings": {
+          "NumRingouts": 3,
+          "MatchTime": 420,
+          "bHazardsEnabled": true
+        },
+        "RiftNodeId": "",
+        "bModeGrantsProgress": true,
+        "Created": "2024-08-09T08:31:53+00:00",
+        "Map": "M003_V1",
+        "ModeString": "ranked-1v1"
+      },
+      "HissCrc": 3447431043,
+      "Version": 4,
+      "PlayerConnectedTimestamps": {
+        "665a8f457e0ab99593da5c9d": 1723192330501,
+        "62873f49d78c32e26df3a47c": 1723192332897
+      },
+      "bGameplayStarted": true,
+      "QosData": {
+        "GameFinished": true,
+        "LastFrameId": 8758,
+        "ClientStats": [
+          {
+            "PlayerIndex": 0,
+            "NumOverrides": 1,
+            "PingMs": 11,
+            "PacketLoss": 0,
+            "AccountId": "665a8f457e0ab99593da5c9d"
+          },
+          {
+            "PlayerIndex": 1,
+            "NumOverrides": 0,
+            "PingMs": 14,
+            "PacketLoss": 0.05558643490076065,
+            "AccountId": "62873f49d78c32e26df3a47c"
+          }
+        ]
+      },
+      "SscMatchDurationSeconds": 150.483,
+      "bGameplayEnded": true,
+      "ClientReturnData": {
+        "b1e94fbf-ee1c-4d2d-a088-0d435960b0e6": {
+          "AccountIdToReturnData": {
+            "665a8f457e0ab99593da5c9d": {
+              "Missions": {
+                "PlayerMissionObject": {
+                  "MissionControllerContainers": {
+                    "miscon_ftue": {
+                      "MissionControllers": {
+                        "misctl_ftue": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": [
+                            "mis_ftue_play_rift_matches",
+                            "mis_ftue_complete_rift_tutorial_nodes",
+                            "mis_ftue_rift_boss",
+                            "mis_ftue_match_play_as_bruiser",
+                            "mis_match_play_type_2v2",
+                            "mis_ftue_rift_guest_fighter",
+                            "mis_ftue_rift_break_targets",
+                            "mis_ftue_rift_friend_partner",
+                            "mis_ftue_rift_complete_all_node_missions_for_rift",
+                            "mis_ftue_upgrade_a_gem",
+                            "mis_ftue_rift_beat_boss_missions_completed",
+                            "mis_ftue_rift_collect_rift_cauldron",
+                            "mis_ftue_play_scooby_do_character",
+                            "mis_ftue_prestige_store"
+                          ]
+                        },
+                        "misctl_ftue_daily_logins": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": [
+                            "mis_ftue_login_duplicate_1",
+                            "mis_ftue_login_twodays",
+                            "mis_ftue_login_three_days",
+                            "mis_ftue_login_four_days",
+                            "mis_ftue_login_five_days",
+                            "mis_ftue_login_six_days",
+                            "mis_ftue_login_seven_days"
+                          ]
+                        },
+                        "misctl_ftue_timed": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": [
+                            "mis_ftue_match_play_pvp_2v2",
+                            "mis_ftue_deal_damage_pvp",
+                            "mis_ftue_play_team_friend_pvp",
+                            "mis_ftue_ringout_pvp",
+                            "mis_ftue_win_pvp_match",
+                            "mis_deal_damage_pvp_long",
+                            "mis_ftue_win_pvp_match_long"
+                          ]
+                        }
+                      }
+                    },
+                    "miscon_battlepass_daily": {
+                      "MissionControllers": {
+                        "misctl_battlepass_daily": {
+                          "Missions": [],
+                          "UsedMissions": []
+                        },
+                        "misctl_battlepass_daily_premium": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": []
+                        },
+                        "misctl_battlepass_daily_base": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": []
+                        },
+                        "misctl_battlepass_daily_base_pve": {
+                          "Missions": [
+                            {
+                              "mis_playpve_short": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_playmatch",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "b1229c98-30e7-4159-ab42-69f964858e1e"
+                              }
+                            },
+                            {
+                              "mis_playpve_short": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_playmatch",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "8d636661-7529-4ff9-ae15-80ea3f7a4691"
+                              }
+                            },
+                            {
+                              "mis_playpve_short": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_playmatch",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "dcd13390-f001-4d52-8014-7550ef30c6e4"
+                              }
+                            }
+                          ],
+                          "UsedMissions": [
+                            "mis_playpve_short",
+                            "mis_playpve_short",
+                            "mis_playpve_short"
+                          ]
+                        },
+                        "misctl_battlepass_daily_base_ffa": {
+                          "Missions": [
+                            {
+                              "mis_match_play_type_ffa": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "87cc699a-2a52-447a-ae4a-94dd92430e0a"
+                              }
+                            },
+                            {
+                              "mis_match_play_type_ffa": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "4b71233f-0220-491f-b883-1cebc1bc6d22"
+                              }
+                            },
+                            {
+                              "mis_match_play_type_ffa": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "461719f5-62d3-4807-b970-4f1b8c6ecc58"
+                              }
+                            }
+                          ],
+                          "UsedMissions": [
+                            "mis_match_play_type_ffa",
+                            "mis_match_play_type_ffa",
+                            "mis_match_play_type_ffa"
+                          ]
+                        },
+                        "misctl_battlepass_daily_2": {
+                          "Missions": [
+                            {},
+                            {
+                              "mis_taunt_mage _pve_medium_short": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_taunt",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "8bed85ed-2c6d-490c-ae33-794f35b346d6"
+                              }
+                            },
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": [
+                            "mis_taunt_mage _pve_medium_short"
+                          ]
+                        },
+                        "misctl_battlepass_daily_3": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": []
+                        },
+                        "misctl_battlepass_daily_hard": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": []
+                        }
+                      }
+                    },
+                    "miscon_battlepass_weekly": {
+                      "MissionControllers": {
+                        "misctl_battlepass_weekly": {
+                          "Missions": [
+                            {
+                              "mis_win_pve_games_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_win",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "4a2b5e81-6b1b-4a22-98f5-16c6ce4348a9"
+                              }
+                            },
+                            {},
+                            {
+                              "mis_play_ffa_750": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "d117ec4a-66db-41f5-b1bd-d73045c1a06a"
+                              }
+                            },
+                            {},
+                            {},
+                            {},
+                            {},
+                            {
+                              "mis_win_pve_games_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_win",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "08c0844f-f90d-4602-9875-64ee95dac76d"
+                              }
+                            },
+                            {},
+                            {
+                              "mis_play_ffa_750": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "a4281fbd-b391-486f-aaf7-4cb3567d602a"
+                              }
+                            },
+                            {
+                              "mis_play_steven_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_skin_tag_universe_steven_universe",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "f13fbf32-4ca9-4945-a49a-bbfaaa76e595"
+                              }
+                            },
+                            {},
+                            {},
+                            {},
+                            {
+                              "mis_win_pve_games_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_win",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "fa184f44-d507-4460-811d-33f79dcf6e35"
+                              }
+                            },
+                            {},
+                            {
+                              "mis_play_ffa_750": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "879312ee-c8f8-4b6c-aa3c-bd856d397640"
+                              }
+                            },
+                            {},
+                            {},
+                            {
+                              "mis_win_with_villainous_tag_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_win",
+                                    "Progress": 7
+                                  }
+                                ],
+                                "MissionGuid": "fa32a8bd-a5e6-443b-980d-67c0954764b1"
+                              }
+                            },
+                            {
+                              "mis_win_with_assassin_fewer_ringouts_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_win",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "a73a92c6-5868-4c2b-bbfa-2fe87658ec15"
+                              }
+                            }
+                          ],
+                          "UsedMissions": [
+                            "mis_win_pve_games_long",
+                            "mis_win_pvp_long",
+                            "mis_play_ffa_750",
+                            "mis_match_play_as_ip_adventure_time_long",
+                            "mis_match_play_as_ip_looney_tunes_long",
+                            "mis_win_while_heroic_long",
+                            "mis_match_play_as_class_tank_long",
+                            "mis_win_pve_games_long",
+                            "mis_win_pvp_long",
+                            "mis_play_ffa_750",
+                            "mis_play_steven_long",
+                            "mis_match_play_as_rick_morty_long",
+                            "mis_projectile_ringouts_long",
+                            "mis_match_play_as_class_bruiser_long",
+                            "mis_win_pve_games_long",
+                            "mis_win_pvp_long",
+                            "mis_play_ffa_750",
+                            "mis_match_play_as_class_assassin_750",
+                            "mis_deal_damage_pvp_long",
+                            "mis_win_with_villainous_tag_long",
+                            "mis_win_with_assassin_fewer_ringouts_long"
+                          ]
+                        }
+                      }
+                    },
+                    "miscon_event_ranked": {
+                      "MissionControllers": {
+                        "misctl_event_ranked": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": [
+                            "mis_total_air_hit_ranked",
+                            "mis_hitwithchargeattack_ranked",
+                            "mis_dealdamage_ranked",
+                            "mis_assassin_ranked",
+                            "mis_hit_special_attack_ranked",
+                            "mis_upgradeattackhits_ranked",
+                            "mis_play_1v1_ranked",
+                            "mis_playmage_ranked",
+                            "mis_play_2v2_ranked",
+                            "mis_play_bruiser_ranked",
+                            "mis_ringoutlessdamage_ranked",
+                            "mis_ringoutleft_ranked",
+                            "mis_taunt_ranked",
+                            "mis_upringout_ranked",
+                            "mis_win_ranked",
+                            "mis_hit_dash_attack_ranked"
+                          ]
+                        }
+                      }
+                    },
+                    "miscon_event_cyberskins": {
+                      "MissionControllers": {
+                        "misctl_event_cyberskins": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {
+                              "mis_win_with_villainous_tag_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_charge_attacks_hit",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "c00dab95-dab0-45d4-9925-c490465f88db"
+                              }
+                            },
+                            {
+                              "mis_play_shark_hat_tomandjerry_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_hit_side_attack",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "3eb2b981-cbbc-476c-9929-6fc72d15fa7c"
+                              }
+                            },
+                            {
+                              "mis_play_with_sports_tag_bruiser_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_dodge",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "f2992fbc-198f-42a1-a1d5-c0a30c499d0a"
+                              }
+                            },
+                            {
+                              "mis_stats_total_up_specials_hit_tank_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_deal_damage",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "ff4ecc5a-9675-46f0-b60e-f7137d49e348"
+                              }
+                            },
+                            {
+                              "mis_matchplaymap_townsville_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_hit_dash_attack",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "65d40677-b9b5-4b67-b2c4-fabc27ce2dbb"
+                              }
+                            },
+                            {
+                              "mis_play_with_costume_friday_13th_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_hit_air_attack",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "eafcd1de-6088-434d-b3c9-6cd24c73b687"
+                              }
+                            }
+                          ],
+                          "UsedMissions": [
+                            "mis_stats_total_armor_breaks_cyberevent",
+                            "mis_stats_deal_attack_damage_cyberevent",
+                            "mis_deal_damage_cyberevent",
+                            "mis_stats_deal_special_damage_cyberevent",
+                            "mis_total_down_ringout_cyberevent",
+                            "mis_hit_air_down_special_cyberevent",
+                            "mis_hit_neutral_attack_DC_cyberevent",
+                            "mis_hit_normal_attacks_cyberevent",
+                            "mis_stats_totalsidespecial_medium_cyberevent",
+                            "mis_stats_total_specials_hit_cyberevent",
+                            "mis_hit_up_attack_cyberevent",
+                            "mis_hit_up_ground_attack_cyberevent",
+                            "mis_win_with_villainous_tag_wrapups1",
+                            "mis_play_shark_hat_tomandjerry_wrapups1",
+                            "mis_play_with_sports_tag_bruiser_wrapups1",
+                            "mis_stats_total_up_specials_hit_tank_wrapups1",
+                            "mis_matchplaymap_townsville_wrapups1",
+                            "mis_play_with_costume_friday_13th_wrapups1"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "ClaimLocks": {}
+                }
+              },
+              "MilestoneRewardTracks": {
+                "PreviousTrackStates": {
+                  "mrt_battlepass_season_two": {
+                    "TrackSlug": "mrt_battlepass_season_two",
+                    "RewardTrackClass": "MvsBattlepassRewardTrackHsda",
+                    "CurrentScore": 67375,
+                    "CurrentTier": 34,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "1F0998114F7BB7C8D352C3AAFC4BA201"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "07759B244F637FA4752C6EA33AD38111"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "18B5081B41501581DFFD15B1C0A25511"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "960C431243A62A7612BC41A9C7D5CFE9"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "FAF88A704F11E6C195BACE93846D85E6"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "43C402E5422D7D63AE7CE9897C0ED199"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "8534741F429EC603E04185A04AE053E6"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "D062FD2A4EDDF7F7F17C2D8E665C02B3"
+                        ]
+                      },
+                      "8": {
+                        "ClaimedRewards": [
+                          "01A9E80644E3F1BFD976DF913F008B35"
+                        ]
+                      },
+                      "9": {
+                        "ClaimedRewards": [
+                          "949559104095615AE3F2DD937F5DBCF6"
+                        ]
+                      },
+                      "10": {
+                        "ClaimedRewards": [
+                          "B58F45264811973F145AE49D1B5E9531"
+                        ]
+                      },
+                      "11": {
+                        "ClaimedRewards": [
+                          "15B652024EA7B1AA94542BBBB2C4FC04"
+                        ]
+                      },
+                      "12": {
+                        "ClaimedRewards": [
+                          "7429C07F494759945C30EE82ED34BC9A"
+                        ]
+                      },
+                      "13": {
+                        "ClaimedRewards": [
+                          "7EA3E02E465A32F08070BCBC219D4B8F"
+                        ]
+                      },
+                      "14": {
+                        "ClaimedRewards": [
+                          "436A8CD946EF323AB82522B23134F8B3"
+                        ]
+                      },
+                      "15": {
+                        "ClaimedRewards": [
+                          "BDE3763B49B989D18E1E79A837776DEE"
+                        ]
+                      },
+                      "16": {
+                        "ClaimedRewards": [
+                          "E2F8EF0D4A557EB6512E6A89990CCDCB"
+                        ]
+                      },
+                      "17": {
+                        "ClaimedRewards": [
+                          "43E6305C4BA83A34EF96D0B413505A23"
+                        ]
+                      },
+                      "18": {
+                        "ClaimedRewards": [
+                          "AB2F4629451408374626C29F77CF7E69"
+                        ]
+                      },
+                      "19": {
+                        "ClaimedRewards": [
+                          "5D16FF3941DEC4181D67CC80C4AF704B"
+                        ]
+                      },
+                      "20": {
+                        "ClaimedRewards": [
+                          "0059EA534C743369D731E1886608171B"
+                        ]
+                      },
+                      "21": {
+                        "ClaimedRewards": [
+                          "0CFB23A24B0B95C640C892B59F638213"
+                        ]
+                      },
+                      "22": {
+                        "ClaimedRewards": [
+                          "BC031C264DE8198C5B08D8978C04FE75"
+                        ]
+                      },
+                      "23": {
+                        "ClaimedRewards": [
+                          "2517320540E5F621F2D889BE39FC295B"
+                        ]
+                      },
+                      "24": {
+                        "ClaimedRewards": [
+                          "460CE33D4351E218CFF522A2F5E6D3FC"
+                        ]
+                      },
+                      "25": {
+                        "ClaimedRewards": [
+                          "B2D0A2284416542BFDD88295312022A8"
+                        ]
+                      },
+                      "26": {
+                        "ClaimedRewards": [
+                          "603AC3C844561152F753F8B7F044E718"
+                        ]
+                      },
+                      "27": {
+                        "ClaimedRewards": [
+                          "1C7F65504242E28B7B8E9290DDA2F094"
+                        ]
+                      },
+                      "28": {
+                        "ClaimedRewards": [
+                          "DEDF35BC40E6DF2AF4CA0C84D720D5CE"
+                        ]
+                      },
+                      "29": {
+                        "ClaimedRewards": [
+                          "CEAB614440873DD6BCABBBA9B981B2B5"
+                        ]
+                      },
+                      "30": {
+                        "ClaimedRewards": [
+                          "94DF0E42468A6B1A2043679D71653A51"
+                        ]
+                      },
+                      "31": {
+                        "ClaimedRewards": [
+                          "A55373154D8097E0553A9EB01C1455C0"
+                        ]
+                      },
+                      "32": {
+                        "ClaimedRewards": [
+                          "F9A189FA4E653AC303B6599C9F180A08"
+                        ]
+                      },
+                      "33": {
+                        "ClaimedRewards": [
+                          "C30851BB423D3313610FDB9E1328D0D5"
+                        ]
+                      }
+                    },
+                    "bHasPremium": true,
+                    "Guid": "",
+                    "InfiniteTierThreshold": 70,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "mrt_mastery_account": {
+                    "TrackSlug": "mrt_mastery_account",
+                    "RewardTrackClass": "MvsMilestoneRewardTrackHsda",
+                    "CurrentScore": 203575,
+                    "CurrentTier": 31,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "B89FF944478131E15EC9BCB1DEB54C68"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "55D7131F433CCFADE4851CAC1D536CF4"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "1CFF026A47FBAE58217A0A8E30D7C610"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "B28A2BBF494E61C2AA04FEA261E3F527"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "8ADB481D420501E27A26DBBA594A164D"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "699C6BD04EE168C2C17C5DAFB630FBC8"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "4060291F49C88D2CCDA6678867AECF22"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "6C20E5124CA39DF0BFADFD92FFBD14DC"
+                        ]
+                      },
+                      "8": {
+                        "ClaimedRewards": [
+                          "E0C1E24A402EDA0B4A5AB58D5CF03500"
+                        ]
+                      },
+                      "9": {
+                        "ClaimedRewards": [
+                          "999EE4A246A448A31678EFA602A539A2"
+                        ]
+                      },
+                      "10": {
+                        "ClaimedRewards": [
+                          "171D9D55421907193751DA8D2DB3EC39"
+                        ]
+                      },
+                      "11": {
+                        "ClaimedRewards": [
+                          "25AA9F1448AC1F026535FA89174B847E"
+                        ]
+                      },
+                      "12": {
+                        "ClaimedRewards": [
+                          "E81CA3F249DD82B02848979DC6B7C1AA"
+                        ]
+                      },
+                      "13": {
+                        "ClaimedRewards": [
+                          "57924C4D44DA72356D50CCAD6152D438"
+                        ]
+                      },
+                      "14": {
+                        "ClaimedRewards": [
+                          "7705B784450143DC81984FA4D34F6C71"
+                        ]
+                      },
+                      "15": {
+                        "ClaimedRewards": [
+                          "E9FB54CF4FAF2E71B983FCB76AFAE6DC"
+                        ]
+                      },
+                      "16": {
+                        "ClaimedRewards": [
+                          "AADA2ECC4B49DB2D42247E8C49095FAB"
+                        ]
+                      },
+                      "17": {
+                        "ClaimedRewards": [
+                          "81EAD33046105A9D3CDE69AB9F6FE19E"
+                        ]
+                      },
+                      "18": {
+                        "ClaimedRewards": [
+                          "F66FB5BE48461413567379B95B77862E"
+                        ]
+                      },
+                      "19": {
+                        "ClaimedRewards": [
+                          "D2F1F68D4B33A5ED3CF581AFEDD976F1"
+                        ]
+                      },
+                      "20": {
+                        "ClaimedRewards": [
+                          "1618B4FF4313B822E4D41B8FF33DB617"
+                        ]
+                      },
+                      "21": {
+                        "ClaimedRewards": [
+                          "842A045B407B3D97CCFAF7939FE1C459"
+                        ]
+                      },
+                      "22": {
+                        "ClaimedRewards": [
+                          "2F73C5F34AE574B241B873A260A36CD2"
+                        ]
+                      },
+                      "23": {
+                        "ClaimedRewards": [
+                          "66220C1443E89074D49CB98D2AF08398"
+                        ]
+                      },
+                      "24": {
+                        "ClaimedRewards": [
+                          "544D586D4B5941D1E128D286F655BB64"
+                        ]
+                      },
+                      "25": {
+                        "ClaimedRewards": [
+                          "62445C214D9DAF0037F7E5A2E3F139E0"
+                        ]
+                      },
+                      "26": {
+                        "ClaimedRewards": [
+                          "0DD529BA492CB786BCE82D99C8AB34BC"
+                        ]
+                      },
+                      "27": {
+                        "ClaimedRewards": [
+                          "542225664B9246BCE1A763AD40D084AF"
+                        ]
+                      },
+                      "28": {
+                        "ClaimedRewards": [
+                          "372F08DA4AD28A6FB6CD3B834C9F79CB"
+                        ]
+                      },
+                      "29": {
+                        "ClaimedRewards": [
+                          "3263673A46C4F4C8B0720987E01355E7"
+                        ]
+                      },
+                      "30": {
+                        "ClaimedRewards": [
+                          "E9042E864EAB6A9AFC490EAA82D5CAE9"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": -1,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "mrt_mastery_arya": {
+                    "TrackSlug": "mrt_mastery_arya",
+                    "RewardTrackClass": "MvsCharacterMasteryRewardTrackHsda",
+                    "CurrentScore": 35688,
+                    "CurrentTier": 12,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "31776B404A24C22EFDA5638469A8A91E"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "8BFDA3D647941A3383B87688A4358B8A"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "450A110C4C32B0D0F1F0E5910DA96B60"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "C438DF314D5F642538F2F1B98C19B1FB"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "CAAC9827450AEFEFBE65BE850ED95B7D"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "32D4F7224D23C69F3751E49BB81A529B"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "FE3FBDF14EBF7FEF6F6F37815A203927"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "D6453154467DF63B1188B6AD8478642A"
+                        ]
+                      },
+                      "8": {
+                        "ClaimedRewards": [
+                          "D402D5C4442B43C2DA3B5D89E015A81D"
+                        ]
+                      },
+                      "9": {
+                        "ClaimedRewards": [
+                          "FF63DCD440A60F06EC294EB0A6CCA9A2"
+                        ]
+                      },
+                      "10": {
+                        "ClaimedRewards": [
+                          "8584D36642E0214EF28078AF8C6A2B44"
+                        ]
+                      },
+                      "11": {
+                        "ClaimedRewards": [
+                          "0A6628824B00D26F0F93A4954ED09AE2"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": 15,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "cyber_skins_milestone_reward_track": {
+                    "TrackSlug": "cyber_skins_milestone_reward_track",
+                    "RewardTrackClass": "MvsThemedEventRewardTrackHsda",
+                    "CurrentScore": 14467,
+                    "CurrentTier": 7,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "37CF2EC84C32899E157B9A9D46CF33C7"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "B81C30FF4ADFE24FF854D78EA72BBA54"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "488C851E4EBBED41553C75A9F47FE9FB"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "E593882F444686A4D3423982AE41EB0B"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "DBE8D92E4672853489B618A0C10BAD64"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "BCFA1FBE4FCBEC95181E50A5A524465A"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "B5188A4D4B6BE75A429A23BDBEF010B3"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": -1,
+                    "HighestClaimedInifiniteTier": -1
+                  }
+                },
+                "NewTrackStates": {
+                  "mrt_battlepass_season_two": {
+                    "TrackSlug": "mrt_battlepass_season_two",
+                    "RewardTrackClass": "MvsBattlepassRewardTrackHsda",
+                    "CurrentScore": 67400,
+                    "CurrentTier": 34,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "1F0998114F7BB7C8D352C3AAFC4BA201"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "07759B244F637FA4752C6EA33AD38111"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "18B5081B41501581DFFD15B1C0A25511"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "960C431243A62A7612BC41A9C7D5CFE9"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "FAF88A704F11E6C195BACE93846D85E6"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "43C402E5422D7D63AE7CE9897C0ED199"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "8534741F429EC603E04185A04AE053E6"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "D062FD2A4EDDF7F7F17C2D8E665C02B3"
+                        ]
+                      },
+                      "8": {
+                        "ClaimedRewards": [
+                          "01A9E80644E3F1BFD976DF913F008B35"
+                        ]
+                      },
+                      "9": {
+                        "ClaimedRewards": [
+                          "949559104095615AE3F2DD937F5DBCF6"
+                        ]
+                      },
+                      "10": {
+                        "ClaimedRewards": [
+                          "B58F45264811973F145AE49D1B5E9531"
+                        ]
+                      },
+                      "11": {
+                        "ClaimedRewards": [
+                          "15B652024EA7B1AA94542BBBB2C4FC04"
+                        ]
+                      },
+                      "12": {
+                        "ClaimedRewards": [
+                          "7429C07F494759945C30EE82ED34BC9A"
+                        ]
+                      },
+                      "13": {
+                        "ClaimedRewards": [
+                          "7EA3E02E465A32F08070BCBC219D4B8F"
+                        ]
+                      },
+                      "14": {
+                        "ClaimedRewards": [
+                          "436A8CD946EF323AB82522B23134F8B3"
+                        ]
+                      },
+                      "15": {
+                        "ClaimedRewards": [
+                          "BDE3763B49B989D18E1E79A837776DEE"
+                        ]
+                      },
+                      "16": {
+                        "ClaimedRewards": [
+                          "E2F8EF0D4A557EB6512E6A89990CCDCB"
+                        ]
+                      },
+                      "17": {
+                        "ClaimedRewards": [
+                          "43E6305C4BA83A34EF96D0B413505A23"
+                        ]
+                      },
+                      "18": {
+                        "ClaimedRewards": [
+                          "AB2F4629451408374626C29F77CF7E69"
+                        ]
+                      },
+                      "19": {
+                        "ClaimedRewards": [
+                          "5D16FF3941DEC4181D67CC80C4AF704B"
+                        ]
+                      },
+                      "20": {
+                        "ClaimedRewards": [
+                          "0059EA534C743369D731E1886608171B"
+                        ]
+                      },
+                      "21": {
+                        "ClaimedRewards": [
+                          "0CFB23A24B0B95C640C892B59F638213"
+                        ]
+                      },
+                      "22": {
+                        "ClaimedRewards": [
+                          "BC031C264DE8198C5B08D8978C04FE75"
+                        ]
+                      },
+                      "23": {
+                        "ClaimedRewards": [
+                          "2517320540E5F621F2D889BE39FC295B"
+                        ]
+                      },
+                      "24": {
+                        "ClaimedRewards": [
+                          "460CE33D4351E218CFF522A2F5E6D3FC"
+                        ]
+                      },
+                      "25": {
+                        "ClaimedRewards": [
+                          "B2D0A2284416542BFDD88295312022A8"
+                        ]
+                      },
+                      "26": {
+                        "ClaimedRewards": [
+                          "603AC3C844561152F753F8B7F044E718"
+                        ]
+                      },
+                      "27": {
+                        "ClaimedRewards": [
+                          "1C7F65504242E28B7B8E9290DDA2F094"
+                        ]
+                      },
+                      "28": {
+                        "ClaimedRewards": [
+                          "DEDF35BC40E6DF2AF4CA0C84D720D5CE"
+                        ]
+                      },
+                      "29": {
+                        "ClaimedRewards": [
+                          "CEAB614440873DD6BCABBBA9B981B2B5"
+                        ]
+                      },
+                      "30": {
+                        "ClaimedRewards": [
+                          "94DF0E42468A6B1A2043679D71653A51"
+                        ]
+                      },
+                      "31": {
+                        "ClaimedRewards": [
+                          "A55373154D8097E0553A9EB01C1455C0"
+                        ]
+                      },
+                      "32": {
+                        "ClaimedRewards": [
+                          "F9A189FA4E653AC303B6599C9F180A08"
+                        ]
+                      },
+                      "33": {
+                        "ClaimedRewards": [
+                          "C30851BB423D3313610FDB9E1328D0D5"
+                        ]
+                      }
+                    },
+                    "bHasPremium": true,
+                    "Guid": "",
+                    "InfiniteTierThreshold": 70,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "mrt_mastery_account": {
+                    "TrackSlug": "mrt_mastery_account",
+                    "RewardTrackClass": "MvsMilestoneRewardTrackHsda",
+                    "CurrentScore": 203617,
+                    "CurrentTier": 31,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "B89FF944478131E15EC9BCB1DEB54C68"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "55D7131F433CCFADE4851CAC1D536CF4"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "1CFF026A47FBAE58217A0A8E30D7C610"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "B28A2BBF494E61C2AA04FEA261E3F527"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "8ADB481D420501E27A26DBBA594A164D"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "699C6BD04EE168C2C17C5DAFB630FBC8"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "4060291F49C88D2CCDA6678867AECF22"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "6C20E5124CA39DF0BFADFD92FFBD14DC"
+                        ]
+                      },
+                      "8": {
+                        "ClaimedRewards": [
+                          "E0C1E24A402EDA0B4A5AB58D5CF03500"
+                        ]
+                      },
+                      "9": {
+                        "ClaimedRewards": [
+                          "999EE4A246A448A31678EFA602A539A2"
+                        ]
+                      },
+                      "10": {
+                        "ClaimedRewards": [
+                          "171D9D55421907193751DA8D2DB3EC39"
+                        ]
+                      },
+                      "11": {
+                        "ClaimedRewards": [
+                          "25AA9F1448AC1F026535FA89174B847E"
+                        ]
+                      },
+                      "12": {
+                        "ClaimedRewards": [
+                          "E81CA3F249DD82B02848979DC6B7C1AA"
+                        ]
+                      },
+                      "13": {
+                        "ClaimedRewards": [
+                          "57924C4D44DA72356D50CCAD6152D438"
+                        ]
+                      },
+                      "14": {
+                        "ClaimedRewards": [
+                          "7705B784450143DC81984FA4D34F6C71"
+                        ]
+                      },
+                      "15": {
+                        "ClaimedRewards": [
+                          "E9FB54CF4FAF2E71B983FCB76AFAE6DC"
+                        ]
+                      },
+                      "16": {
+                        "ClaimedRewards": [
+                          "AADA2ECC4B49DB2D42247E8C49095FAB"
+                        ]
+                      },
+                      "17": {
+                        "ClaimedRewards": [
+                          "81EAD33046105A9D3CDE69AB9F6FE19E"
+                        ]
+                      },
+                      "18": {
+                        "ClaimedRewards": [
+                          "F66FB5BE48461413567379B95B77862E"
+                        ]
+                      },
+                      "19": {
+                        "ClaimedRewards": [
+                          "D2F1F68D4B33A5ED3CF581AFEDD976F1"
+                        ]
+                      },
+                      "20": {
+                        "ClaimedRewards": [
+                          "1618B4FF4313B822E4D41B8FF33DB617"
+                        ]
+                      },
+                      "21": {
+                        "ClaimedRewards": [
+                          "842A045B407B3D97CCFAF7939FE1C459"
+                        ]
+                      },
+                      "22": {
+                        "ClaimedRewards": [
+                          "2F73C5F34AE574B241B873A260A36CD2"
+                        ]
+                      },
+                      "23": {
+                        "ClaimedRewards": [
+                          "66220C1443E89074D49CB98D2AF08398"
+                        ]
+                      },
+                      "24": {
+                        "ClaimedRewards": [
+                          "544D586D4B5941D1E128D286F655BB64"
+                        ]
+                      },
+                      "25": {
+                        "ClaimedRewards": [
+                          "62445C214D9DAF0037F7E5A2E3F139E0"
+                        ]
+                      },
+                      "26": {
+                        "ClaimedRewards": [
+                          "0DD529BA492CB786BCE82D99C8AB34BC"
+                        ]
+                      },
+                      "27": {
+                        "ClaimedRewards": [
+                          "542225664B9246BCE1A763AD40D084AF"
+                        ]
+                      },
+                      "28": {
+                        "ClaimedRewards": [
+                          "372F08DA4AD28A6FB6CD3B834C9F79CB"
+                        ]
+                      },
+                      "29": {
+                        "ClaimedRewards": [
+                          "3263673A46C4F4C8B0720987E01355E7"
+                        ]
+                      },
+                      "30": {
+                        "ClaimedRewards": [
+                          "E9042E864EAB6A9AFC490EAA82D5CAE9"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": -1,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "mrt_mastery_arya": {
+                    "TrackSlug": "mrt_mastery_arya",
+                    "RewardTrackClass": "MvsCharacterMasteryRewardTrackHsda",
+                    "CurrentScore": 35730,
+                    "CurrentTier": 12,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "31776B404A24C22EFDA5638469A8A91E"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "8BFDA3D647941A3383B87688A4358B8A"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "450A110C4C32B0D0F1F0E5910DA96B60"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "C438DF314D5F642538F2F1B98C19B1FB"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "CAAC9827450AEFEFBE65BE850ED95B7D"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "32D4F7224D23C69F3751E49BB81A529B"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "FE3FBDF14EBF7FEF6F6F37815A203927"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "D6453154467DF63B1188B6AD8478642A"
+                        ]
+                      },
+                      "8": {
+                        "ClaimedRewards": [
+                          "D402D5C4442B43C2DA3B5D89E015A81D"
+                        ]
+                      },
+                      "9": {
+                        "ClaimedRewards": [
+                          "FF63DCD440A60F06EC294EB0A6CCA9A2"
+                        ]
+                      },
+                      "10": {
+                        "ClaimedRewards": [
+                          "8584D36642E0214EF28078AF8C6A2B44"
+                        ]
+                      },
+                      "11": {
+                        "ClaimedRewards": [
+                          "0A6628824B00D26F0F93A4954ED09AE2"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": 15,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "cyber_skins_milestone_reward_track": {
+                    "TrackSlug": "cyber_skins_milestone_reward_track",
+                    "RewardTrackClass": "MvsThemedEventRewardTrackHsda",
+                    "CurrentScore": 14509,
+                    "CurrentTier": 7,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "37CF2EC84C32899E157B9A9D46CF33C7"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "B81C30FF4ADFE24FF854D78EA72BBA54"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "488C851E4EBBED41553C75A9F47FE9FB"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "E593882F444686A4D3423982AE41EB0B"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "DBE8D92E4672853489B618A0C10BAD64"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "BCFA1FBE4FCBEC95181E50A5A524465A"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "B5188A4D4B6BE75A429A23BDBEF010B3"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": -1,
+                    "HighestClaimedInifiniteTier": -1
+                  }
+                }
+              }
+            },
+            "62873f49d78c32e26df3a47c": {
+              "Missions": {
+                "PlayerMissionObject": {
+                  "MissionControllerContainers": {
+                    "miscon_ftue": {
+                      "MissionControllers": {
+                        "misctl_ftue": {
+                          "Missions": [
+                            {},
+                            {},
+                            {
+                              "mis_ftue_rift_boss": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_rift_bossnodecomplete",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "929f6d89-a9ab-4179-8137-18a4b54acb2b"
+                              }
+                            },
+                            {},
+                            {},
+                            {},
+                            {
+                              "mis_ftue_rift_break_targets": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_targets_destroyed",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "0c0faf90-3ed7-489c-9254-76b5fcf64216"
+                              }
+                            },
+                            {
+                              "mis_ftue_rift_friend_partner": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_PartnerIsFriend",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "d6504280-5536-4291-ac6a-76fca00fb829"
+                              }
+                            },
+                            {},
+                            {},
+                            {
+                              "mis_ftue_rift_beat_boss_missions_completed": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_rift_bossnodecomplete",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "bd831125-fd47-4f56-88bb-6184f03c5faf"
+                              }
+                            },
+                            {
+                              "mis_ftue_rift_collect_rift_cauldron": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_rift_cauldroncomleted",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "0ed8c67f-8cf6-4ff4-a8a0-e745660398b8"
+                              }
+                            },
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": [
+                            "mis_ftue_play_rift_matches",
+                            "mis_ftue_complete_rift_tutorial_nodes",
+                            "mis_ftue_rift_boss",
+                            "mis_ftue_match_play_as_bruiser",
+                            "mis_match_play_type_2v2",
+                            "mis_ftue_rift_guest_fighter",
+                            "mis_ftue_rift_break_targets",
+                            "mis_ftue_rift_friend_partner",
+                            "mis_ftue_rift_complete_all_node_missions_for_rift",
+                            "mis_ftue_upgrade_a_gem",
+                            "mis_ftue_rift_beat_boss_missions_completed",
+                            "mis_ftue_rift_collect_rift_cauldron",
+                            "mis_ftue_play_scooby_do_character",
+                            "mis_ftue_prestige_store"
+                          ]
+                        },
+                        "misctl_ftue_daily_logins": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": [
+                            "mis_ftue_login_duplicate_1",
+                            "mis_ftue_login_twodays",
+                            "mis_ftue_login_three_days",
+                            "mis_ftue_login_four_days",
+                            "mis_ftue_login_five_days",
+                            "mis_ftue_login_six_days",
+                            "mis_ftue_login_seven_days"
+                          ]
+                        },
+                        "misctl_ftue_timed": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": [
+                            "mis_ftue_match_play_pvp_2v2",
+                            "mis_ftue_deal_damage_pvp",
+                            "mis_ftue_play_team_friend_pvp",
+                            "mis_ftue_ringout_pvp",
+                            "mis_ftue_win_pvp_match",
+                            "mis_deal_damage_pvp_long",
+                            "mis_ftue_win_pvp_match_long"
+                          ]
+                        }
+                      }
+                    },
+                    "miscon_battlepass_daily": {
+                      "MissionControllers": {
+                        "misctl_battlepass_daily": {
+                          "Missions": [],
+                          "UsedMissions": []
+                        },
+                        "misctl_battlepass_daily_premium": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": []
+                        },
+                        "misctl_battlepass_daily_base": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": []
+                        },
+                        "misctl_battlepass_daily_base_pve": {
+                          "Missions": [
+                            {
+                              "mis_playpve_short": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_playmatch",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "5d8a38c6-7c95-4af9-a25e-65ca72a7ceb3"
+                              }
+                            },
+                            {
+                              "mis_playpve_short": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_playmatch",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "ed5696db-8405-43d0-b9d1-886c9b40b2c1"
+                              }
+                            },
+                            {
+                              "mis_playpve_short": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_playmatch",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "6ae39aa2-9266-4170-b211-b21389ecd15e"
+                              }
+                            }
+                          ],
+                          "UsedMissions": [
+                            "mis_playpve_short",
+                            "mis_playpve_short",
+                            "mis_playpve_short"
+                          ]
+                        },
+                        "misctl_battlepass_daily_base_ffa": {
+                          "Missions": [
+                            {
+                              "mis_match_play_type_ffa": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "917a3109-edd5-4874-9e56-36956cc13dac"
+                              }
+                            },
+                            {
+                              "mis_match_play_type_ffa": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "78277a52-6527-4e31-8549-7266ba25f147"
+                              }
+                            },
+                            {
+                              "mis_match_play_type_ffa": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "0c4fecc7-157f-4eb6-81d2-6be7c3a85a6b"
+                              }
+                            }
+                          ],
+                          "UsedMissions": [
+                            "mis_match_play_type_ffa",
+                            "mis_match_play_type_ffa",
+                            "mis_match_play_type_ffa"
+                          ]
+                        },
+                        "misctl_battlepass_daily_2": {
+                          "Missions": [
+                            {
+                              "mis_match_play_as_class_assassin_short": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_AssassinTag",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "b5e745ec-9e94-41c2-8bc2-5d69290da3d4"
+                              }
+                            },
+                            {
+                              "mis_taunt_mage _pve_medium_short": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_taunt",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "9edc057b-d47f-4030-a1ab-6e7f20f1d59f"
+                              }
+                            },
+                            {},
+                            {},
+                            {},
+                            {
+                              "mis_assassin_top_ringouts_medium_150": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_up_ringout",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "873659f3-047c-473b-896e-c0c1de9a7641"
+                              }
+                            },
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": [
+                            "mis_match_play_as_class_assassin_short",
+                            "mis_taunt_mage _pve_medium_short",
+                            "mis_assassin_top_ringouts_medium_150"
+                          ]
+                        },
+                        "misctl_battlepass_daily_3": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {
+                              "mis_match_play_as_class_bruiser_short": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_bruiser_tag",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "b952324c-236c-4ec1-a4bd-1b41afdc100b"
+                              }
+                            },
+                            {},
+                            {},
+                            {},
+                            {
+                              "mis_ringout_brusier_short": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_ringout_any",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "341d9f99-c711-48cc-96da-8851ad29f359"
+                              }
+                            },
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": [
+                            "mis_match_play_as_class_bruiser_short",
+                            "mis_ringout_brusier_short",
+                            "mis_match_play_type_1v1"
+                          ]
+                        },
+                        "misctl_battlepass_daily_hard": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": []
+                        }
+                      }
+                    },
+                    "miscon_battlepass_weekly": {
+                      "MissionControllers": {
+                        "misctl_battlepass_weekly": {
+                          "Missions": [
+                            {
+                              "mis_win_pve_games_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_win",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "38478d7f-a52b-4fc6-bcca-fadeffd58a97"
+                              }
+                            },
+                            {},
+                            {
+                              "mis_play_ffa_750": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "424bf337-5d0e-470a-beba-c93bdf3ec1e0"
+                              }
+                            },
+                            {
+                              "mis_match_play_as_ip_adventure_time_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_skin_tag_universe_adventure_time",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "c045283b-d7af-4154-b31b-e46f5465ca0b"
+                              }
+                            },
+                            {
+                              "mis_match_play_as_ip_looney_tunes_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_skin_tag_universe_looney_tunes",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "df77b4d0-d2e8-4ff7-81f4-b1720af82056"
+                              }
+                            },
+                            {},
+                            {},
+                            {
+                              "mis_win_pve_games_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_win",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "7ab30e09-ca74-4c21-b73b-5eb92c578f57"
+                              }
+                            },
+                            {},
+                            {
+                              "mis_play_ffa_750": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "e364bdae-b494-4e2b-8973-346b384d0921"
+                              }
+                            },
+                            {
+                              "mis_play_steven_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_skin_tag_universe_steven_universe",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "50e9414e-9d0b-4957-be0b-03595e2b2160"
+                              }
+                            },
+                            {
+                              "mis_match_play_as_rick_morty_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_skin_tag_dynamic_universe_rick_and_morty",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "8af85998-9e98-42a2-a6cc-52a20f8301a5"
+                              }
+                            },
+                            {},
+                            {},
+                            {
+                              "mis_win_pve_games_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_win",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "ea056a5b-55f5-4eb8-9a82-0af35b75eb82"
+                              }
+                            },
+                            {},
+                            {
+                              "mis_play_ffa_750": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_match_play_ffa",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "7980d421-53cf-4677-bff0-bd7f5d17d4f9"
+                              }
+                            },
+                            {
+                              "mis_match_play_as_class_assassin_750": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_AssassinTag",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "4261457f-1076-4541-a33b-c1f83ea3dd6a"
+                              }
+                            },
+                            {},
+                            {},
+                            {
+                              "mis_win_with_assassin_fewer_ringouts_long": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_win",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "4a656c80-104d-47ee-8e10-00f7668cb98f"
+                              }
+                            }
+                          ],
+                          "UsedMissions": [
+                            "mis_win_pve_games_long",
+                            "mis_win_pvp_long",
+                            "mis_play_ffa_750",
+                            "mis_match_play_as_ip_adventure_time_long",
+                            "mis_match_play_as_ip_looney_tunes_long",
+                            "mis_win_while_heroic_long",
+                            "mis_match_play_as_class_tank_long",
+                            "mis_win_pve_games_long",
+                            "mis_win_pvp_long",
+                            "mis_play_ffa_750",
+                            "mis_play_steven_long",
+                            "mis_match_play_as_rick_morty_long",
+                            "mis_projectile_ringouts_long",
+                            "mis_match_play_as_class_bruiser_long",
+                            "mis_win_pve_games_long",
+                            "mis_win_pvp_long",
+                            "mis_play_ffa_750",
+                            "mis_match_play_as_class_assassin_750",
+                            "mis_deal_damage_pvp_long",
+                            "mis_win_with_villainous_tag_long",
+                            "mis_win_with_assassin_fewer_ringouts_long"
+                          ]
+                        }
+                      }
+                    },
+                    "miscon_event_ranked": {
+                      "MissionControllers": {
+                        "misctl_event_ranked": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {
+                              "mis_assassin_ranked": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_AssassinTag",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "687453ce-7097-4962-a7d9-347440d3b5d1"
+                              }
+                            },
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {}
+                          ],
+                          "UsedMissions": [
+                            "mis_total_air_hit_ranked",
+                            "mis_hitwithchargeattack_ranked",
+                            "mis_dealdamage_ranked",
+                            "mis_assassin_ranked",
+                            "mis_hit_special_attack_ranked",
+                            "mis_upgradeattackhits_ranked",
+                            "mis_play_1v1_ranked",
+                            "mis_playmage_ranked",
+                            "mis_play_2v2_ranked",
+                            "mis_play_bruiser_ranked",
+                            "mis_ringoutlessdamage_ranked",
+                            "mis_ringoutleft_ranked",
+                            "mis_taunt_ranked",
+                            "mis_upringout_ranked",
+                            "mis_win_ranked",
+                            "mis_hit_dash_attack_ranked"
+                          ]
+                        }
+                      }
+                    },
+                    "miscon_event_cyberskins": {
+                      "MissionControllers": {
+                        "misctl_event_cyberskins": {
+                          "Missions": [
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {},
+                            {
+                              "mis_win_with_villainous_tag_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_charge_attacks_hit",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "cbdeb039-0111-4088-9d84-eb7c9efe8dd2"
+                              }
+                            },
+                            {
+                              "mis_play_shark_hat_tomandjerry_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_hit_side_attack",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "5c201da3-a61c-410d-9650-26c3198e2567"
+                              }
+                            },
+                            {
+                              "mis_play_with_sports_tag_bruiser_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_dodge",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "d1d88731-6da3-4df4-8ecb-257fe865455b"
+                              }
+                            },
+                            {
+                              "mis_stats_total_up_specials_hit_tank_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_deal_damage",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "55d51616-5584-417c-b357-f501cbb3fb10"
+                              }
+                            },
+                            {
+                              "mis_matchplaymap_townsville_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_hit_dash_attack",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "6a8aba25-c359-47b6-b393-3ab13da02e3c"
+                              }
+                            },
+                            {
+                              "mis_play_with_costume_friday_13th_wrapups1": {
+                                "MissionObjectives": [
+                                  {
+                                    "Slug": "misobj_hit_air_attack",
+                                    "Progress": 0
+                                  }
+                                ],
+                                "MissionGuid": "82a97c5b-3503-4b84-bb72-790edd057cdb"
+                              }
+                            }
+                          ],
+                          "UsedMissions": [
+                            "mis_stats_total_armor_breaks_cyberevent",
+                            "mis_stats_deal_attack_damage_cyberevent",
+                            "mis_deal_damage_cyberevent",
+                            "mis_stats_deal_special_damage_cyberevent",
+                            "mis_total_down_ringout_cyberevent",
+                            "mis_hit_air_down_special_cyberevent",
+                            "mis_hit_neutral_attack_DC_cyberevent",
+                            "mis_hit_normal_attacks_cyberevent",
+                            "mis_stats_totalsidespecial_medium_cyberevent",
+                            "mis_stats_total_specials_hit_cyberevent",
+                            "mis_hit_up_attack_cyberevent",
+                            "mis_hit_up_ground_attack_cyberevent",
+                            "mis_win_with_villainous_tag_wrapups1",
+                            "mis_play_shark_hat_tomandjerry_wrapups1",
+                            "mis_play_with_sports_tag_bruiser_wrapups1",
+                            "mis_stats_total_up_specials_hit_tank_wrapups1",
+                            "mis_matchplaymap_townsville_wrapups1",
+                            "mis_play_with_costume_friday_13th_wrapups1"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "ClaimLocks": {
+                    "misctl_battlepass_daily_3": {
+                      "mis_match_play_type_1v1": {
+                        "0f7eff64-b319-493a-a4e6-9d1dfc3fd025": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "MilestoneRewardTracks": {
+                "PreviousTrackStates": {
+                  "mrt_battlepass_season_two": {
+                    "TrackSlug": "mrt_battlepass_season_two",
+                    "RewardTrackClass": "MvsBattlepassRewardTrackHsda",
+                    "CurrentScore": 68609,
+                    "CurrentTier": 35,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "1F0998114F7BB7C8D352C3AAFC4BA201"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "07759B244F637FA4752C6EA33AD38111"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "18B5081B41501581DFFD15B1C0A25511"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "960C431243A62A7612BC41A9C7D5CFE9"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "FAF88A704F11E6C195BACE93846D85E6"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "43C402E5422D7D63AE7CE9897C0ED199"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "8534741F429EC603E04185A04AE053E6"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "D062FD2A4EDDF7F7F17C2D8E665C02B3"
+                        ]
+                      },
+                      "8": {
+                        "ClaimedRewards": [
+                          "01A9E80644E3F1BFD976DF913F008B35"
+                        ]
+                      },
+                      "9": {
+                        "ClaimedRewards": [
+                          "949559104095615AE3F2DD937F5DBCF6"
+                        ]
+                      },
+                      "10": {
+                        "ClaimedRewards": [
+                          "B58F45264811973F145AE49D1B5E9531"
+                        ]
+                      },
+                      "11": {
+                        "ClaimedRewards": [
+                          "15B652024EA7B1AA94542BBBB2C4FC04"
+                        ]
+                      },
+                      "12": {
+                        "ClaimedRewards": [
+                          "7429C07F494759945C30EE82ED34BC9A"
+                        ]
+                      },
+                      "13": {
+                        "ClaimedRewards": [
+                          "7EA3E02E465A32F08070BCBC219D4B8F"
+                        ]
+                      },
+                      "14": {
+                        "ClaimedRewards": [
+                          "436A8CD946EF323AB82522B23134F8B3"
+                        ]
+                      },
+                      "15": {
+                        "ClaimedRewards": [
+                          "BDE3763B49B989D18E1E79A837776DEE"
+                        ]
+                      },
+                      "16": {
+                        "ClaimedRewards": [
+                          "E2F8EF0D4A557EB6512E6A89990CCDCB"
+                        ]
+                      },
+                      "17": {
+                        "ClaimedRewards": [
+                          "43E6305C4BA83A34EF96D0B413505A23"
+                        ]
+                      },
+                      "18": {
+                        "ClaimedRewards": [
+                          "AB2F4629451408374626C29F77CF7E69"
+                        ]
+                      },
+                      "19": {
+                        "ClaimedRewards": [
+                          "5D16FF3941DEC4181D67CC80C4AF704B"
+                        ]
+                      },
+                      "20": {
+                        "ClaimedRewards": [
+                          "0059EA534C743369D731E1886608171B"
+                        ]
+                      },
+                      "21": {
+                        "ClaimedRewards": [
+                          "0CFB23A24B0B95C640C892B59F638213"
+                        ]
+                      },
+                      "22": {
+                        "ClaimedRewards": [
+                          "BC031C264DE8198C5B08D8978C04FE75"
+                        ]
+                      },
+                      "23": {
+                        "ClaimedRewards": [
+                          "2517320540E5F621F2D889BE39FC295B"
+                        ]
+                      },
+                      "24": {
+                        "ClaimedRewards": [
+                          "460CE33D4351E218CFF522A2F5E6D3FC"
+                        ]
+                      },
+                      "25": {
+                        "ClaimedRewards": [
+                          "B2D0A2284416542BFDD88295312022A8"
+                        ]
+                      },
+                      "26": {
+                        "ClaimedRewards": [
+                          "603AC3C844561152F753F8B7F044E718"
+                        ]
+                      },
+                      "27": {
+                        "ClaimedRewards": [
+                          "1C7F65504242E28B7B8E9290DDA2F094"
+                        ]
+                      },
+                      "28": {
+                        "ClaimedRewards": [
+                          "DEDF35BC40E6DF2AF4CA0C84D720D5CE"
+                        ]
+                      },
+                      "29": {
+                        "ClaimedRewards": [
+                          "CEAB614440873DD6BCABBBA9B981B2B5"
+                        ]
+                      },
+                      "30": {
+                        "ClaimedRewards": [
+                          "94DF0E42468A6B1A2043679D71653A51"
+                        ]
+                      },
+                      "31": {
+                        "ClaimedRewards": [
+                          "A55373154D8097E0553A9EB01C1455C0"
+                        ]
+                      },
+                      "32": {
+                        "ClaimedRewards": [
+                          "F9A189FA4E653AC303B6599C9F180A08"
+                        ]
+                      },
+                      "33": {
+                        "ClaimedRewards": [
+                          "C30851BB423D3313610FDB9E1328D0D5"
+                        ]
+                      },
+                      "34": {
+                        "ClaimedRewards": [
+                          "60EC8193403034EEFFD757AEA7DAB7CC"
+                        ]
+                      }
+                    },
+                    "bHasPremium": true,
+                    "Guid": "",
+                    "InfiniteTierThreshold": 70,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "mrt_mastery_account": {
+                    "TrackSlug": "mrt_mastery_account",
+                    "RewardTrackClass": "MvsMilestoneRewardTrackHsda",
+                    "CurrentScore": 143689,
+                    "CurrentTier": 29,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "B89FF944478131E15EC9BCB1DEB54C68"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "55D7131F433CCFADE4851CAC1D536CF4"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "1CFF026A47FBAE58217A0A8E30D7C610"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "B28A2BBF494E61C2AA04FEA261E3F527"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "8ADB481D420501E27A26DBBA594A164D"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "699C6BD04EE168C2C17C5DAFB630FBC8"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "4060291F49C88D2CCDA6678867AECF22"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "6C20E5124CA39DF0BFADFD92FFBD14DC"
+                        ]
+                      },
+                      "8": {
+                        "ClaimedRewards": [
+                          "E0C1E24A402EDA0B4A5AB58D5CF03500"
+                        ]
+                      },
+                      "9": {
+                        "ClaimedRewards": [
+                          "999EE4A246A448A31678EFA602A539A2"
+                        ]
+                      },
+                      "10": {
+                        "ClaimedRewards": [
+                          "171D9D55421907193751DA8D2DB3EC39"
+                        ]
+                      },
+                      "11": {
+                        "ClaimedRewards": [
+                          "25AA9F1448AC1F026535FA89174B847E"
+                        ]
+                      },
+                      "12": {
+                        "ClaimedRewards": [
+                          "E81CA3F249DD82B02848979DC6B7C1AA"
+                        ]
+                      },
+                      "13": {
+                        "ClaimedRewards": [
+                          "57924C4D44DA72356D50CCAD6152D438"
+                        ]
+                      },
+                      "14": {
+                        "ClaimedRewards": [
+                          "7705B784450143DC81984FA4D34F6C71"
+                        ]
+                      },
+                      "15": {
+                        "ClaimedRewards": [
+                          "E9FB54CF4FAF2E71B983FCB76AFAE6DC"
+                        ]
+                      },
+                      "16": {
+                        "ClaimedRewards": [
+                          "AADA2ECC4B49DB2D42247E8C49095FAB"
+                        ]
+                      },
+                      "17": {
+                        "ClaimedRewards": [
+                          "81EAD33046105A9D3CDE69AB9F6FE19E"
+                        ]
+                      },
+                      "18": {
+                        "ClaimedRewards": [
+                          "F66FB5BE48461413567379B95B77862E"
+                        ]
+                      },
+                      "19": {
+                        "ClaimedRewards": [
+                          "D2F1F68D4B33A5ED3CF581AFEDD976F1"
+                        ]
+                      },
+                      "20": {
+                        "ClaimedRewards": [
+                          "1618B4FF4313B822E4D41B8FF33DB617"
+                        ]
+                      },
+                      "21": {
+                        "ClaimedRewards": [
+                          "842A045B407B3D97CCFAF7939FE1C459"
+                        ]
+                      },
+                      "22": {
+                        "ClaimedRewards": [
+                          "2F73C5F34AE574B241B873A260A36CD2"
+                        ]
+                      },
+                      "23": {
+                        "ClaimedRewards": [
+                          "66220C1443E89074D49CB98D2AF08398"
+                        ]
+                      },
+                      "24": {
+                        "ClaimedRewards": [
+                          "544D586D4B5941D1E128D286F655BB64"
+                        ]
+                      },
+                      "25": {
+                        "ClaimedRewards": [
+                          "62445C214D9DAF0037F7E5A2E3F139E0"
+                        ]
+                      },
+                      "26": {
+                        "ClaimedRewards": [
+                          "0DD529BA492CB786BCE82D99C8AB34BC"
+                        ]
+                      },
+                      "27": {
+                        "ClaimedRewards": [
+                          "542225664B9246BCE1A763AD40D084AF"
+                        ]
+                      },
+                      "28": {
+                        "ClaimedRewards": [
+                          "372F08DA4AD28A6FB6CD3B834C9F79CB"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": -1,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "mrt_mastery_c023a": {
+                    "TrackSlug": "mrt_mastery_c023a",
+                    "RewardTrackClass": "MvsCharacterMasteryRewardTrackHsda",
+                    "CurrentScore": 3464,
+                    "CurrentTier": 5,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "31776B404A24C22EFDA5638469A8A91E"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "8BFDA3D647941A3383B87688A4358B8A"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "450A110C4C32B0D0F1F0E5910DA96B60"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "C438DF314D5F642538F2F1B98C19B1FB"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "CAAC9827450AEFEFBE65BE850ED95B7D"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": 15,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "cyber_skins_milestone_reward_track": {
+                    "TrackSlug": "cyber_skins_milestone_reward_track",
+                    "RewardTrackClass": "MvsThemedEventRewardTrackHsda",
+                    "CurrentScore": 17275,
+                    "CurrentTier": 8,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "37CF2EC84C32899E157B9A9D46CF33C7"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "B81C30FF4ADFE24FF854D78EA72BBA54"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "488C851E4EBBED41553C75A9F47FE9FB"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "E593882F444686A4D3423982AE41EB0B"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "DBE8D92E4672853489B618A0C10BAD64"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "BCFA1FBE4FCBEC95181E50A5A524465A"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "B5188A4D4B6BE75A429A23BDBEF010B3"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "260B7A6E430775912DF66B88B3C14333"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": -1,
+                    "HighestClaimedInifiniteTier": -1
+                  }
+                },
+                "NewTrackStates": {
+                  "mrt_battlepass_season_two": {
+                    "TrackSlug": "mrt_battlepass_season_two",
+                    "RewardTrackClass": "MvsBattlepassRewardTrackHsda",
+                    "CurrentScore": 68659,
+                    "CurrentTier": 35,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "1F0998114F7BB7C8D352C3AAFC4BA201"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "07759B244F637FA4752C6EA33AD38111"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "18B5081B41501581DFFD15B1C0A25511"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "960C431243A62A7612BC41A9C7D5CFE9"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "FAF88A704F11E6C195BACE93846D85E6"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "43C402E5422D7D63AE7CE9897C0ED199"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "8534741F429EC603E04185A04AE053E6"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "D062FD2A4EDDF7F7F17C2D8E665C02B3"
+                        ]
+                      },
+                      "8": {
+                        "ClaimedRewards": [
+                          "01A9E80644E3F1BFD976DF913F008B35"
+                        ]
+                      },
+                      "9": {
+                        "ClaimedRewards": [
+                          "949559104095615AE3F2DD937F5DBCF6"
+                        ]
+                      },
+                      "10": {
+                        "ClaimedRewards": [
+                          "B58F45264811973F145AE49D1B5E9531"
+                        ]
+                      },
+                      "11": {
+                        "ClaimedRewards": [
+                          "15B652024EA7B1AA94542BBBB2C4FC04"
+                        ]
+                      },
+                      "12": {
+                        "ClaimedRewards": [
+                          "7429C07F494759945C30EE82ED34BC9A"
+                        ]
+                      },
+                      "13": {
+                        "ClaimedRewards": [
+                          "7EA3E02E465A32F08070BCBC219D4B8F"
+                        ]
+                      },
+                      "14": {
+                        "ClaimedRewards": [
+                          "436A8CD946EF323AB82522B23134F8B3"
+                        ]
+                      },
+                      "15": {
+                        "ClaimedRewards": [
+                          "BDE3763B49B989D18E1E79A837776DEE"
+                        ]
+                      },
+                      "16": {
+                        "ClaimedRewards": [
+                          "E2F8EF0D4A557EB6512E6A89990CCDCB"
+                        ]
+                      },
+                      "17": {
+                        "ClaimedRewards": [
+                          "43E6305C4BA83A34EF96D0B413505A23"
+                        ]
+                      },
+                      "18": {
+                        "ClaimedRewards": [
+                          "AB2F4629451408374626C29F77CF7E69"
+                        ]
+                      },
+                      "19": {
+                        "ClaimedRewards": [
+                          "5D16FF3941DEC4181D67CC80C4AF704B"
+                        ]
+                      },
+                      "20": {
+                        "ClaimedRewards": [
+                          "0059EA534C743369D731E1886608171B"
+                        ]
+                      },
+                      "21": {
+                        "ClaimedRewards": [
+                          "0CFB23A24B0B95C640C892B59F638213"
+                        ]
+                      },
+                      "22": {
+                        "ClaimedRewards": [
+                          "BC031C264DE8198C5B08D8978C04FE75"
+                        ]
+                      },
+                      "23": {
+                        "ClaimedRewards": [
+                          "2517320540E5F621F2D889BE39FC295B"
+                        ]
+                      },
+                      "24": {
+                        "ClaimedRewards": [
+                          "460CE33D4351E218CFF522A2F5E6D3FC"
+                        ]
+                      },
+                      "25": {
+                        "ClaimedRewards": [
+                          "B2D0A2284416542BFDD88295312022A8"
+                        ]
+                      },
+                      "26": {
+                        "ClaimedRewards": [
+                          "603AC3C844561152F753F8B7F044E718"
+                        ]
+                      },
+                      "27": {
+                        "ClaimedRewards": [
+                          "1C7F65504242E28B7B8E9290DDA2F094"
+                        ]
+                      },
+                      "28": {
+                        "ClaimedRewards": [
+                          "DEDF35BC40E6DF2AF4CA0C84D720D5CE"
+                        ]
+                      },
+                      "29": {
+                        "ClaimedRewards": [
+                          "CEAB614440873DD6BCABBBA9B981B2B5"
+                        ]
+                      },
+                      "30": {
+                        "ClaimedRewards": [
+                          "94DF0E42468A6B1A2043679D71653A51"
+                        ]
+                      },
+                      "31": {
+                        "ClaimedRewards": [
+                          "A55373154D8097E0553A9EB01C1455C0"
+                        ]
+                      },
+                      "32": {
+                        "ClaimedRewards": [
+                          "F9A189FA4E653AC303B6599C9F180A08"
+                        ]
+                      },
+                      "33": {
+                        "ClaimedRewards": [
+                          "C30851BB423D3313610FDB9E1328D0D5"
+                        ]
+                      },
+                      "34": {
+                        "ClaimedRewards": [
+                          "60EC8193403034EEFFD757AEA7DAB7CC"
+                        ]
+                      }
+                    },
+                    "bHasPremium": true,
+                    "Guid": "",
+                    "InfiniteTierThreshold": 70,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "mrt_mastery_account": {
+                    "TrackSlug": "mrt_mastery_account",
+                    "RewardTrackClass": "MvsMilestoneRewardTrackHsda",
+                    "CurrentScore": 143814,
+                    "CurrentTier": 29,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "B89FF944478131E15EC9BCB1DEB54C68"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "55D7131F433CCFADE4851CAC1D536CF4"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "1CFF026A47FBAE58217A0A8E30D7C610"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "B28A2BBF494E61C2AA04FEA261E3F527"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "8ADB481D420501E27A26DBBA594A164D"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "699C6BD04EE168C2C17C5DAFB630FBC8"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "4060291F49C88D2CCDA6678867AECF22"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "6C20E5124CA39DF0BFADFD92FFBD14DC"
+                        ]
+                      },
+                      "8": {
+                        "ClaimedRewards": [
+                          "E0C1E24A402EDA0B4A5AB58D5CF03500"
+                        ]
+                      },
+                      "9": {
+                        "ClaimedRewards": [
+                          "999EE4A246A448A31678EFA602A539A2"
+                        ]
+                      },
+                      "10": {
+                        "ClaimedRewards": [
+                          "171D9D55421907193751DA8D2DB3EC39"
+                        ]
+                      },
+                      "11": {
+                        "ClaimedRewards": [
+                          "25AA9F1448AC1F026535FA89174B847E"
+                        ]
+                      },
+                      "12": {
+                        "ClaimedRewards": [
+                          "E81CA3F249DD82B02848979DC6B7C1AA"
+                        ]
+                      },
+                      "13": {
+                        "ClaimedRewards": [
+                          "57924C4D44DA72356D50CCAD6152D438"
+                        ]
+                      },
+                      "14": {
+                        "ClaimedRewards": [
+                          "7705B784450143DC81984FA4D34F6C71"
+                        ]
+                      },
+                      "15": {
+                        "ClaimedRewards": [
+                          "E9FB54CF4FAF2E71B983FCB76AFAE6DC"
+                        ]
+                      },
+                      "16": {
+                        "ClaimedRewards": [
+                          "AADA2ECC4B49DB2D42247E8C49095FAB"
+                        ]
+                      },
+                      "17": {
+                        "ClaimedRewards": [
+                          "81EAD33046105A9D3CDE69AB9F6FE19E"
+                        ]
+                      },
+                      "18": {
+                        "ClaimedRewards": [
+                          "F66FB5BE48461413567379B95B77862E"
+                        ]
+                      },
+                      "19": {
+                        "ClaimedRewards": [
+                          "D2F1F68D4B33A5ED3CF581AFEDD976F1"
+                        ]
+                      },
+                      "20": {
+                        "ClaimedRewards": [
+                          "1618B4FF4313B822E4D41B8FF33DB617"
+                        ]
+                      },
+                      "21": {
+                        "ClaimedRewards": [
+                          "842A045B407B3D97CCFAF7939FE1C459"
+                        ]
+                      },
+                      "22": {
+                        "ClaimedRewards": [
+                          "2F73C5F34AE574B241B873A260A36CD2"
+                        ]
+                      },
+                      "23": {
+                        "ClaimedRewards": [
+                          "66220C1443E89074D49CB98D2AF08398"
+                        ]
+                      },
+                      "24": {
+                        "ClaimedRewards": [
+                          "544D586D4B5941D1E128D286F655BB64"
+                        ]
+                      },
+                      "25": {
+                        "ClaimedRewards": [
+                          "62445C214D9DAF0037F7E5A2E3F139E0"
+                        ]
+                      },
+                      "26": {
+                        "ClaimedRewards": [
+                          "0DD529BA492CB786BCE82D99C8AB34BC"
+                        ]
+                      },
+                      "27": {
+                        "ClaimedRewards": [
+                          "542225664B9246BCE1A763AD40D084AF"
+                        ]
+                      },
+                      "28": {
+                        "ClaimedRewards": [
+                          "372F08DA4AD28A6FB6CD3B834C9F79CB"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": -1,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "mrt_mastery_c023a": {
+                    "TrackSlug": "mrt_mastery_c023a",
+                    "RewardTrackClass": "MvsCharacterMasteryRewardTrackHsda",
+                    "CurrentScore": 3589,
+                    "CurrentTier": 5,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "31776B404A24C22EFDA5638469A8A91E"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "8BFDA3D647941A3383B87688A4358B8A"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "450A110C4C32B0D0F1F0E5910DA96B60"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "C438DF314D5F642538F2F1B98C19B1FB"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "CAAC9827450AEFEFBE65BE850ED95B7D"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": 15,
+                    "HighestClaimedInifiniteTier": -1
+                  },
+                  "cyber_skins_milestone_reward_track": {
+                    "TrackSlug": "cyber_skins_milestone_reward_track",
+                    "RewardTrackClass": "MvsThemedEventRewardTrackHsda",
+                    "CurrentScore": 17400,
+                    "CurrentTier": 8,
+                    "TierClaimData": {
+                      "0": {
+                        "ClaimedRewards": [
+                          "37CF2EC84C32899E157B9A9D46CF33C7"
+                        ]
+                      },
+                      "1": {
+                        "ClaimedRewards": [
+                          "B81C30FF4ADFE24FF854D78EA72BBA54"
+                        ]
+                      },
+                      "2": {
+                        "ClaimedRewards": [
+                          "488C851E4EBBED41553C75A9F47FE9FB"
+                        ]
+                      },
+                      "3": {
+                        "ClaimedRewards": [
+                          "E593882F444686A4D3423982AE41EB0B"
+                        ]
+                      },
+                      "4": {
+                        "ClaimedRewards": [
+                          "DBE8D92E4672853489B618A0C10BAD64"
+                        ]
+                      },
+                      "5": {
+                        "ClaimedRewards": [
+                          "BCFA1FBE4FCBEC95181E50A5A524465A"
+                        ]
+                      },
+                      "6": {
+                        "ClaimedRewards": [
+                          "B5188A4D4B6BE75A429A23BDBEF010B3"
+                        ]
+                      },
+                      "7": {
+                        "ClaimedRewards": [
+                          "260B7A6E430775912DF66B88B3C14333"
+                        ]
+                      }
+                    },
+                    "bHasPremium": false,
+                    "Guid": "",
+                    "InfiniteTierThreshold": -1,
+                    "HighestClaimedInifiniteTier": -1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "MatchSet": {
+        "Checkin": {
+          "665a8f457e0ab99593da5c9d": true,
+          "62873f49d78c32e26df3a47c": true
+        },
+        "NextMatchStarted": true
+      }
+    },
+    "players": {
+      "all": [
+        {
+          "account_id": "665a8f457e0ab99593da5c9d",
+          "source": {
+            "id": "66b5d3f8fa6d5fae21806f51",
+            "type": "matchmaking-fixed",
+            "extra": {
+              "from_match": "66b5c94d367a5d49d882c79b",
+              "data": {
+                "MultiplayParams": {
+                  "MultiplayClusterSlug": "ec2-us-east-1-dokken",
+                  "MultiplayProfileId": "1252922",
+                  "MultiplayRegionId": "19c465a7-f21f-11ea-a5e3-0954f48c5682",
+                  "MultiplayRegionSearchId": 1
+                },
+                "crossplay_buckets": [
+                  "PC"
+                ],
+                "version": "CLIENT:28747-Retail DATA:24D33D9E PERKS:1",
+                "double_character_key": "character_arya",
+                "last_match": "665a8f457e0ab99593da5c9d",
+                "matchmaking_rating": 654.8846647563811,
+                "player_count": 1
+              }
+            }
+          },
+          "state": "leave",
+          "state_data": null,
+          "reported_results": {
+            "win": [
+              "62873f49d78c32e26df3a47c"
+            ],
+            "loss": [
+              "665a8f457e0ab99593da5c9d"
+            ],
+            "draw": false,
+            "report_time": "2024-08-09T08:34:48+00:00"
+          },
+          "data": {
+            "EndOfMatchStats": {
+              "WinningTeamIndex": 1,
+              "Score": [
+                1,
+                3
+              ],
+              "PlayerMissionUpdates": {
+                "62873f49d78c32e26df3a47c": {
+                  "Fighter:Finn:AirPojectileDestroy": 0,
+                  "Fighter:Finn:BuyBmo": 0,
+                  "Fighter:Lebron:Defense": 0,
+                  "Fighter:Lebron:Pass": 0,
+                  "Fighter:Reindog:LoveLeashAlly": 0,
+                  "Fighter:Shaggy:EnragedAttackUsed": 0,
+                  "Fighter:Shaggy:FinishedCombo": 0,
+                  "Fighter:Shaggy:RageBuildComplete": 0,
+                  "Objective:Match:Character:BugsBunny:HealSandwich": 0,
+                  "Objective:Match:Character:Stripe:Gun": 0,
+                  "Objective:Match:Character:WonderWoman:FullChargeBubble": 0,
+                  "Objective:Match:Enemies:AcmeSkyDronesDestroyed": 0,
+                  "Objective:Match:Enemies:BuffApplied:Chicken": 0,
+                  "Objective:Match:Enemies:BuffApplied:Frozen": 0,
+                  "Objective:Match:Enemies:BuffApplied:Ignited": 45,
+                  "Objective:Match:Enemies:BuffApplied:Shocked": 0,
+                  "Objective:Match:Enemies:BuffApplied:Silence": 0,
+                  "Objective:Match:Enemies:BuffApplied:Weakened": 0,
+                  "Objective:Match:Hazards:SafetySpotlightAttacksDodged": 0,
+                  "Objective:Match:Hazards:SafetySpotlightAttacksTaken": 0,
+                  "Objective:Match:Hazards:SafetySpotlightHitsOutsideSpotlight": 0,
+                  "Objective:Match:PlayCoOp": 0,
+                  "Objective:Match:PopAllyBubble": 0,
+                  "Objective:Match:Rifts:LazarusPit:BuffedRingouts": 0,
+                  "Objective:Match:Rifts:LazarusPit:FellIn": 0,
+                  "Objective:Match:Rifts:LazarusPit:TempHealth": 0,
+                  "Objective:Match:Special:DefenseHealth": 0,
+                  "Objective:Match:Special:DefenseHealth:CollectEvidence": 0,
+                  "Objective:Match:Special:GalleryBalloonsDestroyed": 0,
+                  "Objective:Match:Special:GalleryTargetsDestroyed": 0,
+                  "Objective:Match:Special:GhostHitOpponent": 0,
+                  "Objective:Match:Special:GhostHitSelf": 0,
+                  "Objective:Match:Special:GoblinTreasureCollected": 0,
+                  "Objective:Match:Special:GoblinTreasureCollected:Rare": 0,
+                  "Objective:Match:Special:GolfCount": 0,
+                  "Objective:Match:Special:JumpRopeJumps": 0,
+                  "Objective:Match:Special:ShootingGalleryScore": 0,
+                  "Objective:Match:Special:TargetsDestroyed": 0,
+                  "Objective:Match:Special:TreasureCollected": 0,
+                  "Objective:Match:Special:VolleyballShutout": 0,
+                  "Stat:Game:Character:DebuffsCleansed": 0,
+                  "Stat:Game:Character:Stock:DamageTaken": 63.676124572753906,
+                  "Stat:Game:Character:TotalAirAttacksHit": 22,
+                  "Stat:Game:Character:TotalAirAttacksUsed": 51,
+                  "Stat:Game:Character:TotalAirDamageDealt": 139.51699829101562,
+                  "Stat:Game:Character:TotalAirNormalsHit": 12,
+                  "Stat:Game:Character:TotalAirNormalsUsed": 32,
+                  "Stat:Game:Character:TotalAirSpecialsHit": 10,
+                  "Stat:Game:Character:TotalAirSpecialsUsed": 19,
+                  "Stat:Game:Character:TotalAirTime": 87.31666564941406,
+                  "Stat:Game:Character:TotalArmorBreaks": 0,
+                  "Stat:Game:Character:TotalAssists": 0,
+                  "Stat:Game:Character:TotalAttackDamageDealt": 108.46694946289062,
+                  "Stat:Game:Character:TotalAttacksDodged": 4,
+                  "Stat:Game:Character:TotalAttacksHit": 42,
+                  "Stat:Game:Character:TotalAttacksParried": 1,
+                  "Stat:Game:Character:TotalAttacksUsed": 91,
+                  "Stat:Game:Character:TotalChargeAttacksHit": 2,
+                  "Stat:Game:Character:TotalChargeAttacksUsed": 0,
+                  "Stat:Game:Character:TotalCrouchTime": 0,
+                  "Stat:Game:Character:TotalDamageDealt": 201.76644897460938,
+                  "Stat:Game:Character:TotalDamageDodged": 30.41178321838379,
+                  "Stat:Game:Character:TotalDamageParried": 6.400625228881836,
+                  "Stat:Game:Character:TotalDamageTaken": 200.1740264892578,
+                  "Stat:Game:Character:TotalDashAttacksHit": 1,
+                  "Stat:Game:Character:TotalDashAttacksUsed": 2,
+                  "Stat:Game:Character:TotalDirectionalAirDodgesUsed": 10,
+                  "Stat:Game:Character:TotalDirectionalDodgesUsed": 24,
+                  "Stat:Game:Character:TotalDirectionalGroundDodgesUsed": 14,
+                  "Stat:Game:Character:TotalDodgesUsed": 24,
+                  "Stat:Game:Character:TotalDoubleJumps": 17,
+                  "Stat:Game:Character:TotalDoubleRingouts": 0,
+                  "Stat:Game:Character:TotalDownAirNormalHit": 2,
+                  "Stat:Game:Character:TotalDownAirNormalUsed": 6,
+                  "Stat:Game:Character:TotalDownAirSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownAirSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalDownGroundNormalHit": 0,
+                  "Stat:Game:Character:TotalDownGroundNormalUsed": 0,
+                  "Stat:Game:Character:TotalDownGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownGroundSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalDownNormalAttacksHit": 2,
+                  "Stat:Game:Character:TotalDownNormalAttacksUsed": 6,
+                  "Stat:Game:Character:TotalDownRingouts": 0,
+                  "Stat:Game:Character:TotalDownSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalDownspikeRingouts": 0,
+                  "Stat:Game:Character:TotalElectricAttacksHit": 0,
+                  "Stat:Game:Character:TotalFireAttacksHit": 0,
+                  "Stat:Game:Character:TotalFullyChargedAttacksHit": 0,
+                  "Stat:Game:Character:TotalGroundAttacksHit": 20,
+                  "Stat:Game:Character:TotalGroundAttacksUsed": 40,
+                  "Stat:Game:Character:TotalGroundDamageDealt": 62.24945068359375,
+                  "Stat:Game:Character:TotalGroundNormalsHit": 20,
+                  "Stat:Game:Character:TotalGroundNormalsUsed": 35,
+                  "Stat:Game:Character:TotalGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalGroundSpecialsUsed": 5,
+                  "Stat:Game:Character:TotalHitsTaken": 34,
+                  "Stat:Game:Character:TotalIceAttacksHit": 0,
+                  "Stat:Game:Character:TotalJumps": 44,
+                  "Stat:Game:Character:TotalLeftRingouts": 0,
+                  "Stat:Game:Character:TotalNeutralAirDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralAirNormalHit": 10,
+                  "Stat:Game:Character:TotalNeutralAirNormalUsed": 18,
+                  "Stat:Game:Character:TotalNeutralAirSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralAirSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNeutralDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralGroundDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralGroundNormalHit": 2,
+                  "Stat:Game:Character:TotalNeutralGroundNormalUsed": 2,
+                  "Stat:Game:Character:TotalNeutralGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralGroundSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNeutralNormalAttacksHit": 44,
+                  "Stat:Game:Character:TotalNeutralNormalAttacksUsed": 20,
+                  "Stat:Game:Character:TotalNeutralSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNormalAttacksHit": 32,
+                  "Stat:Game:Character:TotalNormalAttacksUsed": 67,
+                  "Stat:Game:Character:TotalPlatformDropThroughs": 0,
+                  "Stat:Game:Character:TotalProjectileRingouts": 0,
+                  "Stat:Game:Character:TotalProjectilesBlocked": 0,
+                  "Stat:Game:Character:TotalProjectilesReflected": 0,
+                  "Stat:Game:Character:TotalRightRingouts": 0,
+                  "Stat:Game:Character:TotalRingouts": 3,
+                  "Stat:Game:Character:TotalRingoutsEnemyLowPercent": 0,
+                  "Stat:Game:Character:TotalRingoutsReceived": 1,
+                  "Stat:Game:Character:TotalRingoutsWithLessDamage": 3,
+                  "Stat:Game:Character:TotalRingoutsWithMoreDamage": 0,
+                  "Stat:Game:Character:TotalSideAirNormalHit": 0,
+                  "Stat:Game:Character:TotalSideAirNormalUsed": 3,
+                  "Stat:Game:Character:TotalSideAirSpecialsHit": 2,
+                  "Stat:Game:Character:TotalSideAirSpecialsUsed": 6,
+                  "Stat:Game:Character:TotalSideGroundNormalHit": 15,
+                  "Stat:Game:Character:TotalSideGroundNormalUsed": 31,
+                  "Stat:Game:Character:TotalSideGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalSideGroundSpecialsUsed": 3,
+                  "Stat:Game:Character:TotalSideNormalAttacksHit": 15,
+                  "Stat:Game:Character:TotalSideNormalAttacksUsed": 34,
+                  "Stat:Game:Character:TotalSideSpecialsHit": 2,
+                  "Stat:Game:Character:TotalSideSpecialsUsed": 9,
+                  "Stat:Game:Character:TotalSpecialDamageDealt": 93.29949951171875,
+                  "Stat:Game:Character:TotalSpecialsHit": 10,
+                  "Stat:Game:Character:TotalSpecialsUsed": 24,
+                  "Stat:Game:Character:TotalSweetSpotsHit": 0,
+                  "Stat:Game:Character:TotalTauntsUsed": 0,
+                  "Stat:Game:Character:TotalUpAirNormalHit": 2,
+                  "Stat:Game:Character:TotalUpAirNormalUsed": 5,
+                  "Stat:Game:Character:TotalUpAirSpecialsHit": 7,
+                  "Stat:Game:Character:TotalUpAirSpecialsUsed": 13,
+                  "Stat:Game:Character:TotalUpGroundNormalHit": 1,
+                  "Stat:Game:Character:TotalUpGroundNormalUsed": 2,
+                  "Stat:Game:Character:TotalUpGroundSpecialsHit": 1,
+                  "Stat:Game:Character:TotalUpGroundSpecialsUsed": 2,
+                  "Stat:Game:Character:TotalUpNormalAttacksHit": 3,
+                  "Stat:Game:Character:TotalUpNormalAttacksUsed": 7,
+                  "Stat:Game:Character:TotalUpRingouts": 3,
+                  "Stat:Game:Character:TotalUpSpecialsHit": 8,
+                  "Stat:Game:Character:TotalUpSpecialsUsed": 15,
+                  "Stat:Game:Character:TotalWalkLeftTime": 5.583333492279053,
+                  "Stat:Game:Character:TotalWalkRightTime": 6.316666603088379,
+                  "Stat:Game:Character:TotalWalkTime": 11.899999618530273,
+                  "Stat:Game:Character:TotalWallHangTime": 0.20000000298023224
+                },
+                "665a8f457e0ab99593da5c9d": {
+                  "Fighter:Finn:AirPojectileDestroy": 0,
+                  "Fighter:Finn:BuyBmo": 0,
+                  "Fighter:Lebron:Defense": 0,
+                  "Fighter:Lebron:Pass": 0,
+                  "Fighter:Reindog:LoveLeashAlly": 0,
+                  "Fighter:Shaggy:EnragedAttackUsed": 0,
+                  "Fighter:Shaggy:FinishedCombo": 0,
+                  "Fighter:Shaggy:RageBuildComplete": 0,
+                  "Objective:Match:Character:BugsBunny:HealSandwich": 0,
+                  "Objective:Match:Character:Stripe:Gun": 0,
+                  "Objective:Match:Character:WonderWoman:FullChargeBubble": 0,
+                  "Objective:Match:Enemies:AcmeSkyDronesDestroyed": 0,
+                  "Objective:Match:Enemies:BuffApplied:Chicken": 0,
+                  "Objective:Match:Enemies:BuffApplied:Frozen": 0,
+                  "Objective:Match:Enemies:BuffApplied:Ignited": 0,
+                  "Objective:Match:Enemies:BuffApplied:Shocked": 0,
+                  "Objective:Match:Enemies:BuffApplied:Silence": 0,
+                  "Objective:Match:Enemies:BuffApplied:Weakened": 0,
+                  "Objective:Match:Hazards:SafetySpotlightAttacksDodged": 0,
+                  "Objective:Match:Hazards:SafetySpotlightAttacksTaken": 0,
+                  "Objective:Match:Hazards:SafetySpotlightHitsOutsideSpotlight": 0,
+                  "Objective:Match:PlayCoOp": 0,
+                  "Objective:Match:PopAllyBubble": 0,
+                  "Objective:Match:Rifts:LazarusPit:BuffedRingouts": 0,
+                  "Objective:Match:Rifts:LazarusPit:FellIn": 0,
+                  "Objective:Match:Rifts:LazarusPit:TempHealth": 0,
+                  "Objective:Match:Special:DefenseHealth": 0,
+                  "Objective:Match:Special:DefenseHealth:CollectEvidence": 0,
+                  "Objective:Match:Special:GalleryBalloonsDestroyed": 0,
+                  "Objective:Match:Special:GalleryTargetsDestroyed": 0,
+                  "Objective:Match:Special:GhostHitOpponent": 0,
+                  "Objective:Match:Special:GhostHitSelf": 0,
+                  "Objective:Match:Special:GoblinTreasureCollected": 0,
+                  "Objective:Match:Special:GoblinTreasureCollected:Rare": 0,
+                  "Objective:Match:Special:GolfCount": 0,
+                  "Objective:Match:Special:JumpRopeJumps": 0,
+                  "Objective:Match:Special:ShootingGalleryScore": 0,
+                  "Objective:Match:Special:TargetsDestroyed": 0,
+                  "Objective:Match:Special:TreasureCollected": 0,
+                  "Objective:Match:Special:VolleyballShutout": 0,
+                  "Stat:Game:Character:DebuffsCleansed": 0,
+                  "Stat:Game:Character:Stock:DamageTaken": 96.32260131835938,
+                  "Stat:Game:Character:TotalAirAttacksHit": 8,
+                  "Stat:Game:Character:TotalAirAttacksUsed": 36,
+                  "Stat:Game:Character:TotalAirDamageDealt": 52.426753997802734,
+                  "Stat:Game:Character:TotalAirNormalsHit": 6,
+                  "Stat:Game:Character:TotalAirNormalsUsed": 27,
+                  "Stat:Game:Character:TotalAirSpecialsHit": 2,
+                  "Stat:Game:Character:TotalAirSpecialsUsed": 9,
+                  "Stat:Game:Character:TotalAirTime": 71.13333129882812,
+                  "Stat:Game:Character:TotalArmorBreaks": 0,
+                  "Stat:Game:Character:TotalAssists": 0,
+                  "Stat:Game:Character:TotalAttackDamageDealt": 99.48175048828125,
+                  "Stat:Game:Character:TotalAttacksDodged": 6,
+                  "Stat:Game:Character:TotalAttacksHit": 21,
+                  "Stat:Game:Character:TotalAttacksParried": 0,
+                  "Stat:Game:Character:TotalAttacksUsed": 75,
+                  "Stat:Game:Character:TotalChargeAttacksHit": 4,
+                  "Stat:Game:Character:TotalChargeAttacksUsed": 0,
+                  "Stat:Game:Character:TotalCrouchTime": 0.36666667461395264,
+                  "Stat:Game:Character:TotalDamageDealt": 116.69574737548828,
+                  "Stat:Game:Character:TotalDamageDodged": 38.38949966430664,
+                  "Stat:Game:Character:TotalDamageParried": 0,
+                  "Stat:Game:Character:TotalDamageTaken": 321.5753479003906,
+                  "Stat:Game:Character:TotalDashAttacksHit": 3,
+                  "Stat:Game:Character:TotalDashAttacksUsed": 4,
+                  "Stat:Game:Character:TotalDirectionalAirDodgesUsed": 18,
+                  "Stat:Game:Character:TotalDirectionalDodgesUsed": 32,
+                  "Stat:Game:Character:TotalDirectionalGroundDodgesUsed": 14,
+                  "Stat:Game:Character:TotalDodgesUsed": 32,
+                  "Stat:Game:Character:TotalDoubleJumps": 9,
+                  "Stat:Game:Character:TotalDoubleRingouts": 0,
+                  "Stat:Game:Character:TotalDownAirNormalHit": 1,
+                  "Stat:Game:Character:TotalDownAirNormalUsed": 5,
+                  "Stat:Game:Character:TotalDownAirSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownAirSpecialsUsed": 2,
+                  "Stat:Game:Character:TotalDownGroundNormalHit": 1,
+                  "Stat:Game:Character:TotalDownGroundNormalUsed": 3,
+                  "Stat:Game:Character:TotalDownGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownGroundSpecialsUsed": 3,
+                  "Stat:Game:Character:TotalDownNormalAttacksHit": 2,
+                  "Stat:Game:Character:TotalDownNormalAttacksUsed": 8,
+                  "Stat:Game:Character:TotalDownRingouts": 0,
+                  "Stat:Game:Character:TotalDownSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownSpecialsUsed": 5,
+                  "Stat:Game:Character:TotalDownspikeRingouts": 0,
+                  "Stat:Game:Character:TotalElectricAttacksHit": 0,
+                  "Stat:Game:Character:TotalFireAttacksHit": 0,
+                  "Stat:Game:Character:TotalFullyChargedAttacksHit": 1,
+                  "Stat:Game:Character:TotalGroundAttacksHit": 13,
+                  "Stat:Game:Character:TotalGroundAttacksUsed": 39,
+                  "Stat:Game:Character:TotalGroundDamageDealt": 64.26899719238281,
+                  "Stat:Game:Character:TotalGroundNormalsHit": 11,
+                  "Stat:Game:Character:TotalGroundNormalsUsed": 30,
+                  "Stat:Game:Character:TotalGroundSpecialsHit": 2,
+                  "Stat:Game:Character:TotalGroundSpecialsUsed": 9,
+                  "Stat:Game:Character:TotalHitsTaken": 91,
+                  "Stat:Game:Character:TotalIceAttacksHit": 0,
+                  "Stat:Game:Character:TotalJumps": 25,
+                  "Stat:Game:Character:TotalLeftRingouts": 0,
+                  "Stat:Game:Character:TotalNeutralAirDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralAirNormalHit": 0,
+                  "Stat:Game:Character:TotalNeutralAirNormalUsed": 5,
+                  "Stat:Game:Character:TotalNeutralAirSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralAirSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNeutralDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralGroundDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralGroundNormalHit": 0,
+                  "Stat:Game:Character:TotalNeutralGroundNormalUsed": 0,
+                  "Stat:Game:Character:TotalNeutralGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralGroundSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNeutralNormalAttacksHit": 17,
+                  "Stat:Game:Character:TotalNeutralNormalAttacksUsed": 5,
+                  "Stat:Game:Character:TotalNeutralSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNormalAttacksHit": 17,
+                  "Stat:Game:Character:TotalNormalAttacksUsed": 57,
+                  "Stat:Game:Character:TotalPlatformDropThroughs": 0,
+                  "Stat:Game:Character:TotalProjectileRingouts": 0,
+                  "Stat:Game:Character:TotalProjectilesBlocked": 0,
+                  "Stat:Game:Character:TotalProjectilesReflected": 0,
+                  "Stat:Game:Character:TotalRightRingouts": 1,
+                  "Stat:Game:Character:TotalRingouts": 1,
+                  "Stat:Game:Character:TotalRingoutsEnemyLowPercent": 0,
+                  "Stat:Game:Character:TotalRingoutsReceived": 3,
+                  "Stat:Game:Character:TotalRingoutsWithLessDamage": 1,
+                  "Stat:Game:Character:TotalRingoutsWithMoreDamage": 0,
+                  "Stat:Game:Character:TotalSideAirNormalHit": 5,
+                  "Stat:Game:Character:TotalSideAirNormalUsed": 13,
+                  "Stat:Game:Character:TotalSideAirSpecialsHit": 1,
+                  "Stat:Game:Character:TotalSideAirSpecialsUsed": 3,
+                  "Stat:Game:Character:TotalSideGroundNormalHit": 6,
+                  "Stat:Game:Character:TotalSideGroundNormalUsed": 21,
+                  "Stat:Game:Character:TotalSideGroundSpecialsHit": 2,
+                  "Stat:Game:Character:TotalSideGroundSpecialsUsed": 4,
+                  "Stat:Game:Character:TotalSideNormalAttacksHit": 11,
+                  "Stat:Game:Character:TotalSideNormalAttacksUsed": 34,
+                  "Stat:Game:Character:TotalSideSpecialsHit": 3,
+                  "Stat:Game:Character:TotalSideSpecialsUsed": 7,
+                  "Stat:Game:Character:TotalSpecialDamageDealt": 17.214000701904297,
+                  "Stat:Game:Character:TotalSpecialsHit": 4,
+                  "Stat:Game:Character:TotalSpecialsUsed": 18,
+                  "Stat:Game:Character:TotalSweetSpotsHit": 2,
+                  "Stat:Game:Character:TotalTauntsUsed": 0,
+                  "Stat:Game:Character:TotalUpAirNormalHit": 2,
+                  "Stat:Game:Character:TotalUpAirNormalUsed": 4,
+                  "Stat:Game:Character:TotalUpAirSpecialsHit": 1,
+                  "Stat:Game:Character:TotalUpAirSpecialsUsed": 4,
+                  "Stat:Game:Character:TotalUpGroundNormalHit": 2,
+                  "Stat:Game:Character:TotalUpGroundNormalUsed": 6,
+                  "Stat:Game:Character:TotalUpGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalUpGroundSpecialsUsed": 2,
+                  "Stat:Game:Character:TotalUpNormalAttacksHit": 4,
+                  "Stat:Game:Character:TotalUpNormalAttacksUsed": 10,
+                  "Stat:Game:Character:TotalUpRingouts": 1,
+                  "Stat:Game:Character:TotalUpSpecialsHit": 1,
+                  "Stat:Game:Character:TotalUpSpecialsUsed": 6,
+                  "Stat:Game:Character:TotalWalkLeftTime": 6.5,
+                  "Stat:Game:Character:TotalWalkRightTime": 8.016666412353516,
+                  "Stat:Game:Character:TotalWalkTime": 14.516666412353516,
+                  "Stat:Game:Character:TotalWallHangTime": 0
+                }
+              },
+              "PlayerNetworkStats": {
+                "InputDelayAverage": 0,
+                "InputDelayFinal": 0,
+                "InputDelayMax": 0,
+                "InputDelayMin": 0,
+                "OverridePercentAverage": 0.00008877139043761417,
+                "OverridePercentFinal": 0.00011418131907703355,
+                "OverridePercentMax": 0.00024801588733680546,
+                "OverridePercentMin": 0,
+                "PacketLossAverage": 0,
+                "PacketLossFinal": 0,
+                "PacketLossMax": 0,
+                "PacketLossMin": 0,
+                "PingAverage": 13.093920707702637,
+                "PingFinal": 13,
+                "PingMax": 215,
+                "PingMin": 6,
+                "RiftAverage": 3.993471384048462,
+                "RiftFinal": 4,
+                "RiftMax": 5,
+                "RiftMin": -8,
+                "RollbackFramesAverage": 0,
+                "RollbackFramesFinal": 0,
+                "RollbackFramesMax": 0,
+                "RollbackFramesMin": 0,
+                "RollbackFreqAverage": 0,
+                "RollbackFreqFinal": 0,
+                "RollbackFreqMax": 0,
+                "RollbackFreqMin": 0
+              }
+            }
+          },
+          "identity": {
+            "username": "snowy-bold-dust-snow-Ik1VY",
+            "avatar": "https://s3.amazonaws.com/wb-agora-hydra-ugc-dokken/identicons/identicon.150.png",
+            "default_username": true,
+            "personal_data": {},
+            "alternate": {
+              "wb_network": [
+                {
+                  "id": "pc62e7ac7fa43440598c6648fc6c2b610",
+                  "username": "Deadbrain01",
+                  "avatar": null,
+                  "email": null
+                }
+              ],
+              "twitch": [
+                {
+                  "username": "retadpoop1",
+                  "avatar": null,
+                  "email": null
+                }
+              ],
+              "steam": [
+                {
+                  "id": "76561193860449782",
+                  "username": "Deadbrain",
+                  "avatar": "https://avatars.steamstatic.com/b3b50f17b99cdc07235881a672bdb3ed11365b9c.jpg",
+                  "email": null
+                }
+              ]
+            },
+            "usernames": [
+              {
+                "auth": "hydra",
+                "username": "snowy-bold-dust-snow-ik1vy"
+              },
+              {
+                "auth": "steam",
+                "username": "deadbrain"
+              },
+              {
+                "auth": "twitch",
+                "username": "retadpoop1"
+              },
+              {
+                "auth": "wb_network",
+                "username": "deadbrain01"
+              }
+            ],
+            "platforms": [
+              "steam"
+            ],
+            "current_platform": "steam",
+            "is_cross_platform": false
+          }
+        },
+        {
+          "account_id": "62873f49d78c32e26df3a47c",
+          "source": {
+            "id": "66b5d3f8fa6d5fae21806f51",
+            "type": "matchmaking-fixed",
+            "extra": {
+              "from_match": "66b5ca044a340f0a1d23f887",
+              "data": {
+                "MultiplayParams": {
+                  "MultiplayClusterSlug": "ec2-us-east-1-dokken",
+                  "MultiplayProfileId": "1252922",
+                  "MultiplayRegionId": "19c465a7-f21f-11ea-a5e3-0954f48c5682",
+                  "MultiplayRegionSearchId": 1
+                },
+                "crossplay_buckets": [
+                  "All",
+                  "PC"
+                ],
+                "version": "CLIENT:28747-Retail DATA:24D33D9E PERKS:1",
+                "double_character_key": "character_C023A",
+                "last_match": "62873f49d78c32e26df3a47c",
+                "matchmaking_rating": 721.0828839450479,
+                "player_count": 1
+              }
+            }
+          },
+          "state": "leave",
+          "state_data": null,
+          "reported_results": {
+            "win": [
+              "62873f49d78c32e26df3a47c"
+            ],
+            "loss": [
+              "665a8f457e0ab99593da5c9d"
+            ],
+            "draw": false,
+            "report_time": "2024-08-09T08:34:48+00:00"
+          },
+          "data": {
+            "EndOfMatchStats": {
+              "WinningTeamIndex": 1,
+              "Score": [
+                1,
+                3
+              ],
+              "PlayerMissionUpdates": {
+                "62873f49d78c32e26df3a47c": {
+                  "Fighter:Finn:AirPojectileDestroy": 0,
+                  "Fighter:Finn:BuyBmo": 0,
+                  "Fighter:Lebron:Defense": 0,
+                  "Fighter:Lebron:Pass": 0,
+                  "Fighter:Reindog:LoveLeashAlly": 0,
+                  "Fighter:Shaggy:EnragedAttackUsed": 0,
+                  "Fighter:Shaggy:FinishedCombo": 0,
+                  "Fighter:Shaggy:RageBuildComplete": 0,
+                  "Objective:Match:Character:BugsBunny:HealSandwich": 0,
+                  "Objective:Match:Character:Stripe:Gun": 0,
+                  "Objective:Match:Character:WonderWoman:FullChargeBubble": 0,
+                  "Objective:Match:Enemies:AcmeSkyDronesDestroyed": 0,
+                  "Objective:Match:Enemies:BuffApplied:Chicken": 0,
+                  "Objective:Match:Enemies:BuffApplied:Frozen": 0,
+                  "Objective:Match:Enemies:BuffApplied:Ignited": 45,
+                  "Objective:Match:Enemies:BuffApplied:Shocked": 0,
+                  "Objective:Match:Enemies:BuffApplied:Silence": 0,
+                  "Objective:Match:Enemies:BuffApplied:Weakened": 0,
+                  "Objective:Match:Hazards:SafetySpotlightAttacksDodged": 0,
+                  "Objective:Match:Hazards:SafetySpotlightAttacksTaken": 0,
+                  "Objective:Match:Hazards:SafetySpotlightHitsOutsideSpotlight": 0,
+                  "Objective:Match:PlayCoOp": 0,
+                  "Objective:Match:PopAllyBubble": 0,
+                  "Objective:Match:Rifts:LazarusPit:BuffedRingouts": 0,
+                  "Objective:Match:Rifts:LazarusPit:FellIn": 0,
+                  "Objective:Match:Rifts:LazarusPit:TempHealth": 0,
+                  "Objective:Match:Special:DefenseHealth": 0,
+                  "Objective:Match:Special:DefenseHealth:CollectEvidence": 0,
+                  "Objective:Match:Special:GalleryBalloonsDestroyed": 0,
+                  "Objective:Match:Special:GalleryTargetsDestroyed": 0,
+                  "Objective:Match:Special:GhostHitOpponent": 0,
+                  "Objective:Match:Special:GhostHitSelf": 0,
+                  "Objective:Match:Special:GoblinTreasureCollected": 0,
+                  "Objective:Match:Special:GoblinTreasureCollected:Rare": 0,
+                  "Objective:Match:Special:GolfCount": 0,
+                  "Objective:Match:Special:JumpRopeJumps": 0,
+                  "Objective:Match:Special:ShootingGalleryScore": 0,
+                  "Objective:Match:Special:TargetsDestroyed": 0,
+                  "Objective:Match:Special:TreasureCollected": 0,
+                  "Objective:Match:Special:VolleyballShutout": 0,
+                  "Stat:Game:Character:DebuffsCleansed": 0,
+                  "Stat:Game:Character:Stock:DamageTaken": 63.676124572753906,
+                  "Stat:Game:Character:TotalAirAttacksHit": 22,
+                  "Stat:Game:Character:TotalAirAttacksUsed": 51,
+                  "Stat:Game:Character:TotalAirDamageDealt": 139.51699829101562,
+                  "Stat:Game:Character:TotalAirNormalsHit": 12,
+                  "Stat:Game:Character:TotalAirNormalsUsed": 32,
+                  "Stat:Game:Character:TotalAirSpecialsHit": 10,
+                  "Stat:Game:Character:TotalAirSpecialsUsed": 19,
+                  "Stat:Game:Character:TotalAirTime": 87.31666564941406,
+                  "Stat:Game:Character:TotalArmorBreaks": 0,
+                  "Stat:Game:Character:TotalAssists": 0,
+                  "Stat:Game:Character:TotalAttackDamageDealt": 108.46694946289062,
+                  "Stat:Game:Character:TotalAttacksDodged": 4,
+                  "Stat:Game:Character:TotalAttacksHit": 42,
+                  "Stat:Game:Character:TotalAttacksParried": 1,
+                  "Stat:Game:Character:TotalAttacksUsed": 91,
+                  "Stat:Game:Character:TotalChargeAttacksHit": 2,
+                  "Stat:Game:Character:TotalChargeAttacksUsed": 0,
+                  "Stat:Game:Character:TotalCrouchTime": 0,
+                  "Stat:Game:Character:TotalDamageDealt": 201.76644897460938,
+                  "Stat:Game:Character:TotalDamageDodged": 30.41178321838379,
+                  "Stat:Game:Character:TotalDamageParried": 6.400625228881836,
+                  "Stat:Game:Character:TotalDamageTaken": 200.1740264892578,
+                  "Stat:Game:Character:TotalDashAttacksHit": 1,
+                  "Stat:Game:Character:TotalDashAttacksUsed": 2,
+                  "Stat:Game:Character:TotalDirectionalAirDodgesUsed": 10,
+                  "Stat:Game:Character:TotalDirectionalDodgesUsed": 24,
+                  "Stat:Game:Character:TotalDirectionalGroundDodgesUsed": 14,
+                  "Stat:Game:Character:TotalDodgesUsed": 24,
+                  "Stat:Game:Character:TotalDoubleJumps": 17,
+                  "Stat:Game:Character:TotalDoubleRingouts": 0,
+                  "Stat:Game:Character:TotalDownAirNormalHit": 2,
+                  "Stat:Game:Character:TotalDownAirNormalUsed": 6,
+                  "Stat:Game:Character:TotalDownAirSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownAirSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalDownGroundNormalHit": 0,
+                  "Stat:Game:Character:TotalDownGroundNormalUsed": 0,
+                  "Stat:Game:Character:TotalDownGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownGroundSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalDownNormalAttacksHit": 2,
+                  "Stat:Game:Character:TotalDownNormalAttacksUsed": 6,
+                  "Stat:Game:Character:TotalDownRingouts": 0,
+                  "Stat:Game:Character:TotalDownSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalDownspikeRingouts": 0,
+                  "Stat:Game:Character:TotalElectricAttacksHit": 0,
+                  "Stat:Game:Character:TotalFireAttacksHit": 0,
+                  "Stat:Game:Character:TotalFullyChargedAttacksHit": 0,
+                  "Stat:Game:Character:TotalGroundAttacksHit": 20,
+                  "Stat:Game:Character:TotalGroundAttacksUsed": 40,
+                  "Stat:Game:Character:TotalGroundDamageDealt": 62.24945068359375,
+                  "Stat:Game:Character:TotalGroundNormalsHit": 20,
+                  "Stat:Game:Character:TotalGroundNormalsUsed": 35,
+                  "Stat:Game:Character:TotalGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalGroundSpecialsUsed": 5,
+                  "Stat:Game:Character:TotalHitsTaken": 34,
+                  "Stat:Game:Character:TotalIceAttacksHit": 0,
+                  "Stat:Game:Character:TotalJumps": 44,
+                  "Stat:Game:Character:TotalLeftRingouts": 0,
+                  "Stat:Game:Character:TotalNeutralAirDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralAirNormalHit": 10,
+                  "Stat:Game:Character:TotalNeutralAirNormalUsed": 18,
+                  "Stat:Game:Character:TotalNeutralAirSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralAirSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNeutralDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralGroundDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralGroundNormalHit": 2,
+                  "Stat:Game:Character:TotalNeutralGroundNormalUsed": 2,
+                  "Stat:Game:Character:TotalNeutralGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralGroundSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNeutralNormalAttacksHit": 44,
+                  "Stat:Game:Character:TotalNeutralNormalAttacksUsed": 20,
+                  "Stat:Game:Character:TotalNeutralSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNormalAttacksHit": 32,
+                  "Stat:Game:Character:TotalNormalAttacksUsed": 67,
+                  "Stat:Game:Character:TotalPlatformDropThroughs": 0,
+                  "Stat:Game:Character:TotalProjectileRingouts": 0,
+                  "Stat:Game:Character:TotalProjectilesBlocked": 0,
+                  "Stat:Game:Character:TotalProjectilesReflected": 0,
+                  "Stat:Game:Character:TotalRightRingouts": 0,
+                  "Stat:Game:Character:TotalRingouts": 3,
+                  "Stat:Game:Character:TotalRingoutsEnemyLowPercent": 0,
+                  "Stat:Game:Character:TotalRingoutsReceived": 1,
+                  "Stat:Game:Character:TotalRingoutsWithLessDamage": 3,
+                  "Stat:Game:Character:TotalRingoutsWithMoreDamage": 0,
+                  "Stat:Game:Character:TotalSideAirNormalHit": 0,
+                  "Stat:Game:Character:TotalSideAirNormalUsed": 3,
+                  "Stat:Game:Character:TotalSideAirSpecialsHit": 2,
+                  "Stat:Game:Character:TotalSideAirSpecialsUsed": 6,
+                  "Stat:Game:Character:TotalSideGroundNormalHit": 15,
+                  "Stat:Game:Character:TotalSideGroundNormalUsed": 31,
+                  "Stat:Game:Character:TotalSideGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalSideGroundSpecialsUsed": 3,
+                  "Stat:Game:Character:TotalSideNormalAttacksHit": 15,
+                  "Stat:Game:Character:TotalSideNormalAttacksUsed": 34,
+                  "Stat:Game:Character:TotalSideSpecialsHit": 2,
+                  "Stat:Game:Character:TotalSideSpecialsUsed": 9,
+                  "Stat:Game:Character:TotalSpecialDamageDealt": 93.29949951171875,
+                  "Stat:Game:Character:TotalSpecialsHit": 10,
+                  "Stat:Game:Character:TotalSpecialsUsed": 24,
+                  "Stat:Game:Character:TotalSweetSpotsHit": 0,
+                  "Stat:Game:Character:TotalTauntsUsed": 0,
+                  "Stat:Game:Character:TotalUpAirNormalHit": 2,
+                  "Stat:Game:Character:TotalUpAirNormalUsed": 5,
+                  "Stat:Game:Character:TotalUpAirSpecialsHit": 7,
+                  "Stat:Game:Character:TotalUpAirSpecialsUsed": 13,
+                  "Stat:Game:Character:TotalUpGroundNormalHit": 1,
+                  "Stat:Game:Character:TotalUpGroundNormalUsed": 2,
+                  "Stat:Game:Character:TotalUpGroundSpecialsHit": 1,
+                  "Stat:Game:Character:TotalUpGroundSpecialsUsed": 2,
+                  "Stat:Game:Character:TotalUpNormalAttacksHit": 3,
+                  "Stat:Game:Character:TotalUpNormalAttacksUsed": 7,
+                  "Stat:Game:Character:TotalUpRingouts": 3,
+                  "Stat:Game:Character:TotalUpSpecialsHit": 8,
+                  "Stat:Game:Character:TotalUpSpecialsUsed": 15,
+                  "Stat:Game:Character:TotalWalkLeftTime": 5.583333492279053,
+                  "Stat:Game:Character:TotalWalkRightTime": 6.316666603088379,
+                  "Stat:Game:Character:TotalWalkTime": 11.899999618530273,
+                  "Stat:Game:Character:TotalWallHangTime": 0.20000000298023224
+                },
+                "665a8f457e0ab99593da5c9d": {
+                  "Fighter:Finn:AirPojectileDestroy": 0,
+                  "Fighter:Finn:BuyBmo": 0,
+                  "Fighter:Lebron:Defense": 0,
+                  "Fighter:Lebron:Pass": 0,
+                  "Fighter:Reindog:LoveLeashAlly": 0,
+                  "Fighter:Shaggy:EnragedAttackUsed": 0,
+                  "Fighter:Shaggy:FinishedCombo": 0,
+                  "Fighter:Shaggy:RageBuildComplete": 0,
+                  "Objective:Match:Character:BugsBunny:HealSandwich": 0,
+                  "Objective:Match:Character:Stripe:Gun": 0,
+                  "Objective:Match:Character:WonderWoman:FullChargeBubble": 0,
+                  "Objective:Match:Enemies:AcmeSkyDronesDestroyed": 0,
+                  "Objective:Match:Enemies:BuffApplied:Chicken": 0,
+                  "Objective:Match:Enemies:BuffApplied:Frozen": 0,
+                  "Objective:Match:Enemies:BuffApplied:Ignited": 0,
+                  "Objective:Match:Enemies:BuffApplied:Shocked": 0,
+                  "Objective:Match:Enemies:BuffApplied:Silence": 0,
+                  "Objective:Match:Enemies:BuffApplied:Weakened": 0,
+                  "Objective:Match:Hazards:SafetySpotlightAttacksDodged": 0,
+                  "Objective:Match:Hazards:SafetySpotlightAttacksTaken": 0,
+                  "Objective:Match:Hazards:SafetySpotlightHitsOutsideSpotlight": 0,
+                  "Objective:Match:PlayCoOp": 0,
+                  "Objective:Match:PopAllyBubble": 0,
+                  "Objective:Match:Rifts:LazarusPit:BuffedRingouts": 0,
+                  "Objective:Match:Rifts:LazarusPit:FellIn": 0,
+                  "Objective:Match:Rifts:LazarusPit:TempHealth": 0,
+                  "Objective:Match:Special:DefenseHealth": 0,
+                  "Objective:Match:Special:DefenseHealth:CollectEvidence": 0,
+                  "Objective:Match:Special:GalleryBalloonsDestroyed": 0,
+                  "Objective:Match:Special:GalleryTargetsDestroyed": 0,
+                  "Objective:Match:Special:GhostHitOpponent": 0,
+                  "Objective:Match:Special:GhostHitSelf": 0,
+                  "Objective:Match:Special:GoblinTreasureCollected": 0,
+                  "Objective:Match:Special:GoblinTreasureCollected:Rare": 0,
+                  "Objective:Match:Special:GolfCount": 0,
+                  "Objective:Match:Special:JumpRopeJumps": 0,
+                  "Objective:Match:Special:ShootingGalleryScore": 0,
+                  "Objective:Match:Special:TargetsDestroyed": 0,
+                  "Objective:Match:Special:TreasureCollected": 0,
+                  "Objective:Match:Special:VolleyballShutout": 0,
+                  "Stat:Game:Character:DebuffsCleansed": 0,
+                  "Stat:Game:Character:Stock:DamageTaken": 96.32260131835938,
+                  "Stat:Game:Character:TotalAirAttacksHit": 8,
+                  "Stat:Game:Character:TotalAirAttacksUsed": 36,
+                  "Stat:Game:Character:TotalAirDamageDealt": 52.426753997802734,
+                  "Stat:Game:Character:TotalAirNormalsHit": 6,
+                  "Stat:Game:Character:TotalAirNormalsUsed": 27,
+                  "Stat:Game:Character:TotalAirSpecialsHit": 2,
+                  "Stat:Game:Character:TotalAirSpecialsUsed": 9,
+                  "Stat:Game:Character:TotalAirTime": 71.13333129882812,
+                  "Stat:Game:Character:TotalArmorBreaks": 0,
+                  "Stat:Game:Character:TotalAssists": 0,
+                  "Stat:Game:Character:TotalAttackDamageDealt": 99.48175048828125,
+                  "Stat:Game:Character:TotalAttacksDodged": 6,
+                  "Stat:Game:Character:TotalAttacksHit": 21,
+                  "Stat:Game:Character:TotalAttacksParried": 0,
+                  "Stat:Game:Character:TotalAttacksUsed": 75,
+                  "Stat:Game:Character:TotalChargeAttacksHit": 4,
+                  "Stat:Game:Character:TotalChargeAttacksUsed": 0,
+                  "Stat:Game:Character:TotalCrouchTime": 0.36666667461395264,
+                  "Stat:Game:Character:TotalDamageDealt": 116.69574737548828,
+                  "Stat:Game:Character:TotalDamageDodged": 38.38949966430664,
+                  "Stat:Game:Character:TotalDamageParried": 0,
+                  "Stat:Game:Character:TotalDamageTaken": 321.5753479003906,
+                  "Stat:Game:Character:TotalDashAttacksHit": 3,
+                  "Stat:Game:Character:TotalDashAttacksUsed": 4,
+                  "Stat:Game:Character:TotalDirectionalAirDodgesUsed": 18,
+                  "Stat:Game:Character:TotalDirectionalDodgesUsed": 32,
+                  "Stat:Game:Character:TotalDirectionalGroundDodgesUsed": 14,
+                  "Stat:Game:Character:TotalDodgesUsed": 32,
+                  "Stat:Game:Character:TotalDoubleJumps": 9,
+                  "Stat:Game:Character:TotalDoubleRingouts": 0,
+                  "Stat:Game:Character:TotalDownAirNormalHit": 1,
+                  "Stat:Game:Character:TotalDownAirNormalUsed": 5,
+                  "Stat:Game:Character:TotalDownAirSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownAirSpecialsUsed": 2,
+                  "Stat:Game:Character:TotalDownGroundNormalHit": 1,
+                  "Stat:Game:Character:TotalDownGroundNormalUsed": 3,
+                  "Stat:Game:Character:TotalDownGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownGroundSpecialsUsed": 3,
+                  "Stat:Game:Character:TotalDownNormalAttacksHit": 2,
+                  "Stat:Game:Character:TotalDownNormalAttacksUsed": 8,
+                  "Stat:Game:Character:TotalDownRingouts": 0,
+                  "Stat:Game:Character:TotalDownSpecialsHit": 0,
+                  "Stat:Game:Character:TotalDownSpecialsUsed": 5,
+                  "Stat:Game:Character:TotalDownspikeRingouts": 0,
+                  "Stat:Game:Character:TotalElectricAttacksHit": 0,
+                  "Stat:Game:Character:TotalFireAttacksHit": 0,
+                  "Stat:Game:Character:TotalFullyChargedAttacksHit": 1,
+                  "Stat:Game:Character:TotalGroundAttacksHit": 13,
+                  "Stat:Game:Character:TotalGroundAttacksUsed": 39,
+                  "Stat:Game:Character:TotalGroundDamageDealt": 64.26899719238281,
+                  "Stat:Game:Character:TotalGroundNormalsHit": 11,
+                  "Stat:Game:Character:TotalGroundNormalsUsed": 30,
+                  "Stat:Game:Character:TotalGroundSpecialsHit": 2,
+                  "Stat:Game:Character:TotalGroundSpecialsUsed": 9,
+                  "Stat:Game:Character:TotalHitsTaken": 91,
+                  "Stat:Game:Character:TotalIceAttacksHit": 0,
+                  "Stat:Game:Character:TotalJumps": 25,
+                  "Stat:Game:Character:TotalLeftRingouts": 0,
+                  "Stat:Game:Character:TotalNeutralAirDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralAirNormalHit": 0,
+                  "Stat:Game:Character:TotalNeutralAirNormalUsed": 5,
+                  "Stat:Game:Character:TotalNeutralAirSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralAirSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNeutralDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralGroundDodgesUsed": 0,
+                  "Stat:Game:Character:TotalNeutralGroundNormalHit": 0,
+                  "Stat:Game:Character:TotalNeutralGroundNormalUsed": 0,
+                  "Stat:Game:Character:TotalNeutralGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralGroundSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNeutralNormalAttacksHit": 17,
+                  "Stat:Game:Character:TotalNeutralNormalAttacksUsed": 5,
+                  "Stat:Game:Character:TotalNeutralSpecialsHit": 0,
+                  "Stat:Game:Character:TotalNeutralSpecialsUsed": 0,
+                  "Stat:Game:Character:TotalNormalAttacksHit": 17,
+                  "Stat:Game:Character:TotalNormalAttacksUsed": 57,
+                  "Stat:Game:Character:TotalPlatformDropThroughs": 0,
+                  "Stat:Game:Character:TotalProjectileRingouts": 0,
+                  "Stat:Game:Character:TotalProjectilesBlocked": 0,
+                  "Stat:Game:Character:TotalProjectilesReflected": 0,
+                  "Stat:Game:Character:TotalRightRingouts": 1,
+                  "Stat:Game:Character:TotalRingouts": 1,
+                  "Stat:Game:Character:TotalRingoutsEnemyLowPercent": 0,
+                  "Stat:Game:Character:TotalRingoutsReceived": 3,
+                  "Stat:Game:Character:TotalRingoutsWithLessDamage": 1,
+                  "Stat:Game:Character:TotalRingoutsWithMoreDamage": 0,
+                  "Stat:Game:Character:TotalSideAirNormalHit": 5,
+                  "Stat:Game:Character:TotalSideAirNormalUsed": 13,
+                  "Stat:Game:Character:TotalSideAirSpecialsHit": 1,
+                  "Stat:Game:Character:TotalSideAirSpecialsUsed": 3,
+                  "Stat:Game:Character:TotalSideGroundNormalHit": 6,
+                  "Stat:Game:Character:TotalSideGroundNormalUsed": 21,
+                  "Stat:Game:Character:TotalSideGroundSpecialsHit": 2,
+                  "Stat:Game:Character:TotalSideGroundSpecialsUsed": 4,
+                  "Stat:Game:Character:TotalSideNormalAttacksHit": 11,
+                  "Stat:Game:Character:TotalSideNormalAttacksUsed": 34,
+                  "Stat:Game:Character:TotalSideSpecialsHit": 3,
+                  "Stat:Game:Character:TotalSideSpecialsUsed": 7,
+                  "Stat:Game:Character:TotalSpecialDamageDealt": 17.214000701904297,
+                  "Stat:Game:Character:TotalSpecialsHit": 4,
+                  "Stat:Game:Character:TotalSpecialsUsed": 18,
+                  "Stat:Game:Character:TotalSweetSpotsHit": 2,
+                  "Stat:Game:Character:TotalTauntsUsed": 0,
+                  "Stat:Game:Character:TotalUpAirNormalHit": 2,
+                  "Stat:Game:Character:TotalUpAirNormalUsed": 4,
+                  "Stat:Game:Character:TotalUpAirSpecialsHit": 1,
+                  "Stat:Game:Character:TotalUpAirSpecialsUsed": 4,
+                  "Stat:Game:Character:TotalUpGroundNormalHit": 2,
+                  "Stat:Game:Character:TotalUpGroundNormalUsed": 6,
+                  "Stat:Game:Character:TotalUpGroundSpecialsHit": 0,
+                  "Stat:Game:Character:TotalUpGroundSpecialsUsed": 2,
+                  "Stat:Game:Character:TotalUpNormalAttacksHit": 4,
+                  "Stat:Game:Character:TotalUpNormalAttacksUsed": 10,
+                  "Stat:Game:Character:TotalUpRingouts": 1,
+                  "Stat:Game:Character:TotalUpSpecialsHit": 1,
+                  "Stat:Game:Character:TotalUpSpecialsUsed": 6,
+                  "Stat:Game:Character:TotalWalkLeftTime": 6.5,
+                  "Stat:Game:Character:TotalWalkRightTime": 8.016666412353516,
+                  "Stat:Game:Character:TotalWalkTime": 14.516666412353516,
+                  "Stat:Game:Character:TotalWallHangTime": 0
+                }
+              },
+              "PlayerNetworkStats": {
+                "InputDelayAverage": 0,
+                "InputDelayFinal": 0,
+                "InputDelayMax": 0,
+                "InputDelayMin": 0,
+                "OverridePercentAverage": 0,
+                "OverridePercentFinal": 0,
+                "OverridePercentMax": 0,
+                "OverridePercentMin": 0,
+                "PacketLossAverage": 0.04717644676566124,
+                "PacketLossFinal": 0.05560189113020897,
+                "PacketLossMax": 0.10338588804006577,
+                "PacketLossMin": 0,
+                "PingAverage": 14.943254470825195,
+                "PingFinal": 15,
+                "PingMax": 73,
+                "PingMin": 14,
+                "RiftAverage": 3.995271921157837,
+                "RiftFinal": 4,
+                "RiftMax": 5,
+                "RiftMin": 0,
+                "RollbackFramesAverage": 2.5999999046325684,
+                "RollbackFramesFinal": 1,
+                "RollbackFramesMax": 4,
+                "RollbackFramesMin": 1,
+                "RollbackFreqAverage": 2.5999999046325684,
+                "RollbackFreqFinal": 1,
+                "RollbackFreqMax": 4571,
+                "RollbackFreqMin": 1
+              }
+            }
+          },
+          "identity": {
+            "username": "taetae_bignutz",
+            "avatar": "https://s3.amazonaws.com/wb-agora-hydra-ugc-dokken/identicons/identicon.758.png",
+            "default_username": false,
+            "personal_data": {},
+            "alternate": {
+              "wb_network": [
+                {
+                  "id": "pdbd4d1c47f764c4fb56a938c68895d3d",
+                  "username": "taetae",
+                  "avatar": null,
+                  "email": null
+                }
+              ],
+              "twitch": [
+                {
+                  "username": "TaeTaeBigNutz",
+                  "avatar": null,
+                  "email": null
+                }
+              ],
+              "steam": [
+                {
+                  "id": "76561194033668174",
+                  "username": "Faker",
+                  "avatar": "https://avatars.steamstatic.com/1a41ec0fac641a0987be9eab02ca744f1e0dfb30.jpg",
+                  "email": null
+                }
+              ],
+              "ps4": [
+                {
+                  "username": "taeyeong2k",
+                  "avatar": null,
+                  "email": null
+                }
+              ]
+            },
+            "usernames": [
+              {
+                "auth": "hydra",
+                "username": "taetae_bignutz"
+              },
+              {
+                "auth": "ps4",
+                "username": "taeyeong2k"
+              },
+              {
+                "auth": "steam",
+                "username": "faker"
+              },
+              {
+                "auth": "twitch",
+                "username": "taetaebignutz"
+              },
+              {
+                "auth": "wb_network",
+                "username": "taetae"
+              }
+            ],
+            "platforms": [
+              "steam",
+              "psn"
+            ],
+            "current_platform": "steam",
+            "is_cross_platform": true
+          }
+        }
+      ],
+      "current": [],
+      "completed": [
+        "62873f49d78c32e26df3a47c",
+        "665a8f457e0ab99593da5c9d"
+      ],
+      "count": 0
+    },
+    "matchmaking": null,
+    "cluster": "ec2-us-east-1-dokken",
+    "last_warning_time": null,
+    "template": {
+      "id": "620d894be6bbaf409686b71b",
+      "type": "async",
+      "name": "1v1_Container",
+      "slug": "1v1_container",
+      "min_players": 2,
+      "max_players": 2,
+      "game_server_integration_enabled": true,
+      "game_server_config": {
+        "game_server_type_slug": "multiplay",
+        "require_player_region_data": true,
+        "game_server_region_priority": "SMALLEST_MAX_LATENCY"
+      },
+      "created_at": "2022-02-16T23:31:23+00:00",
+      "updated_at": "2024-07-23T16:21:35+00:00",
+      "data": {
+        "mode": "1v1"
+      }
+    },
+    "criteria": {
+      "slug": "ranked-1v1-retail"
+    },
+    "access": "private"
+  }

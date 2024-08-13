@@ -1,0 +1,453 @@
+{
+    "cursor": "dfc3bc835811419ba586646b5a8bfd02",
+    "start": 0,
+    "count": 25,
+    "total": 86,
+    "results": [
+      {
+        "score": null,
+        "result": {
+          "id": "66566c3fd26fc2bac50a362f",
+          "updated_at": "2024-07-09T02:01:17+00:00",
+          "account_id": "66566c3fd26fc2bac50a362d",
+          "created_at": "2024-05-28T23:43:59+00:00",
+          "last_login": "2024-05-28T23:45:23+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {
+            "s1-battlepass-score": {
+              "type_class": "current_value",
+              "value": 2600
+            }
+          },
+          "calculations": {},
+          "random_distribution": 0.698833405207715
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62e537950a4a3a6a284fb7a8",
+          "updated_at": "2024-07-08T22:00:44+00:00",
+          "account_id": "62e537950a4a3a6a284fb7a5",
+          "created_at": "2022-07-30T13:52:21+00:00",
+          "last_login": "2022-07-30T13:55:19+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.10327039398236082
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62ecd70b57015f7b8de44188",
+          "updated_at": "2024-07-08T16:17:12+00:00",
+          "account_id": "62ecd70b57015f7b8de44185",
+          "created_at": "2022-08-05T08:38:35+00:00",
+          "last_login": "2022-08-06T22:41:13+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.6807473335588189
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62ec1e959aec7ac1eb7e7991",
+          "updated_at": "2024-07-07T21:04:07+00:00",
+          "account_id": "62ec1e949aec7ac1eb7e798e",
+          "created_at": "2022-08-04T19:31:33+00:00",
+          "last_login": "2022-08-06T21:12:10+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.9492287783949195
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62e4a498192df81e948d69ce",
+          "updated_at": "2024-07-08T00:46:58+00:00",
+          "account_id": "62e4a498192df81e948d69cb",
+          "created_at": "2022-07-30T03:25:12+00:00",
+          "last_login": "2022-08-31T00:37:39+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.44651369063210833
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62e7e4d706e391d43695cc8f",
+          "updated_at": "2024-07-06T10:46:44+00:00",
+          "account_id": "62e7e4d706e391d43695cc89",
+          "created_at": "2022-08-01T14:36:07+00:00",
+          "last_login": "2024-06-07T12:53:49+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {
+            "s1-battlepass-score": {
+              "type_class": "current_value",
+              "value": 22130
+            }
+          },
+          "calculations": {},
+          "random_distribution": 0.23810956025047791
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62e5cb9cbd4fa3d7c91411ac",
+          "updated_at": "2024-07-09T01:06:55+00:00",
+          "account_id": "62e5cb9bbd4fa3d7c91411a9",
+          "created_at": "2022-07-31T00:23:56+00:00",
+          "last_login": "2022-08-01T18:30:24+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.4716535316348506
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "66ad1405b0f6b203934fd74e",
+          "updated_at": "2024-08-03T16:00:13+00:00",
+          "account_id": "66ad1405b0f6b203934fd74b",
+          "created_at": "2024-08-02T17:14:45+00:00",
+          "last_login": "2024-08-03T15:14:05+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.8733809362982062
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62e895442d557bacf579f502",
+          "updated_at": "2024-08-01T11:35:18+00:00",
+          "account_id": "62e895442d557bacf579f4ff",
+          "created_at": "2022-08-02T03:08:52+00:00",
+          "last_login": "2022-08-07T04:08:40+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.8827047292214403
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62e5ed4fa94c994581902f27",
+          "updated_at": "2024-07-08T06:23:13+00:00",
+          "account_id": "62e5ed4ea94c994581902f24",
+          "created_at": "2022-07-31T02:47:43+00:00",
+          "last_login": "2022-07-31T02:48:20+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.5052109895188215
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "6659bfe7a1431886c1048845",
+          "updated_at": "2024-07-09T07:09:40+00:00",
+          "account_id": "6659bfe7a1431886c1048844",
+          "created_at": "2024-05-31T12:17:43+00:00",
+          "last_login": "2024-06-01T15:43:14+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {
+            "s1-battlepass-score": {
+              "type_class": "current_value",
+              "value": 6700
+            }
+          },
+          "calculations": {},
+          "random_distribution": 0.08326109503039114
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62e9b843ee543be41febad22",
+          "updated_at": "2024-07-08T13:37:39+00:00",
+          "account_id": "62e9b842ee543be41febad1f",
+          "created_at": "2022-08-02T23:50:27+00:00",
+          "last_login": "2024-06-09T22:43:12+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {
+            "s1-battlepass-score": {
+              "type_class": "current_value",
+              "value": 8115
+            }
+          },
+          "calculations": {},
+          "random_distribution": 0.7111406205919791
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "6657ee8ad8db349de03b5e8b",
+          "updated_at": "2024-07-09T03:55:15+00:00",
+          "account_id": "6657ee8ad8db349de03b5e89",
+          "created_at": "2024-05-30T03:12:10+00:00",
+          "last_login": "2024-05-31T06:26:59+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {
+            "s1-battlepass-score": {
+              "type_class": "current_value",
+              "value": 7200
+            }
+          },
+          "calculations": {},
+          "random_distribution": 0.8202619155909538
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "665c2d62ddf3ead2e37076c1",
+          "updated_at": "2024-07-09T07:21:51+00:00",
+          "account_id": "665c2d62ddf3ead2e37076c0",
+          "created_at": "2024-06-02T08:29:22+00:00",
+          "last_login": "2024-06-02T09:42:14+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {
+            "s1-battlepass-score": {
+              "type_class": "current_value",
+              "value": 9100
+            }
+          },
+          "calculations": {},
+          "random_distribution": 0.5364003191675555
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62e4b74e83ba7849e3dfda01",
+          "updated_at": "2024-07-27T18:29:24+00:00",
+          "account_id": "62e4b74e83ba7849e3dfd9fe",
+          "created_at": "2022-07-30T04:45:02+00:00",
+          "last_login": "2022-07-31T04:23:13+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.9822849785775776
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62d6ecd5977f993715c086de",
+          "updated_at": "2024-07-30T18:21:02+00:00",
+          "account_id": "62d6ecd5977f993715c086db",
+          "created_at": "2022-07-19T17:41:41+00:00",
+          "last_login": "2022-08-18T05:30:47+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.9357710799179145
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "630c4ac1de2350af44f5ee56",
+          "updated_at": "2024-07-06T08:26:11+00:00",
+          "account_id": "630c4ac1de2350af44f5ee53",
+          "created_at": "2022-08-29T05:12:33+00:00",
+          "last_login": "2022-09-11T03:34:05+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.16810879469646534
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62eee0b73a135c5486ac8917",
+          "updated_at": "2024-07-08T07:14:34+00:00",
+          "account_id": "62eee0b73a135c5486ac8914",
+          "created_at": "2022-08-06T21:44:23+00:00",
+          "last_login": "2022-08-07T13:13:03+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.6080994016999945
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62e9ad29ef2cc7c770a6ebc4",
+          "updated_at": "2024-07-25T06:57:06+00:00",
+          "account_id": "62e9ad29ef2cc7c770a6ebc0",
+          "created_at": "2022-08-02T23:03:05+00:00",
+          "last_login": "2024-07-25T06:36:28+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {
+            "s1-battlepass-score": {
+              "type_class": "current_value",
+              "value": 41430
+            }
+          },
+          "calculations": {},
+          "random_distribution": 0.042971282075977446
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62e48217c1cace87185f9626",
+          "updated_at": "2024-07-06T23:46:51+00:00",
+          "account_id": "62e48217c1cace87185f9623",
+          "created_at": "2022-07-30T00:57:59+00:00",
+          "last_login": "2022-09-04T02:29:11+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.2111636049491653
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "66aad37a77dd4d4ea07785e9",
+          "updated_at": "2024-08-01T00:30:41+00:00",
+          "account_id": "66aad37a77dd4d4ea07785e8",
+          "created_at": "2024-08-01T00:14:50+00:00",
+          "last_login": "2024-08-01T00:17:23+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.25226424161657857
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62d7489626b78a625319db03",
+          "updated_at": "2024-07-06T18:07:31+00:00",
+          "account_id": "62d7489626b78a625319db00",
+          "created_at": "2022-07-20T00:13:10+00:00",
+          "last_login": "2022-08-04T15:28:21+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.4745498659758838
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62ed7397b838347d1555819d",
+          "updated_at": "2024-08-05T09:01:40+00:00",
+          "account_id": "62ed7397b838347d1555819a",
+          "created_at": "2022-08-05T19:46:31+00:00",
+          "last_login": "2024-08-05T08:55:53+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {
+            "s1-battlepass-score": {
+              "type_class": "current_value",
+              "value": 177175
+            }
+          },
+          "calculations": {},
+          "random_distribution": 0.5562358524980727
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "66584e20e2c5fc139150e03e",
+          "updated_at": "2024-07-09T05:30:48+00:00",
+          "account_id": "66584e1fe2c5fc139150e03d",
+          "created_at": "2024-05-30T10:00:00+00:00",
+          "last_login": "2024-05-30T11:13:17+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {
+            "s1-battlepass-score": {
+              "type_class": "current_value",
+              "value": 3400
+            }
+          },
+          "calculations": {},
+          "random_distribution": 0.11944437669331753
+        }
+      },
+      {
+        "score": null,
+        "result": {
+          "id": "62f6cd3add84399aa1586054",
+          "updated_at": "2024-07-08T01:36:52+00:00",
+          "account_id": "62f6cd3add84399aa1586051",
+          "created_at": "2022-08-12T21:59:22+00:00",
+          "last_login": "2022-08-23T02:37:17+00:00",
+          "points": null,
+          "cross_match_results": {},
+          "notifications": {},
+          "aggregates": {},
+          "calculations": {},
+          "random_distribution": 0.9573116733835596
+        }
+      }
+    ]
+  }

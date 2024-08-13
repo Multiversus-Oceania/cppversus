@@ -14,6 +14,7 @@ namespace CPPVersus {
 
 enum LoginPlatform {
     PC,
+    XBoxSeriesX,
     UNKNOWN
 };
 
@@ -28,24 +29,26 @@ struct BoostInfo {
 };
 
 struct PlayerInfo {
-    std::string id;
-    std::string publicID;
+    std::string id = "";
+    std::string publicID = "";
 
-    std::string createdAt;
-    std::string updatedAt;
+    std::string username = "";
 
-    std::string lastLogout;
-    std::string lastLogin;
+    std::string createdAt = "";
+    std::string updatedAt = "";
 
-    LoginPlatform lastLoginPlatform;
+    std::optional<std::string> lastLogout = std::optional<std::string>();
+    std::optional<std::string> lastLogin = std::optional<std::string>();
 
-    uint64_t level;
-    uint64_t xp;
+    LoginPlatform lastLoginPlatform = LoginPlatform::UNKNOWN;
 
-    std::string profileIconPath;
+    uint64_t level = 0;
+    uint64_t xp = 0;
 
-    std::map<uint64_t, CharacterInfo> characters;
-    std::map<std::string, BoostInfo> activeBoosts;
+    std::string profileIconPath = "";
+
+    std::map<uint64_t, CharacterInfo> characters = {};
+    std::map<std::string, BoostInfo> activeBoosts = {};
 };
 
 };

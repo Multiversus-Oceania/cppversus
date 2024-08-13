@@ -44,7 +44,8 @@ const std::vector<Character> characters = {
     { 23, "Stripe",             "character_c023b"         },
     { 24, "Tom and Jerry",      "character_tom_and_jerry" },
     { 25, "Superman",           "character_superman"      },
-    { 26, "Agent Smith",        "character_c036"          }
+    { 26, "Agent Smith",        "character_c036"          },
+    { 27, "Samurai Jack",       "character_c035"          }
 };
 
 inline std::optional<Character> characterFromSlug(std::string slug) {

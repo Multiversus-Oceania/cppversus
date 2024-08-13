@@ -1,2 +1,1 @@
-subdir('init')
-subdir('info')
+subdir('get_user')

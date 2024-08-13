@@ -1,4 +1,12 @@
-project('cppversus', 'cpp', version : '1.0', default_options : [ 'cpp_std=c++20' ])
+project(
+    'cppversus',
+    'cpp',
+    version : '1.0',
+    default_options : [
+        'cpp_std=c++20',
+        'warning_level=2'
+    ]
+)
 
 cmd = run_command('sh', '-c', 'echo $MULTIVERSUS_TOKEN')
 API_KEY = cmd.stdout().strip()
@@ -22,7 +30,8 @@ dependencies = [
 
 cppversus_lib = shared_library('cppversus', 
     [
-        'src/dokken_api.cpp'
+        'src/dokken/main.cpp',
+        'src/dokken/player_info.cpp'
     ], 
     include_directories : includes,
     dependencies : dependencies,

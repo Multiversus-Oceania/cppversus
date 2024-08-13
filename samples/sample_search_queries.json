@@ -1,0 +1,460 @@
+[
+    {
+      "id": "620d894be6bbaf409686b81d",
+      "name": {
+        "default": "GetByUsername",
+        "localizations": {
+          "en-US": "GetByUsername"
+        },
+        "slug": "dontlocalize",
+        "rendered": null
+      },
+      "slug": "get-by-username",
+      "description": "",
+      "config": {
+        "histogram": null,
+        "filter": {
+          "boolean": "all",
+          "subfilters": [
+            {
+              "boolean": "any",
+              "subfilters": [],
+              "filters": [
+                {
+                  "field": "SteamUsername",
+                  "source": "request",
+                  "source_conversion": null,
+                  "optional": false,
+                  "negate": false,
+                  "operator": "contains",
+                  "args": {
+                    "value": "username",
+                    "partial_match": true
+                  }
+                },
+                {
+                  "field": "XBoxUsername",
+                  "source": "request",
+                  "source_conversion": null,
+                  "optional": false,
+                  "negate": false,
+                  "operator": "contains",
+                  "args": {
+                    "value": "username",
+                    "partial_match": true
+                  }
+                },
+                {
+                  "field": "PSNUsername",
+                  "source": "request",
+                  "source_conversion": null,
+                  "optional": false,
+                  "negate": false,
+                  "operator": "contains",
+                  "args": {
+                    "value": "username",
+                    "partial_match": true
+                  }
+                },
+                {
+                  "field": "Username",
+                  "source": "request",
+                  "source_conversion": null,
+                  "optional": false,
+                  "negate": false,
+                  "operator": "contains",
+                  "args": {
+                    "value": "username",
+                    "partial_match": true
+                  }
+                },
+                {
+                  "field": "PlayerNetworkUsername",
+                  "source": "request",
+                  "source_conversion": null,
+                  "optional": false,
+                  "negate": false,
+                  "operator": "contains",
+                  "args": {
+                    "value": "username",
+                    "partial_match": true
+                  }
+                },
+                {
+                  "field": "EpicUsername",
+                  "source": "request",
+                  "source_conversion": null,
+                  "optional": false,
+                  "negate": false,
+                  "operator": "contains",
+                  "args": {
+                    "value": "username",
+                    "partial_match": true
+                  }
+                },
+                {
+                  "field": "DiscordUsername",
+                  "source": "request",
+                  "source_conversion": null,
+                  "optional": false,
+                  "negate": false,
+                  "operator": "contains",
+                  "args": {
+                    "value": "username",
+                    "partial_match": true
+                  }
+                }
+              ],
+              "references": []
+            }
+          ],
+          "filters": [
+            {
+              "field": "IsChildAccount",
+              "source": "value",
+              "source_conversion": null,
+              "optional": false,
+              "negate": true,
+              "operator": "equals",
+              "args": {
+                "value": "true"
+              }
+            }
+          ],
+          "references": []
+        },
+        "score": {
+          "queries": [],
+          "field_values": [],
+          "functions": [],
+          "score_mode": "multiply",
+          "boost_mode": "multiply"
+        },
+        "sort": [
+          {
+            "field": "Username",
+            "order": "desc",
+            "source": "value"
+          }
+        ]
+      },
+      "created_at": "2022-02-16T23:31:23+00:00",
+      "updated_at": "2024-06-06T16:35:54+00:00",
+      "data": {}
+    },
+    {
+      "id": "620d894be6bbaf409686b81f",
+      "name": "GetByFirstPartyAccountId",
+      "slug": "getbyfirstpartyaccountid",
+      "description": "",
+      "config": {
+        "histogram": null,
+        "filter": {
+          "boolean": "any",
+          "subfilters": [],
+          "filters": [
+            {
+              "field": "SteamID",
+              "source": "request",
+              "source_conversion": null,
+              "optional": false,
+              "negate": false,
+              "operator": "equals",
+              "args": {
+                "value": "id"
+              }
+            },
+            {
+              "field": "XboxID",
+              "source": "request",
+              "source_conversion": null,
+              "optional": false,
+              "negate": false,
+              "operator": "equals",
+              "args": {
+                "value": "id"
+              }
+            },
+            {
+              "field": "PSNID",
+              "source": "request",
+              "source_conversion": null,
+              "optional": false,
+              "negate": false,
+              "operator": "equals",
+              "args": {
+                "value": "id"
+              }
+            },
+            {
+              "field": "EpicId",
+              "source": "request",
+              "source_conversion": null,
+              "optional": false,
+              "negate": false,
+              "operator": "equals",
+              "args": {
+                "value": "id"
+              }
+            }
+          ],
+          "references": []
+        },
+        "score": {
+          "queries": [],
+          "field_values": [],
+          "functions": [],
+          "score_mode": "multiply",
+          "boost_mode": "multiply"
+        },
+        "sort": []
+      },
+      "created_at": "2022-02-16T23:31:23+00:00",
+      "updated_at": "2022-07-13T20:53:36+00:00",
+      "data": {}
+    },
+    {
+      "id": "620d894be6bbaf409686b820",
+      "name": "Cheaters",
+      "slug": "cheaters",
+      "description": "",
+      "config": {
+        "histogram": null,
+        "filter": {
+          "boolean": "all",
+          "subfilters": [],
+          "filters": [
+            {
+              "field": "AntiCheatServerKick",
+              "source": "value",
+              "source_conversion": null,
+              "optional": false,
+              "negate": false,
+              "operator": "gt",
+              "args": {
+                "gt": "0"
+              }
+            }
+          ],
+          "references": []
+        },
+        "score": {
+          "queries": [],
+          "field_values": [],
+          "functions": [],
+          "score_mode": "multiply",
+          "boost_mode": "multiply"
+        },
+        "sort": []
+      },
+      "created_at": "2022-02-16T23:31:23+00:00",
+      "updated_at": "2022-02-16T23:31:23+00:00",
+      "data": {}
+    },
+    {
+      "id": "6270c121fbc68d6f294d93e9",
+      "name": "BattlepassLinkedPlayers",
+      "slug": "battlepasslinkedplayers",
+      "description": "",
+      "config": {
+        "histogram": null,
+        "filter": {
+          "boolean": "all",
+          "subfilters": [],
+          "filters": [
+            {
+              "field": "IsBattlepassLinked",
+              "source": "value",
+              "source_conversion": null,
+              "optional": false,
+              "negate": true,
+              "operator": "equals",
+              "args": {
+                "value": true
+              }
+            },
+            {
+              "field": "Username",
+              "source": "request",
+              "source_conversion": null,
+              "optional": false,
+              "negate": false,
+              "operator": "equals",
+              "args": {
+                "value": "username"
+              }
+            }
+          ],
+          "references": []
+        },
+        "score": {
+          "queries": [],
+          "field_values": [],
+          "functions": [],
+          "score_mode": "multiply",
+          "boost_mode": "multiply"
+        },
+        "sort": [
+          {
+            "field": "Username",
+            "order": "asc",
+            "source": "value"
+          }
+        ]
+      },
+      "created_at": "2022-05-03T05:44:01+00:00",
+      "updated_at": "2022-05-03T05:44:01+00:00",
+      "data": {}
+    },
+    {
+      "id": "6346e56243c9dc676974880a",
+      "name": "Get Accounts With Invalid Profile Icons",
+      "slug": "get-accounts-with-invalid-profile-icons",
+      "description": "",
+      "config": {
+        "histogram": null,
+        "filter": {
+          "boolean": "any",
+          "subfilters": [],
+          "filters": [
+            {
+              "field": "ProfileIconAssetPath",
+              "source": "value",
+              "source_conversion": null,
+              "optional": false,
+              "negate": false,
+              "operator": "equals",
+              "args": {
+                "value": "/Game/MultiVersus/Content/Panda_Main/UI/Assets/Icons/Profile_Icons/BL_Rick/ProfileIcon_AS_RAM_PickleRick_1.ProfileIcon_AS_RAM_PickleRick_1"
+              }
+            },
+            {
+              "field": "ProfileIconAssetPath",
+              "source": "value",
+              "source_conversion": null,
+              "optional": false,
+              "negate": false,
+              "operator": "equals",
+              "args": {
+                "value": "/Game/Panda_Main/Blueprints/Rewards/ProfileIcons/BL_Jake/ProfileIcon_CN_AT_Jake.ProfileIcon_CN_AT_Jake"
+              }
+            }
+          ],
+          "references": []
+        },
+        "score": {
+          "queries": [],
+          "field_values": [],
+          "functions": [],
+          "score_mode": "multiply",
+          "boost_mode": "multiply"
+        },
+        "sort": []
+      },
+      "created_at": "2022-10-12T16:03:46+00:00",
+      "updated_at": "2022-10-12T16:03:46+00:00",
+      "data": {}
+    },
+    {
+      "id": "663288a3358a2a62107cac15",
+      "name": "getPlayerByPublicId",
+      "slug": "getplayerbypublicid",
+      "description": "",
+      "config": {
+        "histogram": null,
+        "filter": {
+          "boolean": "all",
+          "subfilters": [],
+          "filters": [
+            {
+              "field": "publicId",
+              "source": "value",
+              "source_conversion": null,
+              "optional": false,
+              "negate": false,
+              "operator": "equals",
+              "args": {
+                "value": "p017843aba3b2420c99615758b8b32401"
+              }
+            }
+          ],
+          "references": []
+        },
+        "score": {
+          "queries": [],
+          "field_values": [],
+          "functions": [],
+          "score_mode": "multiply",
+          "boost_mode": "multiply"
+        },
+        "sort": []
+      },
+      "created_at": "2024-05-01T18:23:31+00:00",
+      "updated_at": "2024-05-01T18:23:31+00:00",
+      "data": {}
+    },
+    {
+      "id": "664e104e40f3445522970f04",
+      "name": "Search Everyone",
+      "slug": "search-everyone",
+      "description": "",
+      "config": {
+        "histogram": null,
+        "filter": {
+          "boolean": "all",
+          "subfilters": [],
+          "filters": [],
+          "references": []
+        },
+        "score": {
+          "queries": [],
+          "field_values": [],
+          "functions": [],
+          "score_mode": "multiply",
+          "boost_mode": "multiply"
+        },
+        "sort": []
+      },
+      "created_at": "2024-05-22T15:33:34+00:00",
+      "updated_at": "2024-05-22T15:33:34+00:00",
+      "data": {}
+    },
+    {
+      "id": "664e1ba6b3ddec72eb3c6bf5",
+      "name": "Transform Welcome Back",
+      "slug": "transform-welcome-back",
+      "description": "",
+      "config": {
+        "histogram": null,
+        "filter": {
+          "boolean": "all",
+          "subfilters": [],
+          "filters": [
+            {
+              "field": "TransformWelcomeBack",
+              "source": "value",
+              "source_conversion": null,
+              "optional": false,
+              "negate": true,
+              "operator": "equals",
+              "args": {
+                "value": "true"
+              }
+            }
+          ],
+          "references": []
+        },
+        "score": {
+          "queries": [],
+          "field_values": [],
+          "functions": [],
+          "score_mode": "multiply",
+          "boost_mode": "multiply"
+        },
+        "sort": []
+      },
+      "created_at": "2024-05-22T16:21:58+00:00",
+      "updated_at": "2024-05-22T16:21:58+00:00",
+      "data": {}
+    }
+  ]
