@@ -3,32 +3,17 @@
 
 using namespace CPPVersus;
 
-// doesnt seem to work with numbers
-const static std::vector<JSONValidation::JSONSchemaValue> accountJSONSchema = {
-    { { "id" }, JSONValidation::Validators::stringValidator },
-    { { "identity" }, JSONValidation::Validators::objectValidator },
-    { { "identity", "alternate" }, JSONValidation::Validators::objectValidator },
-    { { "identity", "alternate", "wb_network" }, JSONValidation::Validators::arrayValidator },
-    { { "identity", "alternate", "wb_network", (std::size_t)0 }, JSONValidation::Validators::objectValidator },
-    { { "identity", "alternate", "wb_network", (std::size_t)0, "username" }, JSONValidation::Validators::stringValidator }
-};
-
-const static std::vector<JSONValidation::JSONSchemaValue> profileJSONSchema = {
-    { { "id" }, JSONValidation::Validators::stringValidator }
-};
-
-
-std::string joinKeyName(std::vector<std::variant<std::string, std::size_t>> path) {
+std::string joinKeyName(std::vector<std::variant<std::string, int>> path) {
     std::string keyName = "";
 
-    for(std::size_t i = 0; i < path.size(); i++) {
-        const std::variant<std::string, std::size_t>& value = path[i];
+    for(size_t i = 0; i < path.size(); i++) {
+        const std::variant<std::string, int>& value = path[i];
 
         if(std::holds_alternative<std::string>(value)) {
             keyName += std::get<std::string>(value);
         }
-        else if(std::holds_alternative<std::size_t>(value)) {
-            keyName += std::to_string(std::get<std::size_t>(value));
+        else if(std::holds_alternative<int>(value)) {
+            keyName += std::to_string(std::get<int>(value));
         }
 
         if(i != path.size() - 1) {
@@ -37,6 +22,70 @@ std::string joinKeyName(std::vector<std::variant<std::string, std::size_t>> path
     }
 
     return keyName;
+}
+
+std::optional<nlohmann::json> DokkenAPI::_getAccountInfo(std::string id, uint64_t _retryNumber) {
+    cpr::Response res = APIGet(
+        cpr::Url(fmt::format("{}/accounts/{}", API_URL, id))
+    );
+
+    if(res.status_code != 200) {
+        _logger.warn("Status code for player account id lookup was: {}, expected: 200", res.status_code);
+        if(shouldRetry(res)) {
+            _logger.warn("Will retry the request after refreshing token, as the user session was kicked.");
+
+            this->refreshToken();
+            return this->_getAccountInfo(id, _retryNumber + 1);
+        }
+
+        _logger.warn("Will not retry, failed the request {} times, PLEASE send bug report.", _retryNumber);
+        _logger.warn("{}", res.text);
+
+        return std::optional<nlohmann::json>();
+    }
+
+    nlohmann::json json = nlohmann::json::parse(res.text);
+    std::optional<JSONValidation::JSONSchemaValue> failedValue = JSONValidation::validateJSONSchema(json, accountJSONSchema);
+    if(failedValue.has_value()) {
+        _logger.error("Invalid JSON schema from player account id lookup, what: {}, PLEASE send a bug report", joinKeyName(failedValue.value().key));
+        _logger.error("{}", json.dump());
+
+        return std::optional<nlohmann::json>();
+    }
+
+    return std::optional<nlohmann::json>(json);
+}
+
+std::optional<nlohmann::json> DokkenAPI::_getProfileInfo(std::string id, uint64_t _retryNumber) {
+    cpr::Response res = APIGet(
+        cpr::Url(fmt::format("{}/profiles/{}", API_URL, id))
+    );
+
+    if(res.status_code != 200) {
+        _logger.warn("Status code for player profile id lookup was: {}, expected: 200", res.status_code);
+        if(shouldRetry(res)) {
+            _logger.warn("Will retry the request after refreshing token, as the user session was kicked.");
+
+            this->refreshToken();
+            return this->_getProfileInfo(id, _retryNumber + 1);
+        }
+
+        _logger.warn("Will not retry, failed the request {} times, PLEASE send bug report.", _retryNumber);
+        _logger.warn("{}", res.text);
+
+        return std::optional<nlohmann::json>();
+    }
+
+    nlohmann::json json = nlohmann::json::parse(res.text);
+    std::optional<JSONValidation::JSONSchemaValue> failedValue = JSONValidation::validateJSONSchema(json, profileJSONSchema);
+    if(failedValue.has_value()) {
+        _logger.error("Invalid JSON schema from player profile id lookup, what: {}, PLEASE send a bug report", joinKeyName(failedValue.value().key));
+        _logger.error("{}", json.dump());
+
+        return std::optional<nlohmann::json>();
+    }
+
+    return std::optional<nlohmann::json>(json);
 }
 
 
@@ -49,71 +98,39 @@ std::optional<PlayerInfo> DokkenAPI::_getPlayerInfoFromUsername(std::string user
 }
 
 std::optional<PlayerInfo> DokkenAPI::_getPlayerInfoFromID(std::string id, uint64_t _retryNumber) {
-    cpr::Response accountResponse, profileResponse;
-    nlohmann::json accountJSON, profileJSON;
+    // These functions validate the JSON is correct so if no value, return null opt.
+    std::optional<nlohmann::json> accountJSONOpt = _getAccountInfo(id, _retryNumber);
+    if(!accountJSONOpt.has_value()) return std::optional<PlayerInfo>();
 
-    // get account data
+    std::optional<nlohmann::json> profileJSONOpt = _getProfileInfo(id, _retryNumber);
+    if(!profileJSONOpt.has_value()) return std::optional<PlayerInfo>();
+
+    // JSON should be correct here.
+    nlohmann::json accountJSON = accountJSONOpt.value();
+    nlohmann::json profileJSON = profileJSONOpt.value();
+
+    PlayerInfo playerInfo = {
+        .id = accountJSON["id"],
+        .publicID = accountJSON["public_id"],
+        
+        .createdAt = profileJSON["created_at"],
+        .updatedAt = profileJSON["updated_at"],
+        .lastLogin = profileJSON["last_login"],
+
+        .username = accountJSON["identity"]["alternate"]["wb_network"][0]["username"],
+
+        .openBetaPlayer = accountJSON["server_data"]["OpenBeta"],
+
+        .profileIconPath = accountJSON["server_data"]["ProfileIcon"]["AssetPath"]
+    };
+
+    // Load the players last platform.
     {
-        accountResponse = APIGet(
-            cpr::Url(fmt::format("{}/accounts/{}", API_URL, id))
-        );
-
-        if(accountResponse.status_code != 200) {
-            _logger.warn("Status code for player account id lookup was: {}, expected: 200", accountResponse.status_code);
-            if(shouldRetry(accountResponse)) {
-                _logger.warn("Will retry the request after refreshing token, as the user session was kicked.");
-
-                this->refreshToken();
-                return this->_getPlayerInfo(id, PlayerLookupType::ID, _retryNumber + 1);
-            }
-
-            _logger.warn("Will not retry, failed the request {} times, PLEASE send bug report.", _retryNumber);
-            _logger.warn("{}", accountResponse.text);
-
-            return std::optional<PlayerInfo>();
-        }
-
-        accountJSON = nlohmann::json::parse(accountResponse.text);
-        std::optional<JSONValidation::JSONSchemaValue> failedValue = JSONValidation::validateJSONSchema(accountJSON, accountJSONSchema);
-        if(failedValue.has_value()) {
-            _logger.error("Invalid JSON schema from player account id lookup, what: {}, PLEASE send a bug report", joinKeyName(failedValue.value().key));
-            _logger.error("{}", accountJSON.dump());
-
-            return std::optional<PlayerInfo>();
-        }
+        std::string lastPlatform = accountJSON["server_data"]["LastLoginPlatform"];
+        if(lastPlatform == "PC") playerInfo.lastLoginPlatform = LoginPlatform::PC;
     }
 
-    {
-        profileResponse = APIGet(
-            cpr::Url(fmt::format("{}/profiles/{}", API_URL, id))
-        );
-
-        if(profileResponse.status_code != 200) {
-            _logger.warn("Status code for player profile id lookup was: {}, expected: 200", profileResponse.status_code);
-            if(shouldRetry(profileResponse)) {
-                _logger.warn("Will retry the request after refreshing token, as the user session was kicked.");
-
-                this->refreshToken();
-                return this->_getPlayerInfo(id, PlayerLookupType::ID, _retryNumber + 1);
-            }
-
-            _logger.warn("Will not retry, failed the request {} times, PLEASE send bug report.", _retryNumber);
-            _logger.warn("{}", profileResponse.text);
-
-            return std::optional<PlayerInfo>();
-        }
-
-        profileJSON = nlohmann::json::parse(profileResponse.text);
-        std::optional<JSONValidation::JSONSchemaValue> failedValue = JSONValidation::validateJSONSchema(profileJSON, profileJSONSchema);
-        if(failedValue.has_value()) {
-            _logger.error("Invalid JSON schema from player profile id lookup, what: {}, PLEASE send a bug report", joinKeyName(failedValue.value().key));
-            _logger.error("{}", profileJSON.dump());
-
-            return std::optional<PlayerInfo>();
-        }
-    }
-
-    return std::optional<PlayerInfo>();
+    return std::optional<PlayerInfo>(playerInfo);
 }
 
 

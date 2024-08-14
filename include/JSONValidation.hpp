@@ -33,7 +33,7 @@ struct JSONValidator {
  * @param allowsNull Should the value allow being null.
  */
 struct JSONSchemaValue {
-    std::vector<std::variant<std::string, std::size_t>> key;
+    std::vector<std::variant<std::string, int>> key;
 
     JSONValidator validator;
     bool allowsNull = false;

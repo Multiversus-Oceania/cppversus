@@ -14,7 +14,7 @@ std::optional<JSONValidation::JSONSchemaValue> JSONValidation::validateJSONSchem
         nlohmann::json currentValue = json;
 
         // Traverse through the json object to get to the value.
-        for(const std::variant<std::string, std::size_t>& key : schemaValue.key) {            
+        for(const std::variant<std::string, int>& key : schemaValue.key) {            
             if(std::holds_alternative<std::string>(key)) {
                 const std::string str = std::get<std::string>(key);
 
@@ -24,10 +24,10 @@ std::optional<JSONValidation::JSONSchemaValue> JSONValidation::validateJSONSchem
 
                 currentValue = currentValue[str];
             }
-            else if(std::holds_alternative<std::size_t>(key)) {
-                const std::size_t index = std::get<std::size_t>(key);
+            else if(std::holds_alternative<int>(key)) {
+                const int index = std::get<int>(key);
                 
-                if(currentValue.size() <= index) {
+                if(currentValue.size() <= (unsigned int)index) {
                     return std::optional<JSONValidation::JSONSchemaValue>(schemaValue);
                 }
 

@@ -7,6 +7,6 @@ meson setup builddir
 cd builddir
 
 meson compile
-./cli $@
+./cli -k $MULTIVERSUS_TOKEN $@
 
 cd ..

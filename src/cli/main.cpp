@@ -27,7 +27,30 @@ int main(int argc, char** argv) {
         return 1;
     }
 
-    dokkenAPI->getPlayerInfo("6289bfe8213b6d574354d9fc");
+    std::optional<CPPVersus::PlayerInfo> playerInfoOpt = dokkenAPI->getPlayerInfo("6289bfe8213b6d574354d9fc");
+    if(!playerInfoOpt.has_value()) {
+        spdlog::warn("No player found.");
+        return 1;
+    }
+
+    CPPVersus::PlayerInfo playerInfo = playerInfoOpt.value();
+
+    spdlog::info("Player found.");
+
+    spdlog::info("ID: {}", playerInfo.id);
+    spdlog::info("publicID: {}", playerInfo.publicID);
+
+    spdlog::info("createdAt: {}", playerInfo.createdAt);
+    spdlog::info("updatedAt: {}", playerInfo.updatedAt);
+    spdlog::info("lastLogin: {}", playerInfo.lastLogin);
+    
+    spdlog::info("username: {}", playerInfo.username);
+
+    spdlog::info("lastLoginPlatform: {}", (int)playerInfo.lastLoginPlatform);
+
+    spdlog::info("openBetaPlayer: {}", playerInfo.openBetaPlayer);
+    spdlog::info("profileIconPath: {}", playerInfo.profileIconPath);
+
 
     return 0;
 }

@@ -68,6 +68,9 @@ private:
     bool shouldRetry(cpr::Response res);
 
 
+    std::optional<nlohmann::json> _getAccountInfo(std::string id, uint64_t _retryNumber = 0);
+    std::optional<nlohmann::json> _getProfileInfo(std::string id, uint64_t _retryNumber = 0);
+
     std::optional<PlayerInfo> _getPlayerInfoFromUsername(std::string username, uint64_t _retryNumber = 0);
     std::optional<PlayerInfo> _getPlayerInfoFromID(std::string id, uint64_t _retryNumber = 0);
 

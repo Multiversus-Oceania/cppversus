@@ -10,6 +10,8 @@
 
 #include <Characters.hpp>
 
+#include <JSONValidation.hpp>
+
 namespace CPPVersus {
 
 enum LoginPlatform {
@@ -19,29 +21,74 @@ enum LoginPlatform {
 };
 
 struct CharacterInfo {
-    uint64_t level;
-    uint64_t xp;
+    size_t wins = 0;
+    size_t ringouts = 0;
+
+    float highestDamageDealt = 0.0f;
+    float totalDamageDealt = 0.0f;
+};
+
+struct PlayerStats {
+    float highestDamageDealt = 0.0f;
+    float totalDamage = 0.0f;
+    
+    size_t totalRingoutLeader = 0;
+    size_t totalRingouts = 0;
+    size_t totalWins = 0;
+
+    size_t totalAssists = 0;
+    size_t totalAttacksDodged = 0;
+    size_t totalDoubleRingouts = 0;
+    size_t totalMaxedCharacters = 0;
+    
+    std::map<uint64_t, CharacterInfo> characters = {};
 };
 
 struct PlayerInfo {
     std::string id = "";
     std::string publicID = "";
 
-    std::string username = "";
-
     std::string createdAt = "";
     std::string updatedAt = "";
+    std::string lastLogin = "";
 
-    std::optional<std::string> lastLogout = std::optional<std::string>();
-    std::optional<std::string> lastLogin = std::optional<std::string>();
+    std::string username = "";
 
     LoginPlatform lastLoginPlatform = LoginPlatform::UNKNOWN;
 
-    uint64_t level = 0;
-    uint64_t xp = 0;
-
+    bool openBetaPlayer = false;
     std::string profileIconPath = "";
-    std::map<uint64_t, CharacterInfo> characters = {};
+    
+    PlayerStats stats = {};
+};
+
+
+
+// For JSON validation of the /accounts/{account_id} endpoint
+const std::vector<JSONValidation::JSONSchemaValue> accountJSONSchema = {
+    { { "id" }, JSONValidation::Validators::stringValidator },
+    { { "public_id" }, JSONValidation::Validators::stringValidator },
+    
+    { { "identity" }, JSONValidation::Validators::objectValidator },
+    { { "identity", "alternate" }, JSONValidation::Validators::objectValidator },
+    { { "identity", "alternate", "wb_network" }, JSONValidation::Validators::arrayValidator },
+    { { "identity", "alternate", "wb_network", 0 }, JSONValidation::Validators::objectValidator },
+    { { "identity", "alternate", "wb_network", 0, "username" }, JSONValidation::Validators::stringValidator },
+
+    { { "server_data" }, JSONValidation::Validators::objectValidator },
+    { { "server_data", "LastLoginPlatform" }, JSONValidation::Validators::stringValidator },
+    { { "server_data", "OpenBeta" }, JSONValidation::Validators::booleanValidator },
+    { { "server_data", "ProfileIcon" }, JSONValidation::Validators::objectValidator },
+    { { "server_data", "ProfileIcon", "AssetPath" }, JSONValidation::Validators::stringValidator }
+};
+
+// For JSON validation of the /profiles/{account_id} endpoint
+const std::vector<JSONValidation::JSONSchemaValue> profileJSONSchema = {
+    { { "id" }, JSONValidation::Validators::stringValidator },
+    
+    { { "created_at" }, JSONValidation::Validators::stringValidator },
+    { { "updated_at" }, JSONValidation::Validators::stringValidator },
+    { { "last_login" }, JSONValidation::Validators::stringValidator },
 };
 
 };
