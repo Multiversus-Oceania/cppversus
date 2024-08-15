@@ -1,10 +1,12 @@
 #ifndef __CPPVERSUS_HPP__
 #define __CPPVERSUS_HPP__
 
-#include <JSONValidation.hpp>
+#include <JSON/JSONUtils.hpp>
+#include <JSON/JSONValidation.hpp>
 
-#include <Characters.hpp>
-#include <PlayerInfo.hpp>
-#include <DokkenAPI.hpp>
+#include <Data/Characters.hpp>
+#include <Data/PlayerInfo.hpp>
+
+#include <Dokken/DokkenAPI.hpp>
 
 #endif

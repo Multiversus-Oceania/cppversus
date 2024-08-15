@@ -1,4 +1,4 @@
-#include <DokkenAPI.hpp>
+#include <Dokken/DokkenAPI.hpp>
 #include <iostream>
 
 using namespace CPPVersus;
@@ -28,7 +28,7 @@ std::optional<nlohmann::json> DokkenAPI::_getAccountInfo(std::string id, uint64_
     nlohmann::json json = nlohmann::json::parse(res.text);
     std::optional<JSONValidation::JSONSchemaValue> failedValue = JSONValidation::validateJSONSchema(json, accountJSONSchema);
     if(failedValue.has_value()) {
-        _logger.error("Invalid JSON schema from player account id lookup, what: {}, PLEASE send a bug report", JSONValidation::joinKeyName(failedValue.value().key));
+        _logger.error("Invalid JSON schema from player account id lookup, what: {}, PLEASE send a bug report", failedValue.value().key);
         _logger.error("{}", json.dump());
 
         return std::optional<nlohmann::json>();
@@ -62,7 +62,7 @@ std::optional<nlohmann::json> DokkenAPI::_getProfileInfo(std::string id, uint64_
     nlohmann::json json = nlohmann::json::parse(res.text);
     std::optional<JSONValidation::JSONSchemaValue> failedValue = JSONValidation::validateJSONSchema(json, profileJSONSchema);
     if(failedValue.has_value()) {
-        _logger.error("Invalid JSON schema from player profile id lookup, what: {}, PLEASE send a bug report", JSONValidation::joinKeyName(failedValue.value().key));
+        _logger.error("Invalid JSON schema from player profile id lookup, what: {}, PLEASE send a bug report", failedValue.value().key);
         _logger.error("{}", json.dump());
 
         return std::optional<nlohmann::json>();

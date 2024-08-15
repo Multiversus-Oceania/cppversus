@@ -14,8 +14,9 @@
 
 #include <nlohmann/json.hpp>
 
-#include <JSONValidation.hpp>
-#include <PlayerInfo.hpp>
+#include <JSON/JSONUtils.hpp>
+#include <JSON/JSONValidation.hpp>
+#include <Data/PlayerInfo.hpp>
 
 namespace CPPVersus {
 const std::string API_URL = "https://dokken-api.wbagora.com";

@@ -8,9 +8,9 @@
 
 #include <map>
 
-#include <Characters.hpp>
+#include <Data/Characters.hpp>
 
-#include <JSONValidation.hpp>
+#include <JSON/JSONValidation.hpp>
 
 namespace CPPVersus {
 
@@ -64,32 +64,32 @@ struct PlayerInfo {
 
 // For JSON validation of the /accounts/{account_id} endpoint
 const std::vector<JSONValidation::JSONSchemaValue> accountJSONSchema = {
-    { { "id" }, JSONValidation::Validators::stringValidator },
-    { { "public_id" }, JSONValidation::Validators::stringValidator },
+    { "id", JSONValidation::Validators::stringValidator },
+    { "public_id", JSONValidation::Validators::stringValidator },
     
-    { { "identity" }, JSONValidation::Validators::objectValidator },
-    { { "identity", "alternate" }, JSONValidation::Validators::objectValidator },
-    { { "identity", "alternate", "wb_network" }, JSONValidation::Validators::arrayValidator },
-    { { "identity", "alternate", "wb_network", 0 }, JSONValidation::Validators::objectValidator },
-    { { "identity", "alternate", "wb_network", 0, "username" }, JSONValidation::Validators::stringValidator },
+    { "identity", JSONValidation::Validators::objectValidator },
+    { "identity.alternate", JSONValidation::Validators::objectValidator },
+    { "identity.alternate.wb_network", JSONValidation::Validators::arrayValidator },
+    { "identity.alternate.wb_network[0]", JSONValidation::Validators::objectValidator },
+    { "identity.alternate.wb_network[0].username", JSONValidation::Validators::stringValidator },
 
-    { { "server_data" }, JSONValidation::Validators::objectValidator },
-    { { "server_data", "LastLoginPlatform" }, JSONValidation::Validators::stringValidator },
-    { { "server_data", "OpenBeta" }, JSONValidation::Validators::booleanValidator },
-    { { "server_data", "ProfileIcon" }, JSONValidation::Validators::objectValidator },
-    { { "server_data", "ProfileIcon", "AssetPath" }, JSONValidation::Validators::stringValidator }
+    { "server_data", JSONValidation::Validators::objectValidator },
+    { "server_data.LastLoginPlatform", JSONValidation::Validators::stringValidator },
+    { "server_data.OpenBeta", JSONValidation::Validators::booleanValidator },
+    { "server_data.ProfileIcon", JSONValidation::Validators::objectValidator },
+    { "server_data.ProfileIcon.AssetPath", JSONValidation::Validators::stringValidator }
 };
 
 // For JSON validation of the /profiles/{account_id} endpoint
 const std::vector<JSONValidation::JSONSchemaValue> profileJSONSchema = {
-    { { "id" }, JSONValidation::Validators::stringValidator },
+    { "id", JSONValidation::Validators::stringValidator },
     
-    { { "created_at" }, JSONValidation::Validators::stringValidator },
-    { { "updated_at" }, JSONValidation::Validators::stringValidator },
-    { { "last_login" }, JSONValidation::Validators::stringValidator },
+    { "created_at", JSONValidation::Validators::stringValidator },
+    { "updated_at", JSONValidation::Validators::stringValidator },
+    { "last_login", JSONValidation::Validators::stringValidator },
 
-    { { "server_data" }, JSONValidation::Validators::objectValidator },
-    { { "server_data", "stat_trackers" }, JSONValidation::Validators::objectValidator },
+    { "server_data", JSONValidation::Validators::objectValidator },
+    { "server_data.stat_trackers", JSONValidation::Validators::objectValidator },
 };
 
 /**

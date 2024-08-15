@@ -10,18 +10,13 @@
 
 #include <nlohmann/json.hpp>
 
+#include <JSON/JSONUtils.hpp>
+
 namespace CPPVersus {
 /**
  * @brief Contains methods and structs for validating a JSON values schema.
  */
 namespace JSONValidation {
-
-/**
- * @brief Joins a key path into a string, e.g { "server_data", "identity", "alternate" } = "server_data.identity.alternate"
- * @param path Path of the key.
- * @returns String representation of the path.
- */
-std::string joinKeyName(std::vector<std::variant<std::string, int>> path);
 
 /**
  * @brief Validator for checking a JSON value, has a name and validator function.
@@ -35,12 +30,12 @@ struct JSONValidator {
 
 /**
  * @brief Part of the schema array to be validated.
- * @param key Key path(in order) of the data to validate
+ * @param key Key of the data to validate (e.g "server_data.identity.alternate.wb_network[0].username")
  * @param validator Validator for checking correctness of the value.
  * @param allowsNull Should the value allow being null.
  */
 struct JSONSchemaValue {
-    std::vector<std::variant<std::string, int>> key;
+    std::string key;
 
     JSONValidator validator;
     bool allowsNull = false;

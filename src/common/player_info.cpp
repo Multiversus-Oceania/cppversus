@@ -1,4 +1,4 @@
-#include <PlayerInfo.hpp>
+#include <Data/PlayerInfo.hpp>
 
 std::optional<CPPVersus::PlayerInfo> CPPVersus::loadPlayerInfo(nlohmann::json accountJSON, nlohmann::json profileJSON) {
     if(CPPVersus::JSONValidation::validateJSONSchema(accountJSON, CPPVersus::accountJSONSchema).has_value()) return std::optional<PlayerInfo>();
