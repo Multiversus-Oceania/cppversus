@@ -62,8 +62,6 @@ struct PlayerInfo {
     PlayerStats stats = {};
 };
 
-
-
 // For JSON validation of the /accounts/{account_id} endpoint
 const std::vector<JSONValidation::JSONSchemaValue> accountJSONSchema = {
     { { "id" }, JSONValidation::Validators::stringValidator },
@@ -89,7 +87,18 @@ const std::vector<JSONValidation::JSONSchemaValue> profileJSONSchema = {
     { { "created_at" }, JSONValidation::Validators::stringValidator },
     { { "updated_at" }, JSONValidation::Validators::stringValidator },
     { { "last_login" }, JSONValidation::Validators::stringValidator },
+
+    { { "server_data" }, JSONValidation::Validators::objectValidator },
+    { { "server_data", "stat_trackers" }, JSONValidation::Validators::objectValidator },
 };
+
+/**
+ * @brief Loads a players info from 2 JSON objects
+ * @param accountJSON JSON data returned by the /accounts/{id} endpoint
+ * @param profileJSON JSON data returned by the /profiles/{id} endpoint
+ * @return Optional type of the PlayerInfo struct
+ */
+std::optional<PlayerInfo> loadPlayerInfo(nlohmann::json accountJSON, nlohmann::json profileJSON);
 
 };
 

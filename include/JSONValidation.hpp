@@ -17,6 +17,13 @@ namespace CPPVersus {
 namespace JSONValidation {
 
 /**
+ * @brief Joins a key path into a string, e.g { "server_data", "identity", "alternate" } = "server_data.identity.alternate"
+ * @param path Path of the key.
+ * @returns String representation of the path.
+ */
+std::string joinKeyName(std::vector<std::variant<std::string, int>> path);
+
+/**
  * @brief Validator for checking a JSON value, has a name and validator function.
  * @param name Name of the validator.
  * @param validateFunc Function to check if the json is valid, returns true if so, else false.

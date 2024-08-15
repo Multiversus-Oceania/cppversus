@@ -71,10 +71,8 @@ private:
     std::optional<nlohmann::json> _getAccountInfo(std::string id, uint64_t _retryNumber = 0);
     std::optional<nlohmann::json> _getProfileInfo(std::string id, uint64_t _retryNumber = 0);
 
-    std::optional<PlayerInfo> _getPlayerInfoFromUsername(std::string username, uint64_t _retryNumber = 0);
-    std::optional<PlayerInfo> _getPlayerInfoFromID(std::string id, uint64_t _retryNumber = 0);
-
-    std::optional<PlayerInfo> _getPlayerInfo(std::string lookupValue, PlayerLookupType lookupType, uint64_t _retryNumber = 0);
+    std::optional<PlayerInfo> _getPlayerInfoFromUsername(std::string username);
+    std::optional<PlayerInfo> _getPlayerInfoFromID(std::string id);
 
 public:
    /**

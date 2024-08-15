@@ -30,16 +30,6 @@ dependencies = [
 
 subdir('src')
 
-executable('cli', 
-    sources : cli_sources, 
-    include_directories : includes,
-    dependencies : dependencies,
-    link_with : [
-        dokken_lib
-    ]
-)
-
-
 # if get_option('enable-tests')
 #     gtest = subproject('gtest')
 #     subdir('tests')

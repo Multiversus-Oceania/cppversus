@@ -1,0 +1,420 @@
+{
+    "matches": [
+        {
+            "id": "66bc48db4bb73091fbf0b058",
+            "updated_at": "2024-08-14T06:04:25+00:00",
+            "created_at": "2024-08-14T06:04:11+00:00",
+            "account_id": null,
+            "completion_time": null,
+            "name": "red-purple-dawn-sun-78631",
+            "state": "open",
+            "access_level": "public",
+            "origin": "client",
+            "rand": 0.04186420944009461,
+            "winning_team": [],
+            "win": [],
+            "loss": [],
+            "draw": null,
+            "arbitration": null,
+            "players": {
+                "all": [
+                    {
+                        "account_id": "62d90e30efe2f72164da3f63",
+                        "source": {},
+                        "state": "join",
+                        "data": {},
+                        "identity": {
+                            "username": "misty-green-silence-brook-ecdsy",
+                            "avatar": "https://s3.amazonaws.com/wb-agora-hydra-ugc-dokken/identicons/identicon.364.png",
+                            "default_username": true,
+                            "personal_data": {},
+                            "alternate": {
+                                "wb_network": [
+                                    {
+                                        "id": "p299ddd3550714a71acc2651ce5703eb8",
+                                        "username": "WhiteLimo",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "twitch": [
+                                    {
+                                        "username": "WhiteLimo",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "steam": [
+                                    {
+                                        "id": "76561193725481273",
+                                        "username": "Lithium",
+                                        "avatar": "https://avatars.steamstatic.com/0d0e9e4db01aaa474179fc88c308ef16a5bf9be6.jpg",
+                                        "email": null
+                                    }
+                                ],
+                                "ps4": [
+                                    {
+                                        "username": "ll-Lithium-ll",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ]
+                            },
+                            "usernames": [
+                                {
+                                    "auth": "hydra",
+                                    "username": "misty-green-silence-brook-ecdsy"
+                                },
+                                {
+                                    "auth": "ps4",
+                                    "username": "ll-lithium-ll"
+                                },
+                                {
+                                    "auth": "steam",
+                                    "username": "lithium"
+                                },
+                                {
+                                    "auth": "twitch",
+                                    "username": "whitelimo"
+                                },
+                                {
+                                    "auth": "wb_network",
+                                    "username": "whitelimo"
+                                }
+                            ],
+                            "platforms": [
+                                "psn",
+                                "steam"
+                            ],
+                            "current_platform": "steam",
+                            "is_cross_platform": true
+                        }
+                    },
+                    {
+                        "account_id": "6286c6851d8381e6e6f7fb69",
+                        "source": {},
+                        "state": "join",
+                        "data": {},
+                        "identity": {
+                            "username": "wild-aged-thunder-dream-5bPJH",
+                            "avatar": "https://s3.amazonaws.com/wb-agora-hydra-ugc-dokken/identicons/identicon.361.png",
+                            "default_username": true,
+                            "personal_data": {},
+                            "alternate": {
+                                "wb_network": [
+                                    {
+                                        "id": "p3577e825806f420fb0f3146f004138dd",
+                                        "username": "FDA2021",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "twitch": [
+                                    {
+                                        "username": "FDA2021",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "discord": [
+                                    {
+                                        "username": "fda2021",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "epic": [
+                                    {
+                                        "username": "FDA2015",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "steam": [
+                                    {
+                                        "id": "76561194531565777",
+                                        "username": "FDA2022",
+                                        "avatar": "https://avatars.steamstatic.com/105dc42f3a01411b908beabf4e01a3376236835e.jpg",
+                                        "email": null
+                                    }
+                                ],
+                                "ps4": [
+                                    {
+                                        "username": "FDA2015",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "xb1": [
+                                    {
+                                        "username": "FDA2021",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ]
+                            },
+                            "usernames": [
+                                {
+                                    "auth": "hydra",
+                                    "username": "wild-aged-thunder-dream-5bpjh"
+                                },
+                                {
+                                    "auth": "ps4",
+                                    "username": "fda2015"
+                                },
+                                {
+                                    "auth": "xb1",
+                                    "username": "fda2021"
+                                },
+                                {
+                                    "auth": "steam",
+                                    "username": "fda2022"
+                                },
+                                {
+                                    "auth": "discord",
+                                    "username": "fda2021"
+                                },
+                                {
+                                    "auth": "twitch",
+                                    "username": "fda2021"
+                                },
+                                {
+                                    "auth": "epic",
+                                    "username": "fda2015"
+                                },
+                                {
+                                    "auth": "wb_network",
+                                    "username": "fda2021"
+                                }
+                            ],
+                            "platforms": [
+                                "psn",
+                                "xbox",
+                                "steam",
+                                "epic",
+                                "google"
+                            ],
+                            "current_platform": "steam",
+                            "is_cross_platform": true
+                        }
+                    }
+                ],
+                "current": [
+                    "62d90e30efe2f72164da3f63",
+                    "6286c6851d8381e6e6f7fb69"
+                ],
+                "count": 2
+            },
+            "matchmaking": null,
+            "cluster": "ec2-us-east-1-dokken",
+            "last_warning_time": null,
+            "template": {
+                "id": "620d894be6bbaf409686b71b",
+                "type": "async",
+                "name": "1v1_Container",
+                "slug": "1v1_container",
+                "min_players": 2,
+                "max_players": 2,
+                "game_server_integration_enabled": true,
+                "game_server_config": {
+                    "game_server_type_slug": "multiplay",
+                    "require_player_region_data": true,
+                    "game_server_region_priority": "SMALLEST_MAX_LATENCY"
+                },
+                "created_at": "2022-02-16T23:31:23+00:00",
+                "updated_at": "2024-07-23T16:21:35+00:00",
+                "data": {
+                    "mode": "1v1"
+                }
+            },
+            "criteria": {
+                "slug": null
+            },
+            "game_server_instance": {
+                "id": "66bc48db4bb73091fbf0b059",
+                "game_server_type_slug": "multiplay",
+                "created_at": "2024-08-14T06:04:11+00:00",
+                "updated_at": "2024-08-14T06:04:14+00:00",
+                "unique_key": null,
+                "backend": "multiplay",
+                "backend_data": {
+                    "uuid": "3443df50-3a1b-40eb-a33f-2fc035e00145",
+                    "server_id": 70027250
+                },
+                "launch_config": {
+                    "profile_id": "1252922",
+                    "fleet_id": "6edd4138-20ef-11ec-a2b7-4a5119a45304",
+                    "region_id": "19cf42e3-f21f-11ea-a4fe-05a850423fbf"
+                },
+                "optional_launch_config_params": {},
+                "available_allocations": 0,
+                "allocations_last_updated": null,
+                "server_scaling_enabled": false,
+                "server_query": null,
+                "state": "READY",
+                "error": null,
+                "state_updated_at": "2024-08-14T06:04:11+00:00",
+                "owner_id": "66bc48db4bb73091fbf0b058",
+                "owner": {},
+                "owner_model": "match"
+            },
+            "access": "public"
+        },
+        {
+            "id": "66bc41ae4a8f1855ad44f2d9",
+            "updated_at": "2024-08-14T06:00:30+00:00",
+            "created_at": "2024-08-14T05:33:34+00:00",
+            "account_id": null,
+            "completion_time": null,
+            "name": "bold-withered-shadow-pond-gKBaq",
+            "state": "open",
+            "access_level": "public",
+            "origin": "client",
+            "rand": 0.06245018859126317,
+            "winning_team": [],
+            "win": [],
+            "loss": [],
+            "draw": null,
+            "arbitration": null,
+            "players": {
+                "all": [
+                    {
+                        "account_id": "6286c6851d8381e6e6f7fb69",
+                        "source": {},
+                        "state": "join",
+                        "data": {},
+                        "identity": {
+                            "username": "wild-aged-thunder-dream-5bPJH",
+                            "avatar": "https://s3.amazonaws.com/wb-agora-hydra-ugc-dokken/identicons/identicon.361.png",
+                            "default_username": true,
+                            "personal_data": {},
+                            "alternate": {
+                                "wb_network": [
+                                    {
+                                        "id": "p3577e825806f420fb0f3146f004138dd",
+                                        "username": "FDA2021",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "twitch": [
+                                    {
+                                        "username": "FDA2021",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "discord": [
+                                    {
+                                        "username": "fda2021",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "epic": [
+                                    {
+                                        "username": "FDA2015",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "steam": [
+                                    {
+                                        "id": "76561194531565777",
+                                        "username": "FDA2022",
+                                        "avatar": "https://avatars.steamstatic.com/105dc42f3a01411b908beabf4e01a3376236835e.jpg",
+                                        "email": null
+                                    }
+                                ],
+                                "ps4": [
+                                    {
+                                        "username": "FDA2015",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ],
+                                "xb1": [
+                                    {
+                                        "username": "FDA2021",
+                                        "avatar": null,
+                                        "email": null
+                                    }
+                                ]
+                            },
+                            "usernames": [
+                                {
+                                    "auth": "hydra",
+                                    "username": "wild-aged-thunder-dream-5bpjh"
+                                },
+                                {
+                                    "auth": "ps4",
+                                    "username": "fda2015"
+                                },
+                                {
+                                    "auth": "xb1",
+                                    "username": "fda2021"
+                                },
+                                {
+                                    "auth": "steam",
+                                    "username": "fda2022"
+                                },
+                                {
+                                    "auth": "discord",
+                                    "username": "fda2021"
+                                },
+                                {
+                                    "auth": "twitch",
+                                    "username": "fda2021"
+                                },
+                                {
+                                    "auth": "epic",
+                                    "username": "fda2015"
+                                },
+                                {
+                                    "auth": "wb_network",
+                                    "username": "fda2021"
+                                }
+                            ],
+                            "platforms": [
+                                "psn",
+                                "xbox",
+                                "steam",
+                                "epic",
+                                "google"
+                            ],
+                            "current_platform": "steam",
+                            "is_cross_platform": true
+                        }
+                    }
+                ],
+                "current": [
+                    "6286c6851d8381e6e6f7fb69"
+                ],
+                "count": 1
+            },
+            "matchmaking": null,
+            "cluster": "ec2-us-east-1-dokken",
+            "last_warning_time": null,
+            "template": {
+                "id": "6632889e358a2a62107ca7fb",
+                "type": "async",
+                "name": "party_lobby",
+                "slug": "party_lobby",
+                "min_players": 2,
+                "max_players": 2,
+                "game_server_integration_enabled": false,
+                "game_server_config": null,
+                "created_at": "2024-05-01T18:23:26+00:00",
+                "updated_at": "2024-05-24T17:54:45+00:00",
+                "data": {}
+            },
+            "criteria": {
+                "slug": null
+            },
+            "access": "public"
+        }
+    ],
+    "total_matches": 2,
+    "current_page": 1,
+    "total_pages": 1
+}
