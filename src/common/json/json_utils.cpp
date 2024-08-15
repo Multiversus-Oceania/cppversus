@@ -1,5 +1,7 @@
 #include <JSON/JSONUtils.hpp>
 
+#include <spdlog/spdlog.h>
+
 using namespace CPPVersus;
 
 std::string JSONUtils::joinKeyPath(std::vector<std::variant<std::string, int>> path) {
@@ -23,44 +25,61 @@ std::string JSONUtils::joinKeyPath(std::vector<std::variant<std::string, int>> p
     return key;
 }
 
-
-std::variant<std::string, int> stringToPart(std::string str) {
-    if(str[0] == '[' && str[str.size() - 1] == ']') {
-        std::string numStr = str.substr(1, str.size() - 1);
-        std::stringstream stream(numStr);
-        
-        int index;
-        stream >> index;
-
-        if(stream.fail()) {
-            return str;
-        }
-
-        return index;
-    }
-
-    return str;
-}
-
 std::vector<std::variant<std::string, int>> JSONUtils::splitKeyPath(std::string key) {
     std::vector<std::variant<std::string, int>> path;
 
     std::string current;
-    for(char c : key) {
-        if(c == '.') {
-            if(current.size() > 0) {
-                path.push_back(stringToPart(current));
+    for(size_t i = 0; i < key.size(); i++) {
+        const char& c = key[i];
+
+        switch(c) {
+        case '[': {
+            size_t bracketEndPos = key.find_first_of(']', i);
+            size_t dotEndPos = key.find_first_of('.', i);
+            
+            if(bracketEndPos == std::string::npos || (dotEndPos != std::string::npos && dotEndPos < bracketEndPos)) {
+                current += c;
+                break;
             }
 
-            current = "";
-            continue;
-        }
+            std::string subStr = key.substr(i + 1, bracketEndPos - (i - 2));
+            std::stringstream stream(subStr);
+        
+            int index;
+            stream >> index;
 
-        current += c;
+            if(stream.fail()) {
+                current += c;
+                break;
+            }
+
+            if(current.size() > 0) {
+                path.push_back(current);
+                current = "";
+            }
+
+            path.push_back(index);
+
+            i = bracketEndPos;
+            break;
+        }
+        case '.': {
+            if(current.size() <= 0) break;
+            
+            path.push_back(current);
+            current = "";
+
+            break;
+        }
+        default: {
+            current += c;
+            break;
+        }
+        }
     }
 
     if(current.size() > 0) {
-        path.push_back(stringToPart(current));
+        path.push_back(current);
     }
 
     return path;

@@ -26,6 +26,7 @@ std::string joinKeyPath(std::vector<std::variant<std::string, int>> path);
 
 /**
  * @brief Splits a key path into an array, e.g "server_data.identity.alternate.wb_network[0]" = { "server_data", "identity", "alternate", "wb_network", 0 }
+ * @warning Has some edge cases, like if a JSON object contains a key like: "wb_network[0]". This is very unlikely however, and wont affect this project.
  * @param key Path of the key.
  * @returns Array representation of the key.
  */
