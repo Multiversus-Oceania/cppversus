@@ -1,10 +1,32 @@
 #include <Data/PlayerInfo.hpp>
 
+std::optional<CPPVersus::PlayerStats> CPPVersus::loadPlayerStats(nlohmann::json statTrackerJSON) {
+    if(CPPVersus::JSONValidation::validateJSONSchema(statTrackerJSON, CPPVersus::statTrackerJSONSchema).has_value()) return std::optional<CPPVersus::PlayerStats>();
+
+    CPPVersus::PlayerStats playerStats = {
+        .highestDamageDealt = statTrackerJSON["HighestDamageDealt"],
+
+        .totalRingoutLeader = statTrackerJSON["TotalRingoutLeader"],
+        .totalRingouts = statTrackerJSON["TotalRingouts"],
+        .totalWins = statTrackerJSON["TotalWins"],
+
+        .totalAssists = statTrackerJSON["TotalAssists"],
+        .totalAttacksDodged = statTrackerJSON["TotalAttacksDodged"],
+        .totalDoubleRingouts = statTrackerJSON["TotalDoubleRingouts"],
+        .totalMaxedCharacters = statTrackerJSON["TotalMaxedCharacters"]
+    };
+
+    return std::optional<CPPVersus::PlayerStats>(playerStats);
+}
+
 std::optional<CPPVersus::PlayerInfo> CPPVersus::loadPlayerInfo(nlohmann::json accountJSON, nlohmann::json profileJSON) {
-    if(CPPVersus::JSONValidation::validateJSONSchema(accountJSON, CPPVersus::accountJSONSchema).has_value()) return std::optional<PlayerInfo>();
-    if(CPPVersus::JSONValidation::validateJSONSchema(profileJSON, CPPVersus::profileJSONSchema).has_value()) return std::optional<PlayerInfo>();
+    if(CPPVersus::JSONValidation::validateJSONSchema(accountJSON, CPPVersus::accountJSONSchema).has_value()) return std::optional<CPPVersus::PlayerInfo>();
+    if(CPPVersus::JSONValidation::validateJSONSchema(profileJSON, CPPVersus::profileJSONSchema).has_value()) return std::optional<CPPVersus::PlayerInfo>();
 
     CPPVersus::PlayerInfo playerInfo = {
+        .rawDataAccounts = accountJSON,
+        .rawDataProfiles = profileJSON,
+
         .id = accountJSON["id"],
         .publicID = accountJSON["public_id"],
         
@@ -18,6 +40,11 @@ std::optional<CPPVersus::PlayerInfo> CPPVersus::loadPlayerInfo(nlohmann::json ac
 
         .profileIconPath = accountJSON["server_data"]["ProfileIcon"]["AssetPath"]
     };
+
+    std::optional<CPPVersus::PlayerStats> playerStats = loadPlayerStats(profileJSON["server_data"]["stat_trackers"]);
+    if(playerStats.has_value()) {
+        playerInfo.stats = playerStats.value();
+    }
 
     // Load the players last platform.
     {

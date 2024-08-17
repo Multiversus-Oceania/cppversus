@@ -68,6 +68,14 @@ std::optional<nlohmann::json> DokkenAPI::_getProfileInfo(std::string id, uint64_
         return std::optional<nlohmann::json>();
     }
 
+    failedValue = JSONValidation::validateJSONSchema(json["server_data"]["stat_trackers"], statTrackerJSONSchema);
+    if(failedValue.has_value()) {
+        _logger.error("Invalid JSON schema from player profile id lookup, what: {}, PLEASE send a bug report", failedValue.value().key);
+        _logger.error("{}", json.dump());
+
+        return std::optional<nlohmann::json>();
+    }
+
     return std::optional<nlohmann::json>(json);
 }
 
