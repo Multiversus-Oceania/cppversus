@@ -14,7 +14,7 @@ doxyfile = configure_file(input: 'Doxyfile.in',
 doxygen = find_program('doxygen', required : false)
 
 if doxygen.found()
-    doc_target = run_target(
+    run_target(
         'doc',
         command: [
             doxygen,

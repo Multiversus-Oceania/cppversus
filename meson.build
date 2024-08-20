@@ -19,16 +19,26 @@ includes = [
     include_directories('include')
 ]
 
-json = subproject('json')
 dependencies = [
     dependency('spdlog'),
     dependency('fmt'),
-    json.get_variable('nlohmann_json_dep'),
-    dependency('cpr'),
-    dependency('cli11')
+    dependency('nlohmann_json'),
+    dependency('cpr')
 ]
 
 subdir('src')
+
+
+cppversus_dep = declare_dependency(
+    dependencies: dependencies,
+    include_directories: includes,
+    link_with: [
+        cppversus_common_lib,
+        dokken_lib
+    ]
+)
+
+meson.override_dependency('cppversus', cppversus_dep)
 
 # if get_option('enable-tests')
 #     gtest = subproject('gtest')
