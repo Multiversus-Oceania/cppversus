@@ -3,7 +3,7 @@
 
 using namespace CPPVersus;
 
-bool DokkenAPI::shouldRetry(cpr::Response res) {
+bool DokkenAPI::_shouldRefreshToken(cpr::Response res) {
     if(res.status_code == 401) {
         try {
             nlohmann::json json = nlohmann::json::parse(res.text);
@@ -29,7 +29,8 @@ void DokkenAPI::refreshToken() {
     _logger.info("Refreshing access token, url: {}/access.", API_URL);
     _token = std::nullopt;
 
-    cpr::Response res = APIPost(
+    cpr::Response res = APIRequest(
+        RequestType::POST,
         cpr::Url(fmt::format("{}/access", API_URL)),
         cpr::Body(
             nlohmann::json::object({

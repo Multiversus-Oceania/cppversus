@@ -32,6 +32,11 @@ enum PlayerLookupType {
 */
 class DokkenAPI {
 private:
+    enum RequestType {
+        GET,
+        POST
+    };
+
     const static uint64_t maxRetries = 5;
 
     const std::string _authToken;
@@ -40,41 +45,75 @@ private:
     std::shared_ptr<spdlog::sinks::stdout_color_sink_mt> _loggerSink;
     spdlog::logger _logger;
 
+    bool _shouldRefreshToken(cpr::Response res);
+
     template<class ...Ts>
-    cpr::Response APIGet(Ts&& ...ts) {
-        return cpr::Get(
-            std::forward<Ts>(ts)...,
-            cpr::Header{{ "x-hydra-api-key", "51586fdcbd214feb84b0e475b130fce0" }},
-            cpr::Header{{ "x-hydra-user-agent", "Hydra-Cpp/1.132.0" }},
-            cpr::Header{{ "x-hydra-access-token", _token.value_or("") }},
-            cpr::Header{{ "x-hydra-client-id", "47201f31-a35f-498a-ae5b-e9915ecb411e" }},
-            cpr::Header{{ "Content-Type", "application/json" }}
-        );
+    cpr::Response APIRequest(RequestType requestType, Ts&& ...ts) {
+        switch(requestType) {
+        case POST: 
+            return cpr::Post(
+                std::forward<Ts>(ts)...,
+                cpr::Header{{ "x-hydra-api-key", "51586fdcbd214feb84b0e475b130fce0" }},
+                cpr::Header{{ "x-hydra-user-agent", "Hydra-Cpp/1.132.0" }},
+                cpr::Header{{ "x-hydra-access-token", _token.value_or("") }},
+                cpr::Header{{ "x-hydra-client-id", "47201f31-a35f-498a-ae5b-e9915ecb411e" }},
+                cpr::Header{{ "Content-Type", "application/json" }}
+            );
+        default:
+            return cpr::Get(
+                std::forward<Ts>(ts)...,
+                cpr::Header{{ "x-hydra-api-key", "51586fdcbd214feb84b0e475b130fce0" }},
+                cpr::Header{{ "x-hydra-user-agent", "Hydra-Cpp/1.132.0" }},
+                cpr::Header{{ "x-hydra-access-token", _token.value_or("") }},
+                cpr::Header{{ "x-hydra-client-id", "47201f31-a35f-498a-ae5b-e9915ecb411e" }},
+                cpr::Header{{ "Content-Type", "application/json" }}
+            );
+        }
     }
 
     template<class ...Ts>
-    cpr::Response APIPost(Ts&& ...ts) {
-        return cpr::Post(
-            std::forward<Ts>(ts)...,
-            cpr::Header{{ "x-hydra-api-key", "51586fdcbd214feb84b0e475b130fce0" }},
-            cpr::Header{{ "x-hydra-user-agent", "Hydra-Cpp/1.132.0" }},
-            cpr::Header{{ "x-hydra-access-token", _token.value_or("") }},
-            cpr::Header{{ "x-hydra-client-id", "47201f31-a35f-498a-ae5b-e9915ecb411e" }},
-            cpr::Header{{ "Content-Type", "application/json" }}
-        );
-    }
+    std::optional<cpr::Response> APIRequestWithValidation(RequestType requestType, std::vector<JSONValidation::JSONSchemaValue> schema, long expectedCode, bool shouldRetry, Ts&& ...ts) {
+        cpr::Response res;
 
+        for(uint64_t i = 0; i < maxRetries; i++) {
+            res = APIRequest(requestType, std::forward<Ts>(ts)...);
+
+            if(res.status_code != expectedCode) {
+                _logger.warn("Status code for request was: {}, expected: {}", res.status_code, expectedCode);
+                if(shouldRetry && _shouldRefreshToken(res)) {
+                    _logger.warn("Will retry the request after refreshing token, as the user session was kicked.");
+
+                    this->refreshToken();
+                    continue;
+                }
+
+                _logger.warn("Will not retry, failed the request {} times, PLEASE send bug report.", i + 1);
+                _logger.warn("{}", res.text);
+
+                return std::optional<cpr::Response>();
+            }
+
+            break;
+        }
+
+        try {
+            nlohmann::json json = nlohmann::json::parse(res.text);
+            std::optional<JSONValidation::JSONSchemaValue> failedValue = JSONValidation::validateJSONSchema(json, schema);
+            if(failedValue.has_value()) {
+                _logger.error("Invalid JSON schema from request, what: {}, PLEASE send a bug report", failedValue.value().key);
+                _logger.error("{}", json.dump());
+
+                return std::optional<cpr::Response>();
+            }   
+        }
+        catch(nlohmann::json::parse_error const&) {
+            return std::optional<cpr::Response>();
+        }
+
+        return std::optional<cpr::Response>(res);
+    }
 
     void refreshToken();
-    bool shouldRetry(cpr::Response res);
-
-
-    std::optional<nlohmann::json> _getAccountInfo(std::string id, uint64_t _retryNumber = 0);
-    std::optional<nlohmann::json> _getProfileInfo(std::string id, uint64_t _retryNumber = 0);
-
-    std::optional<PlayerInfo> _getPlayerInfoFromUsername(std::string username);
-    std::optional<PlayerInfo> _getPlayerInfoFromID(std::string id);
-
 public:
    /**
     * @brief Initializes the wrapper for the Dokken endpoints, must have valid token. 
